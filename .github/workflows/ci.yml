@@ -7,11 +7,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Basic forbidden-pattern scan
+
+      - name: Forbidden-pattern scan (identity/secrets)
+        shell: bash
         run: |
           set -Eeuo pipefail
-          ! rg -n "C:\\\\Users\\\\|/home/[^/]+/|DESKTOP-[A-Z0-9-]+|BEGIN (RSA|OPENSSH) PRIVATE KEY" .
+          # Patterns:
+          # - Windows user paths
+          # - Linux home paths
+          # - typical desktop hostname patterns
+          # - obvious private key headers
+          PAT='(C:\\Users\\|/home/[^/]+/|DESKTOP-[A-Z0-9-]+|BEGIN (RSA|OPENSSH) PRIVATE KEY)'
+          # grep returns 0 if matches found; we invert that.
+          if grep -RInE "$PAT" .; then
+            echo "[fail] forbidden pattern(s) detected" >&2
+            exit 1
+          fi
+
       - name: Verify manifest (if present)
+        shell: bash
         run: |
           set -Eeuo pipefail
-          if [[ -f scripts/verify_manifest.sh ]]; then bash scripts/verify_manifest.sh; fi
+          if [[ -f scripts/verify_manifest.sh ]]; then
+            bash scripts/verify_manifest.sh
+          fi
