@@ -3,7 +3,7 @@
 #   @Xubu-Trad is included so canon isn't blocked before the org team exists.
 # Remove @Xubu-Trad once @cawdevelopment/riddle-reviewers is confirmed.
 
- /layers/         @cawdevelopment/riddle-reviewers @Xubu-Trad
- /docs/           @cawdevelopment/riddle-reviewers @Xubu-Trad
- /scripts/        @cawdevelopment/riddle-reviewers @Xubu-Trad
- /LAYER_INDEX.md  @cawdevelopment/riddle-reviewers @Xubu-Trad
+/layers/        @cawdevelopment/riddle-reviewers @Xubu-Trad
+/docs/          @cawdevelopment/riddle-reviewers @Xubu-Trad
+/scripts/       @cawdevelopment/riddle-reviewers @Xubu-Trad
+/LAYER_INDEX.md @cawdevelopment/riddle-reviewers @Xubu-Trad
