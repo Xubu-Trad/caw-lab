@@ -12,15 +12,20 @@ jobs:
         shell: bash
         run: |
           set -Eeuo pipefail
-          # Patterns:
-          # - Windows user paths
-          # - Linux home paths
-          # - typical desktop hostname patterns
-          # - obvious private key headers
-          PAT='(C:\\Users\\|/home/[^/]+/|DESKTOP-[A-Z0-9-]+|BEGIN (RSA|OPENSSH) PRIVATE KEY)'
-          # grep returns 0 if matches found; we invert that.
-          if grep -RInE "$PAT" .; then
+          PAT='(C:\\Users\\|/home/[^/]+/|DESKTOP-[A-Z0-9-]+|BEGIN (RSA|OPENSSH) PRIVATE KEY|ghp_[A-Za-z0-9]{20,})'
+          if grep -RInE --exclude-dir=.git "$PAT" .; then
             echo "[fail] forbidden pattern(s) detected" >&2
+            exit 1
+          fi
+
+      - name: Reject tracked binaries in canon
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          # Fail if these filetypes are tracked anywhere (canon should be text + hashes only)
+          DISALLOWED='\.(png|jpe?g|webp|gif|pdf|zip|7z|rar|bin|dat|ape|aac|mp3|wav)$'
+          if git ls-files | grep -E -i "$DISALLOWED"; then
+            echo "[fail] disallowed binary file(s) are tracked" >&2
             exit 1
           fi
 
