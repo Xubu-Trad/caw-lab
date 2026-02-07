@@ -17,16 +17,25 @@ from pathlib import Path
 
 LOG = logging.getLogger("sanitize_logs")
 
+# NOTE: order matters. We sanitize user@host first, then prompt-path, then normal paths.
 _PATTERNS: list[tuple[re.Pattern[str], str]] = [
-    # prompt user@host:
+    # prompt "user@host:" prefix
     (re.compile(r"\b[^@\s]+@[^:\s]+:"), "user@host:"),
-    # /home/<user>/ paths:
-    (re.compile(r"/home/[^/]+/"), "/home/user/"),
-    # Windows user paths:
+
+    # WSL prompt working dir like "/home/<user>$" or "/home/<user>:"
+    (re.compile(r"/home/[A-Za-z0-9._-]+(?=[$:\s])"), "/home/user"),
+
+    # normal linux home paths "/home/<user>/..."
+    (re.compile(r"/home/[A-Za-z0-9._-]+/"), "/home/user/"),
+
+    # WSL mounted windows paths "/mnt/c/Users/<user>/..."
+    (re.compile(r"(?i)/mnt/[a-z]/Users/[^/]+/"), "/mnt/x/Users/REDACTED/"),
+
+    # Windows user paths "C:\Users\<user>\..."
     (re.compile(r"(?i)C:\\\\Users\\\\[^\\\\]+\\\\"), r"C:\\Users\\REDACTED\\"),
-    # Desktop hostnames:
     (re.compile(r"\bDESKTOP-[A-Z0-9-]+\b"), "HOST-REDACTED"),
-    # emails:
+
+    # emails
     (re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", re.IGNORECASE), "redacted@example"),
 ]
 
