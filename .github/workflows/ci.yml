@@ -1,0 +1,17 @@
+name: ci
+on:
+  pull_request:
+    branches: [ "canon" ]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Basic forbidden-pattern scan
+        run: |
+          set -Eeuo pipefail
+          ! rg -n "C:\\\\Users\\\\|/home/[^/]+/|DESKTOP-[A-Z0-9-]+|BEGIN (RSA|OPENSSH) PRIVATE KEY" .
+      - name: Verify manifest (if present)
+        run: |
+          set -Eeuo pipefail
+          if [[ -f scripts/verify_manifest.sh ]]; then bash scripts/verify_manifest.sh; fi

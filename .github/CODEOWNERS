@@ -1,0 +1,5 @@
+# Require designated reviewers for canon changes
+/layers/ @CAW-development
+/docs/   @CAW-development
+/scripts/ @CAW-development
+/LAYER_INDEX.md @CAW-development

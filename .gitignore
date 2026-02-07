@@ -1,0 +1,36 @@
+# Never commit local forensic workspace
+OUT/
+IN/
+.cache/
+__pycache__/
+*.pyc
+*.swp
+
+# Large/binary evidence must be external-by-hash unless explicitly approved
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pdf
+*.zip
+*.7z
+*.rar
+*.bin
+*.dat
+*.ape
+*.aac
+*.mp3
+*.wav
+
+# Secrets
+.env
+*.key
+*.pem
+id_ed25519*
+*.p12
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
