@@ -3,43 +3,47 @@ on:
   pull_request:
     branches: [ "canon" ]
 
+permissions:
+  contents: read
+
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Forbidden-pattern scan (identity/secrets)
+      - name: Forbidden-pattern scan (identity/secrets) allowing placeholders
         shell: bash
         run: |
           set -Eeuo pipefail
 
-          # Scan only tracked files (prevents scanning the entire working tree)
-          # and EXCLUDE this workflow file to avoid self-matching the regex literal.
+          # Only scan tracked files; exclude files that intentionally contain “bad-looking” examples.
           mapfile -d '' -t FILES < <(git ls-files -z -- \
             ':!.github/workflows/ci.yml' \
-            ':!.git' \
+            ':!scripts/sanitize_logs.py' \
           )
 
-          # Secret patterns (never allowed anywhere)
-          SECRET_PAT='(BEGIN (RSA|OPENSSH) PRIVATE KEY|ghp_[A-Za-z0-9]{20,})'
-          if printf '%s\0' "${FILES[@]}" | xargs -0r grep -nE "$SECRET_PAT" ; then
+          # 1) Secrets: never allowed anywhere
+          if grep -RInE --exclude-dir=.git '(BEGIN (RSA|OPENSSH) PRIVATE KEY|ghp_[A-Za-z0-9]{20,})' . ; then
             echo "[fail] secrets detected" >&2
             exit 1
           fi
 
-          # Identity-leak patterns (allowed nowhere EXCEPT sanitizer script, if you keep test vectors there)
-          ID_PAT='(C:\\Users\\|/home/[^/]+/|DESKTOP-[A-Z0-9-]+)'
+          # 2) Linux home paths: fail on /home/<name>/ except placeholder /home/user/
+          if grep -nE '/home/[A-Za-z0-9._-]+/' "${FILES[@]}" | grep -v '/home/user/' ; then
+            echo "[fail] non-placeholder /home/<user>/ path detected" >&2
+            exit 1
+          fi
 
-          # If you want sanitizer doctests to include "bad inputs", exclude sanitize_logs.py from this scan.
-          mapfile -d '' -t ID_FILES < <(git ls-files -z -- \
-            ':!.github/workflows/ci.yml' \
-            ':!scripts/sanitize_logs.py' \
-            ':!.git' \
-          )
+          # 3) Windows user paths: fail on C:\Users\<name>\ except placeholder C:\Users\REDACTED\
+          if grep -nE 'C:\\Users\\[A-Za-z0-9._-]+\\' "${FILES[@]}" | grep -v 'C:\\Users\\REDACTED\\' ; then
+            echo "[fail] non-placeholder C:\\Users\\<user>\\ path detected" >&2
+            exit 1
+          fi
 
-          if printf '%s\0' "${ID_FILES[@]}" | xargs -0r grep -nE "$ID_PAT" ; then
-            echo "[fail] identity leak pattern(s) detected" >&2
+          # 4) Desktop hostname patterns: fail
+          if grep -nE 'DESKTOP-[A-Za-z0-9-]+' "${FILES[@]}" ; then
+            echo "[fail] hostname pattern detected" >&2
             exit 1
           fi
 
