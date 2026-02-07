@@ -1,10 +1,9 @@
-# Canon changes require review by authorized reviewers (org team)
-# Replace with real team/handles once cawdevelopment adds you and creates the team.
-#
-# Example team syntax:
-#   @cawdevelopment/riddle-reviewers
+# Canon changes require review by authorized reviewers (org team).
+# TEMPORARY FALLBACK:
+#   @Xubu-Trad is included so canon isn't blocked before the org team exists.
+# Remove @Xubu-Trad once @cawdevelopment/riddle-reviewers is confirmed.
 
-/layers/        @cawdevelopment/riddle-reviewers
-/docs/          @cawdevelopment/riddle-reviewers
-/scripts/       @cawdevelopment/riddle-reviewers
-/LAYER_INDEX.md @cawdevelopment/riddle-reviewers
+ /layers/         @cawdevelopment/riddle-reviewers @Xubu-Trad
+ /docs/           @cawdevelopment/riddle-reviewers @Xubu-Trad
+ /scripts/        @cawdevelopment/riddle-reviewers @Xubu-Trad
+ /LAYER_INDEX.md  @cawdevelopment/riddle-reviewers @Xubu-Trad
