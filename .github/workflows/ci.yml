@@ -15,18 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Verify repo manifest (canon)
+      - name: Canon gate (manifest + no-binaries + no-empty-evidence)
         shell: bash
         run: |
-          set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
-          test -f "MANIFEST.repo.sha256" || {
-            echo "[fail] MANIFEST.repo.sha256 missing (run scripts/make_manifest.sh and commit)"
-            exit 1
-          }
-          bash scripts/verify_manifest.sh
-
-      - name: Reject tracked binary blobs (canon)
-        shell: bash
-        run: |
-          set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
-          bash scripts/no_tracked_binaries.sh
+          set -Eeuo pipefail; LC_ALL=C
+          test -x scripts/check_canon.sh || { echo "[fail] scripts/check_canon.sh missing"; exit 1; }
+          bash scripts/check_canon.sh

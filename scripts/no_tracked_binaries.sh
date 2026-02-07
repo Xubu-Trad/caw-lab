@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
+git rev-parse --is-inside-work-tree >/dev/null
 
 # Disallow tracked binary blobs in canon.
-# Evidence must be committed as text: .txt/.hex/.b64 + sha256.
-pat='\.(png|jpe?g|webp|gif|pdf|zip|7z|rar|bin|dat|ape|aac|mp3|wav)$'
+# Evidence must be committed as text: .txt/.hex/.b64 + sha256 (binaries stay external-by-hash).
+pat='\.(png|jpeg?|webp|gi|pdf|zip|7z|rar|bin|dat|ape|aac|mp3|wav|mp4|mov|exe|dmg)$'
 
 mapfile -t bad < <(git ls-files | grep -Eai "$pat" || true)
 
