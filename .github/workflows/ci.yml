@@ -2,6 +2,7 @@ name: ci
 on:
   pull_request:
     branches: [ "canon" ]
+
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -12,9 +13,33 @@ jobs:
         shell: bash
         run: |
           set -Eeuo pipefail
-          PAT='(C:\\Users\\|/home/[^/]+/|DESKTOP-[A-Z0-9-]+|BEGIN (RSA|OPENSSH) PRIVATE KEY|ghp_[A-Za-z0-9]{20,})'
-          if grep -RInE --exclude-dir=.git "$PAT" .; then
-            echo "[fail] forbidden pattern(s) detected" >&2
+
+          # Scan only tracked files (prevents scanning the entire working tree)
+          # and EXCLUDE this workflow file to avoid self-matching the regex literal.
+          mapfile -d '' -t FILES < <(git ls-files -z -- \
+            ':!.github/workflows/ci.yml' \
+            ':!.git' \
+          )
+
+          # Secret patterns (never allowed anywhere)
+          SECRET_PAT='(BEGIN (RSA|OPENSSH) PRIVATE KEY|ghp_[A-Za-z0-9]{20,})'
+          if printf '%s\0' "${FILES[@]}" | xargs -0r grep -nE "$SECRET_PAT" ; then
+            echo "[fail] secrets detected" >&2
+            exit 1
+          fi
+
+          # Identity-leak patterns (allowed nowhere EXCEPT sanitizer script, if you keep test vectors there)
+          ID_PAT='(C:\\Users\\|/home/[^/]+/|DESKTOP-[A-Z0-9-]+)'
+
+          # If you want sanitizer doctests to include "bad inputs", exclude sanitize_logs.py from this scan.
+          mapfile -d '' -t ID_FILES < <(git ls-files -z -- \
+            ':!.github/workflows/ci.yml' \
+            ':!scripts/sanitize_logs.py' \
+            ':!.git' \
+          )
+
+          if printf '%s\0' "${ID_FILES[@]}" | xargs -0r grep -nE "$ID_PAT" ; then
+            echo "[fail] identity leak pattern(s) detected" >&2
             exit 1
           fi
 
@@ -22,12 +47,17 @@ jobs:
         shell: bash
         run: |
           set -Eeuo pipefail
-          # Fail if these filetypes are tracked anywhere (canon should be text + hashes only)
           DISALLOWED='\.(png|jpe?g|webp|gif|pdf|zip|7z|rar|bin|dat|ape|aac|mp3|wav)$'
           if git ls-files | grep -E -i "$DISALLOWED"; then
             echo "[fail] disallowed binary file(s) are tracked" >&2
             exit 1
           fi
+
+      - name: Doctest sanitizer
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          python3 -m doctest -v scripts/sanitize_logs.py
 
       - name: Verify manifest (if present)
         shell: bash
