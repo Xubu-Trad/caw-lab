@@ -1,5 +1,10 @@
-# Require designated reviewers for canon changes
-/layers/ @CAW-development
-/docs/   @CAW-development
-/scripts/ @CAW-development
-/LAYER_INDEX.md @CAW-development
+# Canon changes require review by authorized reviewers (org team)
+# Replace with real team/handles once cawdevelopment adds you and creates the team.
+#
+# Example team syntax:
+#   @cawdevelopment/riddle-reviewers
+
+/layers/        @cawdevelopment/riddle-reviewers
+/docs/          @cawdevelopment/riddle-reviewers
+/scripts/       @cawdevelopment/riddle-reviewers
+/LAYER_INDEX.md @cawdevelopment/riddle-reviewers
