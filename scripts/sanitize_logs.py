@@ -17,26 +17,24 @@ from pathlib import Path
 
 LOG = logging.getLogger("sanitize_logs")
 
-# NOTE: order matters. We sanitize user@host first, then prompt-path, then normal paths.
 _PATTERNS: list[tuple[re.Pattern[str], str]] = [
-    # prompt "user@host:" prefix
+    # prompt prefix "user@host:"
     (re.compile(r"\b[^@\s]+@[^:\s]+:"), "user@host:"),
 
-    # WSL prompt working dir like "/home/<user>$" or "/home/<user>:"
+    # prompt CWD like "/home/<user>$" or "/home/<user>:"
     (re.compile(r"/home/[A-Za-z0-9._-]+(?=[$:\s])"), "/home/user"),
 
     # normal linux home paths "/home/<user>/..."
     (re.compile(r"/home/[A-Za-z0-9._-]+/"), "/home/user/"),
 
-    # WSL mounted windows paths "/mnt/c/Users/<user>/..."
-    (re.compile(r"(?i)/mnt/[a-z]/Users/[^/]+/"), "/mnt/x/Users/REDACTED/"),
-
-    # Windows user paths "C:\Users\<user>\..."
-    (re.compile(r"(?i)C:\\\\Users\\\\[^\\\\]+\\\\"), r"C:\\Users\\REDACTED\\"),
+    # Windows user paths (single backslashes in the actual string)
+    (re.compile(r"(?i)\b[A-Z]:\\Users\\[^\\]+\\"),
+     r"C:\\Users\\REDACTED\\"),
     (re.compile(r"\bDESKTOP-[A-Z0-9-]+\b"), "HOST-REDACTED"),
 
     # emails
-    (re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", re.IGNORECASE), "redacted@example"),
+    (re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", re.IGNORECASE),
+     "redacted@example"),
 ]
 
 def sanitize_text(text: str) -> str:
