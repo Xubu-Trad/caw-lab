@@ -19,19 +19,14 @@ jobs:
         shell: bash
         run: |
           set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
-          test -f "MANIFEST.repo.sha256" || { echo "[fail] MANIFEST.repo.sha256 missing (run scripts/make_manifest.sh and commit)"; exit 1; }
+          test -f "MANIFEST.repo.sha256" || {
+            echo "[fail] MANIFEST.repo.sha256 missing (run scripts/make_manifest.sh and commit)"
+            exit 1
+          }
           bash scripts/verify_manifest.sh
 
       - name: Reject tracked binary blobs (canon)
         shell: bash
         run: |
           set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
-          bad="$(git ls-files | grep -E '\.(png|jpg|jpeg|webp|gif|pdf|zip|7z|rar|bin|dat|ape|aac|mp3|wav)$' || true)"
-          if [[ -n "$bad" ]]; then
-            echo "[fail] binary blobs are not allowed in canon."
-            echo "Commit hashes + text encodings (hex/base64) + retrieval instructions instead."
-            echo
-            echo "$bad"
-            exit 1
-          fi
-          echo "[ok] forbidden-pattern scan passed"
+          bash scripts/no_tracked_binaries.sh

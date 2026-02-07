@@ -1,6 +1,5 @@
-# Safe default until this repo lives in an org with teams
 * @Xubu-Trad
 /.github/ @Xubu-Trad
-/layers/  @Xubu-Trad
-/docs/    @Xubu-Trad
 /scripts/ @Xubu-Trad
+/layers/ @Xubu-Trad
+/docs/ @Xubu-Trad
