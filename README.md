@@ -75,3 +75,12 @@ If a reward exists and I receive a portion, **I donate my portion to be spread a
 ## License
 
 MIT (see LICENSE). DYOR / NFA.
+
+
+## Deployer invite status
+
+Invitation sent to **@cawdevelopment** (private scratchpad repo) for coordination and verification.
+
+- created_at (UTC): `2026-02-08T05:01:45Z`
+- created_at (America/New_York): `Sunday, 2026-02-08 12:01:45 AM EST`
+- status: pending until accepted (invites do not appear in collaborator list until accepted)
