@@ -64,7 +64,7 @@ Instead commit:
 ## Dedication: the original 2022 hunters
 
 This repo is dedicated to the early hunters who moved the hunt forward in 2022 and beyond — including (non-exhaustive; handles as seen in archived chats):  
-**Joop, Opti, Andy, Zenek, kachoperro, Peter Pan, Gorden, Asa||ANyONe, Binh N, Enkidu, Winter**, and everyone else who contributed real receipts.  
+**Joop, Opti, Andy, Zenek, kachoperro, Peter Pan, Gorden, Asa||ANyONe, Binh N, Enkidu, Winter, KimDamyun**, and everyone else who contributed real receipts.  
 If you should be listed (or a name is misspelled), open a PR to update this section.
 
 ## Reward stance
