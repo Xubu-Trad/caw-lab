@@ -1,5 +1,8 @@
+# Default owner (temporary). Add @cawdevelopment after they accept invite.
 * @Xubu-Trad
-/.github/ @Xubu-Trad
+
+# Canon-critical paths
+/MANIFEST.repo.sha256 @Xubu-Trad
 /scripts/ @Xubu-Trad
 /layers/ @Xubu-Trad
 /docs/ @Xubu-Trad
