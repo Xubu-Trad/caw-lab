@@ -1,77 +1,95 @@
-# caw-lab — reproducible riddle forensics for the cawmmunity
+# CAW Lab (Public Canon)
 
-> **Mission:** restore momentum by solving the CAW riddles **as intended**, **fully and reproducibly**, with **receipts** the entire **cawmmunity** can verify.
+> **Not official. Receipts only. Forks encouraged.**
+> This repo is a **reproducible evidence ledger**: hashes + steps + gates.
+> If you disagree, **fork and publish receipts**.
 
-This repo is a public lab notebook: a canon timeline of layers, evidence, and exact reproduce steps. It exists because the cawmmunity has spent years stalled in noise, personality wars, and “leader” narratives. The chain doesn’t lie — but people do, and even good people get distracted.
 
-## What Xubu believes (working principles)
+This repository is a **public, receipts-first “canon”** for CAW riddle hunting:
+- reproducible layer-by-layer evidence
+- deterministic hashing/manifests
+- objective gates (CI) instead of personality/authority
 
-- **Truth over trust.** Receipts before stories. If it can’t be reproduced, it isn’t canon.
-- **No leaders.** We don’t need figureheads; we need verifiable work.
-- **Respect the riddles.** Follow the intended path (including mirror/backwards instructions) and stop chasing red herrings.
-- **Open hands.** Findings belong to the cawmmunity — not gatekeepers.
-- **Humility.** “I don’t know yet” is allowed. Pretending is what breaks hunts.
+**Not official. No leaders. Forks encouraged.**  
+If anything here conflicts with the on-chain record, the chain wins.
 
-## What this repo is (and is not)
+## Quick verify (what CI runs)
 
-✅ This repo **is**:
-- A canon “layer index” for the riddles (approved layers only)
-- Step-by-step reproduce instructions with hashes
-- Evidence artifacts in *text form* (hex/base64) + checksums
-- Scripts that enforce discipline (manifest verification, no-binaries policy)
+From repo root:
 
-❌ This repo is **not**:
-- A hype page, price prediction, or “official” anything
-- A place for unverifiable claims
-- A dumping ground for binary blobs
+```bash
+bash scripts/check_canon.sh
+```
 
-## Riddles tracked
-
-- **R1 (58bZfQ1)** — image/tablet → stego outputs → coords → book-cipher → CID → IPFS payload → DeepSound chain  
-- **R2 (zrUfKaKV)** — onchain/paste provenance → zlib/FDICT streams → dictIDs + offsets → decode lanes
-
-See **LAYER_INDEX.md** for the canon timeline.
+This enforces:
+- no tracked binary blobs
+- manifest matches canonical computation
+- no empty evidence files (sanity for reproducibility)
 
 ## Repo structure
 
-- `LAYER_INDEX.md` — canon timeline of approved layers
-- `layers/<LAYER_ID>/`
-  - `SUMMARY.md` — what this layer proves (and does not prove)
-  - `REPRODUCE.md` — copy/paste commands to reproduce
-  - `EVIDENCE/` — text artifacts + hashes (no binaries)
-  - `MANIFEST.sha256` — sha256 list for that layer directory
-- `scripts/` — repo discipline tools (manifest, sanitize, publish)
-- `.github/` — CI + CODEOWNERS
+- `LAYER_INDEX.md` — high-level index across layers
+- `layers/` — each layer folder contains:
+  - `SUMMARY.md` (what we learned, with citations/receipts)
+  - `REPRODUCE.md` (exact commands/workflow)
+  - `EVIDENCE/` (inputs + logs + hashes)
+- `docs/` — hunter guidance, sanitized notes, conventions
+- `scripts/` — verification + helper tooling used by CI
 
-## “No binaries” policy (important)
+Start here:
+- `LAYER_INDEX.md`
+- `docs/HUNTERS.md`
+- then any specific layer `layers/**/REPRODUCE.md`
 
-Canon branch rejects tracked binary blobs (png/pdf/zip/bin/audio/etc).  
-Instead commit:
-- `.sha256` checksums
-- `.hex` or `.b64` encodings
-- exact retrieval + reconstruction commands in `REPRODUCE.md`
+## Layers (directories)
 
-## How to contribute (PRs)
+- [R1-000_yale_oldking](layers/R1-000_yale_oldking/)
+- [R1-010](layers/R1-010/)
+- [TEMPLATE](layers/TEMPLATE/)
 
-1. Create a new layer folder from `layers/TEMPLATE/`.
-2. Fill out SUMMARY + REPRODUCE with exact commands and expected hashes.
-3. Put evidence in `EVIDENCE/` as text encodings + checksums.
-4. Run:
-   - `bash scripts/make_manifest.sh`
-   - `bash scripts/verify_manifest.sh`
-5. Open a PR into `canon`.
+## Deployer / maintainer status (for the CAWmmunity)
 
-## Dedication: the original 2022 hunters
+- Public canon repo owner: **@Xubu-Trad**
+- Private scratchpad repo: `Xubu-Trad/caw-lab-private` (experiments; not canon)
 
-This repo is dedicated to the early hunters who moved the hunt forward in 2022 and beyond — including (non-exhaustive; handles as seen in archived chats):  
-**Joop, Opti, Andy, Zenek, kachoperro, Peter Pan, Gorden, Asa||ANyONe, Binh N, Enkidu, Winter, KimDamyun**, and everyone else who contributed real receipts.  
-If you should be listed (or a name is misspelled), open a PR to update this section.
+**Invitation sent to @cawdevelopment (private scratchpad):**
+- invitee: `cawdevelopment`
+- created_at (UTC): `2026-02-08T05:01:45Z`
+- created_at (America/New_York): `Sunday, 2026-02-08 12:01:45 AM EST`
+- status: *pending until accepted* (collaborator list will not show invitees until acceptance)
 
-## Reward stance
+At this moment, **the only maintainership we trust is the owner of `cawdevelopment` (the CAW deployer) once/if they accept and prove custody**.
 
-There may or may not be a reward for solving these riddles.  
-If a reward exists and I receive a portion, **I donate my portion to be spread amongst holders who have held CAW for more than a year at any point**, unless the CAW deployer explicitly reinterprets/redirects that distribution.
+## Maintainers (leaderless-by-design, but receipts-required)
 
-## License
+There are **no community maintainers** besides the repo owner today.
 
-MIT (see LICENSE). DYOR / NFA.
+If you want to be considered as a maintainer candidate:
+- submit a PR that **solves a layer** or provides a **significant new finding**
+- include full receipts: commands, hashes, and reproducible steps
+- no off-repo “trust me” handoffs; everything must be verifiable here
+
+## Anti-scam + anonymity
+
+- This repo will never ask you to run mystery executables.
+- Do not trust DMs. Prefer PRs/issues so everything stays public and reviewable.
+- We keep methods transparent while stripping accidental identity leaks where possible.
+
+Run the local scans before you publish new logs:
+```bash
+bash scripts/anonymity_scan.sh
+bash scripts/audit_completeness.sh
+```
+
+
+
+## Maintainer candidates (receipts required)
+
+There are **no community maintainers** today.
+
+If you want to be considered as a maintainer candidate:
+- submit a PR that **solves a layer** or provides a **significant new finding**
+- include full receipts: commands, hashes, reproducible steps
+- keep everything reviewable in public (no DM “trust me” handoffs)
+
+Until the CAW deployer confirms custody via **@cawdevelopment**, this repo remains receipts-first and fork-friendly.
