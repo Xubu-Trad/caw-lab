@@ -1,0 +1,14 @@
+Source: Telegram HTML export(s) (not included here). Extracted key messages:
+
+[10.12.2025 15:09:06 UTC-05:00] Joop:
+The archievest speaks truest of the orginal 11, but not the 12th
+in the broken hall of mirrors, he searches for his primal reflection.
+is the secret in the song or between the melody,  only the kings lover has the ears to hear
+even then, sometimes he must walk backwards.
+
+[11.12.2025 10:20:08 UTC-05:00] Andy:
+A lot of time there isn’t enough words on line to map to so using letter count instead.
+
+[11.12.2025 09:55:31 UTC-05:00] RΛZ13L 🌒: posted 46 LINE:WORD coords (see full_coords.txt).
+  first: ['173:21', '55:4', '144:20', '227:11', '99:7', '91:2']
+  last:  ['351:8', '445:5', '896:1', '933:1', '1112:2', '379:12']
