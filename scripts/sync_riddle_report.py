@@ -52,6 +52,13 @@ def _nl(s: str) -> str:
     return s.rstrip("\n") + "\n"
 
 def _replace_block(text: str, begin: str, end: str, block: str) -> str:
+    \"\"\"Replace or append a marked block delimited by begin/end markers.
+
+    >>> _replace_block("a\n", "<b>", "</b>", "X\n")
+    'a\n<b>\nX\n</b>\n'
+    >>> _replace_block("a\n<b>\nOLD\n</b>\n", "<b>", "</b>", "NEW\n")
+    'a\n<b>\nNEW\n</b>\n'
+    \"\"\"
     assert begin and end and begin != end
     assert block.endswith("\n")
     if begin in text and end in text:
@@ -63,6 +70,12 @@ def _replace_block(text: str, begin: str, end: str, block: str) -> str:
     return text + begin + "\n" + block + end + "\n"
 
 def index_block() -> str:
+    \"\"\"Return the README/LAYER_INDEX insertable block.
+
+    >>> b = index_block()
+    >>> ("docs/ONCHAIN_TRACE.md" in b) and ("`layers/R2-010_pastebin_recovery/`" in b)
+    True
+    \"\"\"
     return _nl(
         "## Riddle progress\n\n"
         "- Progress overview: `docs/RIDDLE_PROGRESS.md`\n"
