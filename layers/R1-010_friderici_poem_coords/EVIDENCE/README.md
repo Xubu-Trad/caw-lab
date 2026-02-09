@@ -1,3 +1,3 @@
-# Evidence for R1-000_yale_oldking
+# Evidence for R1-010_friderici_poem_coords
 
 Store non-empty evidence artifacts here (scripts, logs, extracted blobs, hashes).
