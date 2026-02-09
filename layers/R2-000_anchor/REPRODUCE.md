@@ -1,4 +1,4 @@
-# Reproduce: R1-000_yale_oldking
+# Reproduce: R2-000_anchor
 
 ## Preconditions
 - Run from repo root.
