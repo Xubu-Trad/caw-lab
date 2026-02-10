@@ -115,7 +115,8 @@ This repo exists to keep the work **auditable**:
 
 ## A plea from Xubu (XT)
 
-> "I'm asking the community to do something harder and more honest: review the evidence and trust yourself." — XT
+> "I'm asking the community to do something harder and more honest: review the evidence and trust yourself." — XT  
+> "Now, I only trust what I can verify. I only accept what can be reproduced." — XT
 
 ---
 

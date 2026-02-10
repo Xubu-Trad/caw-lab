@@ -16,8 +16,7 @@ This project is receipts-first. Where we *can* point to a concrete log or artifa
 - **@tehbull** — referenced by others; add a citation for any first-source artifact contributions.
 - **@kachoperro** — referenced by others; add a citation for any first-source artifact contributions.
 - **@Cryptoluche** — add a citation or remove.
-- Enkidu's gf
-
+- Enkidu's gf*
 ## Commentary vs canon
 
 Claims about who “steered” the community are **opinions** unless supported by timestamps and quotes. Keep them clearly labeled as commentary if you include them at all.
