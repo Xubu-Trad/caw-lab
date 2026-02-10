@@ -66,3 +66,63 @@ If OPSEC issues are found, report with redactions + hashes, not raw secrets.
 - `layers/R2-000_onchain_zrufkakv/`
 - `layers/R2-010_pastebin_payload/`
 <!-- RIDDLE_PROGRESS_END -->
+
+<!-- CAW_TRUTHS_BEGIN -->
+
+## What CAW is (truths, not hype)
+
+**CAW: A Hunter's Dream** is not "just a ticker." It's an **on-chain artifact + community hunt** where the "product" is the trail itself: contracts, transactions, files, ciphers, and a manifesto narrative that only makes sense when you **verify receipts**.
+
+This repo exists to keep the work **auditable**:
+- reproducible steps (scripts + exact commands),
+- hashes + manifests,
+- no "trust me bro",
+- clear separation between **facts** and **hypotheses**.
+
+### What we can say as facts (receipts-first)
+- There is a real CAW token contract on-chain: `0xf3b9569f82b18aef890de263b84189bd33ebe452`.
+- The riddle trail is anchored by identifiable on-chain activity and artifacts that can be re-derived by independent readers.
+- This repo is organized as a **layered evidence pack** (R1 and R2), designed to be checked and reproduced.
+- The "no-admin-control-surface" claim is treated as a **verifiable exhibit** in this repo (see `docs/WHAT_THE_FACTS_PROVE.md`).
+
+### What we should NOT pretend we know (yet)
+- The real-world identity behind any handle(s).
+- Whether any "builder" is one person or many.
+- The full intended ending of R2 until it is independently reproduced end-to-end.
+
+---
+
+## What's needed to finish the riddles (current completion definition)
+
+**Completion means:** an independent reader can start from the anchors, reproduce each layer, and end at the same outputs (matching hashes/manifests) **without private context**.
+
+### R1 (58bZfQ1) — finish criteria
+- Reproduce end-to-end from: **Yale/OldKing image → Friderici/coords → book-cipher → CID → APE → DeepSound (enkidu) → final payload**.
+- Publish the **exact corpus/offset/trim** method that makes the book-cipher deterministic for everyone.
+- Ensure every step has:
+  - commands in `REPRODUCE.md`,
+  - outputs hashed into `MANIFEST.repo.sha256`,
+  - and receipts pinned in the relevant `layers/R1-*` folders.
+
+### R2 (zrUfKaKV) — finish criteria
+- Reproduce the on-chain anchor and recovery path into a stable decoded payload.
+- Document the decode pipeline so that:
+  - byte-for-byte outputs match,
+  - alternative decode branches are labeled as hypotheses,
+  - and only verified branches graduate into canon.
+
+---
+
+## A plea from Xubu (XT)
+
+> "I'm asking the community to do something harder and more honest: review the evidence and trust yourself." — XT  
+> "Now, I only trust what I can verify. I only accept what can be reproduced." — XT
+
+---
+
+## OG hunters (living list)
+See `docs/HUNTERS.md` for the maintained list.  
+Additions requested:
+- Enkidu's gf*
+
+<!-- CAW_TRUTHS_END -->
