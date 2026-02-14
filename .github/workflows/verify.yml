@@ -1,0 +1,13 @@
+name: verify
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sanitize_audit
+        run: |
+          chmod +x scripts/sanitize_audit.sh
+          MAX_BYTES=2097152 ./scripts/sanitize_audit.sh
