@@ -18,10 +18,10 @@ ok "no forbidden tracked paths"
 
 # ---- 2) Block REAL host paths / machine ids leaking into tracked text
 # IMPORTANT: detect *real* usernames/hosts only (won't match placeholders like <USER>, <HOST>, <drive>)
-# - /mnt/c/Users/rodez/...  (real)
+# - /mnt/c/Users/<USER>/...  (real)
 # - C:\Users\rodez\...      (real)
-# - /Users/rodez/...        (real mac)
-# - DESKTOP-5SD1CP5         (real)
+# - /Users/<USER>/...        (real mac)
+# - DESKTOP-<HOST>         (real)
 host_re='(/mnt/[a-z]/Users/[A-Za-z0-9._-]+/|C:\\\\Users\\\\[A-Za-z0-9._-]+\\\\|/Users/[A-Za-z0-9._-]+/|DESKTOP-[A-Za-z0-9-]{4,}|/home/[A-Za-z0-9._-]+/(\.ssh|\.gnupg|\.aws|\.kube))'
 host_leaks="$(git grep -nI -E "$host_re" -- . || true)"
 [ -z "$host_leaks" ] || fail "host paths / machine ids found in tracked text:\n$host_leaks"
