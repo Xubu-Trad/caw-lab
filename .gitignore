@@ -28,3 +28,29 @@ __pycache__/
 *.pem
 *.p12
 id_ed25519*
+
+# ---- local-only raw sources & scratch (do NOT commit)
+_raw_uploads/
+OUT/
+OUT*/
+*.tmp
+*.swp
+*.bak
+
+# ---- secrets / creds (never commit)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+
+# ---- python / node junk
+__pycache__/
+.venv/
+node_modules/
+
+# ---- OS junk
+.DS_Store
+Thumbs.db

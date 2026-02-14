@@ -3,7 +3,7 @@
 Sanitize logs/transcripts to reduce identity leakage.
 
 Doctest:
->>> s = ("user@host:/home/user$ cd /home/user/gilg\\n"
+>>> s = ("user@HOST-REDACTED:/home/user$ cd /home/user/gilg\\n"
 ...      "C:\\\\Users\\\\Rodney\\\\file.txt")
 >>> sanitize_text(s)
 'user@host:/home/user$ cd /home/user/gilg\\nC:\\\\Users\\\\REDACTED\\\\file.txt'
