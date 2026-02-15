@@ -24,8 +24,7 @@ for f in "${files[@]}"; do
     bad=1
   fi
 
-  # leaked windows user path (allow C:\Users\REDACTED)
-  if grep -nE 'C:\\Users\\(?!REDACTED\b)[^\\[:space:]]+' "$f" >/dev/null 2>&1; then
+  # leaked windows user path (allow C:\Users\REDACTED\\Users\\(?!REDACTED\b)[^\\[:space:]]+' "$f" >/dev/null 2>&1; then
     echo "[fail] leaked C:\\Users\\<name> path in $f (use C:\\Users\\REDACTED)"
     grep -nE 'C:\\Users\\(?!REDACTED\b)[^\\[:space:]]+' "$f" || true
     bad=1

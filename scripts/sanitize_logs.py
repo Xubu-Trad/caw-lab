@@ -3,7 +3,7 @@
 Sanitize logs/transcripts to reduce identity leakage.
 
 Doctest:
->>> s = ("user@host:/home/user$ cd /home/user/gilg\\n"
+>>> s = ("user@HOST-REDACTED:/home/user$ cd /home/user/gilg\\n"
 ...      "C:\\\\Users\\\\Rodney\\\\file.txt")
 >>> sanitize_text(s)
 'user@host:/home/user$ cd /home/user/gilg\\nC:\\\\Users\\\\REDACTED\\\\file.txt'
@@ -29,7 +29,7 @@ _PATTERNS: list[tuple[re.Pattern[str], str]] = [
 
     # Windows user paths (single backslashes in the actual string)
     (re.compile(r"(?i)\b[A-Z]:\\Users\\[^\\]+\\"),
-     r"C:\\Users\\REDACTED\\"),
+     r"C:\\Users\\[^\\]+\\"),
     (re.compile(r"\bDESKTOP-[A-Z0-9-]+\b"), "HOST-REDACTED"),
 
     # emails
