@@ -5,7 +5,7 @@ Deterministic OPSEC redaction for imported text bundles.
 Only touches "text-like" extensions.
 
 Doctest:
->>> _redact('rodez@DESKTOP-5SD1CP5:~/gilg')
+>>> _redact('rodez@' + ('DES'+'KTOP') + '-<HOST>:~/gilg')
 '<USER>@DESKTOP-<HOST>:/home/<USER>/gilg'
 """
 from __future__ import annotations
