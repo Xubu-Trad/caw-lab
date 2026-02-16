@@ -28,3 +28,6 @@ __pycache__/
 *.pem
 *.p12
 id_ed25519*
+
+# OPSEC: never track generated attempts
+scripts/attempts/
