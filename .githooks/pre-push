@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+python3 scripts/gen_layer_index.py --check
+bash scripts/sanitize_audit.sh
