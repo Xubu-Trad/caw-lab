@@ -56,7 +56,6 @@ If OPSEC issues are found, report with redactions + hashes, not raw secrets.
 - R1 end-to-end: `docs/R1_58bZfQ1_END_TO_END.md`
 - R2 status: `docs/R2_zrUfKaKV_STATUS.md`
 
-<<<<<<< HEAD
 ## Layer index (chronological)
 - `layers/R1-000_yale_oldking/`
 - `layers/R1-010_friderici_poem_coords/`
@@ -67,7 +66,6 @@ If OPSEC issues are found, report with redactions + hashes, not raw secrets.
 - `layers/R2-000_onchain_zrufkakv/`
 - `layers/R2-010_pastebin_payload/`
 <!-- RIDDLE_PROGRESS_END -->
-=======
 ## How to contribute (PRs)
 
 1. Create a new layer folder from `layers/TEMPLATE/`.
@@ -152,4 +150,3 @@ Additions requested:
 - Enkidu's gf*
 
 <!-- CAW_TRUTHS_END -->
->>>>>>> 48cb081 (docs: expand CAW truths + completion criteria (XT plea; Enkidu's gf*))
