@@ -3,10 +3,10 @@
 Sanitize logs/transcripts to reduce identity leakage.
 
 Doctest:
->>> s = ("user@host:/home/user$ cd /home/user/gilg\\n"
+>>> s = ("user@host:/home/user$ cd /home/<USER>/gilg\\n"
 ...      "C:\\\\Users\\\\Rodney\\\\file.txt")
 >>> sanitize_text(s)
-'user@host:/home/user$ cd /home/user/gilg\\nC:\\\\Users\\\\REDACTED\\\\file.txt'
+'user@host:/home/user$ cd /home/<USER>/gilg\\nC:\\\\Users\\\\REDACTED\\\\file.txt'
 """
 from __future__ import annotations
 
@@ -25,11 +25,11 @@ _PATTERNS: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"/home/[A-Za-z0-9._-]+(?=[$:\s])"), "/home/user"),
 
     # normal linux home paths "/home/<user>/..."
-    (re.compile(r"/home/[A-Za-z0-9._-]+/"), "/home/user/"),
+    (re.compile(r"/home/[A-Za-z0-9._-]+/"), "/home/<USER>/"),
 
     # Windows user paths (single backslashes in the actual string)
     (re.compile(r"(?i)\b[A-Z]:\\Users\\[^\\]+\\"),
-     r"C:\\Users\\REDACTED\\"),
+     r"C:\\Users\\<USER>\\"),
     (re.compile(r"\bDESKTOP-[A-Z0-9-]+\b"), "HOST-REDACTED"),
 
     # emails
