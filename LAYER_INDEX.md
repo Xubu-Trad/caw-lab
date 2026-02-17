@@ -7,7 +7,7 @@
 
 - **R1-000**: R1-000_yale_oldking — [layers/R1-000_yale_oldking/](layers/R1-000_yale_oldking/)
 - **R1-010**: R1-010 summary — [layers/R1-010/](layers/R1-010/)
-- **R1-010**: R1-010_friderici_poem_coords — [layers/R1-010_friderici_poem_coords/](layers/R1-010_friderici_poem_coords/)
+- **R1-010**: friderici poem coords — [layers/R1-010_friderici_poem_coords/](layers/R1-010_friderici_poem_coords/)
 - **R1-020**: R1-020_book_cipher_gilgamesh — [layers/R1-020_book_cipher_gilgamesh/](layers/R1-020_book_cipher_gilgamesh/)
 - **R1-030**: R1-030_ipfs_ape_audio — [layers/R1-030_ipfs_ape_audio/](layers/R1-030_ipfs_ape_audio/)
 - **R1-040**: R1-040_deepsound_enkidu — [layers/R1-040_deepsound_enkidu/](layers/R1-040_deepsound_enkidu/)
