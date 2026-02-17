@@ -1,155 +1,38 @@
-# caw-lab — reproducible riddle forensics for the cawmmunity
+# CAW Lab (Public Canon)
 
-Mission: solve the CAW riddles as intended — fully reproducibly, with receipts anyone can verify.
+This repository (**Xubu-Trad/caw-lab**) is the **public, evidence-first canon** for the CAW riddles: a reproducible chain of **verified layers** anchored to on-chain artifacts (transactions, contract state, logs) and deterministic cryptographic transforms.
 
-This repo is **public canon**: layers, evidence, and exact reproduce steps. It is designed to reduce “leader” narratives: **process over personality**.
+**Canon rule:** if a claim cannot be reproduced deterministically from the referenced inputs, it does **not** belong on `canon`.
 
-## Start here
-- `LAYER_INDEX.md` (map of layers)
-- `layers/R1-*/SUMMARY.md` (what we believe + what we do NOT claim)
-- `layers/R1-*/REPRODUCE.md` (exact commands)
-- `layers/R1-*/EVIDENCE/` (inputs, logs, hashes, receipts)
+## Repos and Roles
 
-## Canon gates (enforced by CI)
-- No tracked binary blobs
-- Deterministic manifest: `MANIFEST.repo.sha256`
-- No empty evidence files
+### Public: `Xubu-Trad/caw-lab` (this repo)
+**Canon only**
+- Verified layers with explicit claims + receipts
+- Deterministic reproduce steps (`REPRODUCE.md`)
+- Evidence references (`EVIDENCE/`) with hashes / minimal receipts (no large binaries)
+- Guardrails: manifest verification, no tracked binaries, opsec scans
 
-## Verify locally
-```bash
-set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
-bash scripts/check_canon.sh
-bash scripts/audit_completeness.sh
-bash scripts/opsec_scan.sh
-```
+### Private: `Xubu-Trad/caw-lab-private`
+**Working lab**
+- Failed attempts, false positives, exploratory tooling
+- Raw imports and large artifacts
+- Draft placeholders while a path is unverified
+- Anything not yet confirmed/reproducible stays private
 
-## Scratchpad repo policy (IMPORTANT)
-`caw-lab-private` is a **SCRATCHPAD ONLY** repo.
-It may contain experiments, failed attempts, and unsanitized logs.
+## How to Use This Repo
 
-Nothing there is “canon.” Only sanitized, reproducible artifacts should be promoted into this public repo with hashes + reproduce steps.
+- Start at **LAYER_INDEX.md** (generated index of the canon layers).
+- Each `layers/<LAYER>/` contains:
+  - `SUMMARY.md` — what is proven, outputs, and anchor references
+  - `REPRODUCE.md` — exact steps to reproduce
+  - `EVIDENCE/` — receipts (hashes, text outputs, and “where it came from” notes)
 
-## Deployer invite status (community reference)
-Invitations are pending until accepted.
+## Local Integrity Checks (run before PR)
 
-- PUBLIC repo invite → **@cawdevelopment** (permission: write)
-  - created_at (UTC): `2026-02-08T06:29:46Z`
-  - created_at (America/New_York): `Sunday, 2026-02-08 01:29:46 AM EST`
+From repo root:
 
-- PRIVATE scratchpad invite → **@cawdevelopment** (permission: write)
-  - created_at (UTC): `2026-02-08T05:01:45Z`
-  - created_at (America/New_York): `Sunday, 2026-02-08 12:01:45 AM EST`
-
-## Trust model (current)
-The only maintainer we treat as authoritative is **@cawdevelopment** (manifesto repo owner). Until acceptance happens, this repo stays receipts-first: anyone can fork and verify.
-
-## OPSEC (anonymity + safety)
-Methods stay transparent. We avoid publishing secrets or doxxing data.
-
-If OPSEC issues are found, report with redactions + hashes, not raw secrets.
-<!-- RIDDLE_PROGRESS_BEGIN -->
-## Riddle progress
-
-- Progress overview: `docs/RIDDLE_PROGRESS.md`
-- On-chain provenance: `docs/ONCHAIN_TRACE.md`
-- What these facts do (and do not) prove: `docs/WHAT_THE_FACTS_PROVE.md`
-- R1 end-to-end: `docs/R1_58bZfQ1_END_TO_END.md`
-- R2 status: `docs/R2_zrUfKaKV_STATUS.md`
-
-<<<<<<< HEAD
-## Layer index (chronological)
-- `layers/R1-000_yale_oldking/`
-- `layers/R1-010_friderici_poem_coords/`
-- `layers/R1-020_book_cipher_gilgamesh/`
-- `layers/R1-030_ipfs_ape_audio/`
-- `layers/R1-040_deepsound_enkidu/`
-- `layers/R1-050_manifesto_final_payload/`
-- `layers/R2-000_onchain_zrufkakv/`
-- `layers/R2-010_pastebin_payload/`
-<!-- RIDDLE_PROGRESS_END -->
-=======
-## How to contribute (PRs)
-
-1. Create a new layer folder from `layers/TEMPLATE/`.
-2. Fill out SUMMARY + REPRODUCE with exact commands and expected hashes.
-3. Put evidence in `EVIDENCE/` as text encodings + checksums.
-4. Run:
-   - `bash scripts/make_manifest.sh`
-   - `bash scripts/verify_manifest.sh`
-5. Open a PR into `canon`.
-
-## Dedication: the original 2022 hunters
-
-This repo is dedicated to the early hunters who moved the hunt forward in 2022 and beyond — including (non-exhaustive; handles as seen in archived chats):  
-**Joop, Opti, Andy, Zenek, kachoperro, Peter Pan, Gorden, Asa||ANyONe, Binh N, Enkidu, Winter**, and everyone else who contributed real receipts.  
-If you should be listed (or a name is misspelled), open a PR to update this section.
-
-## Reward stance
-
-There may or may not be a reward for solving these riddles.  
-If a reward exists and I receive a portion, **I donate my portion to be spread amongst holders who have held CAW for more than a year at any point**, unless the CAW deployer explicitly reinterprets/redirects that distribution.
-
-## License
-
-MIT (see LICENSE). DYOR / NFA.
-
-<!-- CAW_TRUTHS_BEGIN -->
-
-## What CAW is (truths, not hype)
-
-**CAW: A Hunter's Dream** is not "just a ticker." It's an **on-chain artifact + community hunt** where the "product" is the trail itself: contracts, transactions, files, ciphers, and a manifesto narrative that only makes sense when you **verify receipts**.
-
-This repo exists to keep the work **auditable**:
-- reproducible steps (scripts + exact commands),
-- hashes + manifests,
-- no "trust me bro",
-- clear separation between **facts** and **hypotheses**.
-
-### What we can say as facts (receipts-first)
-- There is a real CAW token contract on-chain: `0xf3b9569f82b18aef890de263b84189bd33ebe452`.
-- The riddle trail is anchored by identifiable on-chain activity and artifacts that can be re-derived by independent readers.
-- This repo is organized as a **layered evidence pack** (R1 and R2), designed to be checked and reproduced.
-- The "no-admin-control-surface" claim is treated as a **verifiable exhibit** in this repo (see `docs/WHAT_THE_FACTS_PROVE.md`).
-
-### What we should NOT pretend we know (yet)
-- The real-world identity behind any handle(s).
-- Whether any "builder" is one person or many.
-- The full intended ending of R2 until it is independently reproduced end-to-end.
-
----
-
-## What's needed to finish the riddles (current completion definition)
-
-**Completion means:** an independent reader can start from the anchors, reproduce each layer, and end at the same outputs (matching hashes/manifests) **without private context**.
-
-### R1 (58bZfQ1) — finish criteria
-- Reproduce end-to-end from: **Yale/OldKing image → Friderici/coords → book-cipher → CID → APE → DeepSound (enkidu) → final payload**.
-- Publish the **exact corpus/offset/trim** method that makes the book-cipher deterministic for everyone.
-- Ensure every step has:
-  - commands in `REPRODUCE.md`,
-  - outputs hashed into `MANIFEST.repo.sha256`,
-  - and receipts pinned in the relevant `layers/R1-*` folders.
-
-### R2 (zrUfKaKV) — finish criteria
-- Reproduce the on-chain anchor and recovery path into a stable decoded payload.
-- Document the decode pipeline so that:
-  - byte-for-byte outputs match,
-  - alternative decode branches are labeled as hypotheses,
-  - and only verified branches graduate into canon.
-
----
-
-## A plea from Xubu (XT)
-
-> "I'm asking the community to do something harder and more honest: review the evidence and trust yourself." — XT  
-> "Now, I only trust what I can verify. I only accept what can be reproduced." — XT
-
----
-
-## OG hunters (living list)
-See `docs/HUNTERS.md` for the maintained list.  
-Additions requested:
-- Enkidu's gf*
-
-<!-- CAW_TRUTHS_END -->
->>>>>>> 48cb081 (docs: expand CAW truths + completion criteria (XT plea; Enkidu's gf*))
+- `bash scripts/verify_manifest.sh`
+- `bash scripts/sanitize_audit.sh`
+- `python3 scripts/gen_layer_index.py --check`
+- `bash scripts/audit_layers.sh`
