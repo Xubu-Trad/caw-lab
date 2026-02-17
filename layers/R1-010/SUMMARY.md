@@ -18,3 +18,6 @@ Not canon (until reproducible from committed receipts):
 - Any claimed decoded words/CIDs beyond the receipts above.
 - Any EXIF raw-profile reconstruction unless generated deterministically from `EVIDENCE/exiftool.txt`.
 
+
+## Anchor
+- 58bZfQ1

@@ -9,7 +9,7 @@ fail=0
 warn=0
 
 echo "[audit] scanning top-level layers under ./layers" | tee "$out/summary.txt"
-mapfile -t layers_dirs < <(find layers -mindepth 1 -maxdepth 1 -type d | LC_ALL=C sort)
+mapfile -t layers_dirs < <(find layers -mindepth 1 -maxdepth 1 -type d ! -name TEMPLATE | LC_ALL=C sort)
 
 # patterns we consider “anchors present”
 anchor_re='0x[a-fA-F0-9]{40}|0x[a-fA-F0-9]{64}|etherscan|58bZfQ1|zrUfKaKV|ipfs|Qm[1-9A-HJ-NP-Za-km-z]{44}'
