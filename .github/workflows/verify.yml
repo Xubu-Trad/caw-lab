@@ -1,0 +1,25 @@
+name: verify
+
+on:
+  push:
+    branches: [ canon ]
+  pull_request:
+    branches: [ canon ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: LAYER_INDEX must match generator
+        run: python3 scripts/gen_layer_index.py --check
+
+      - name: Opsec sanitize audit
+        run: bash scripts/sanitize_audit.sh
