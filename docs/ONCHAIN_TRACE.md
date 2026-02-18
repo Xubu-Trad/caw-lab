@@ -1,30 +1,23 @@
-# On-chain provenance
+# On-chain trace (verifiable receipts)
 
-## Core anchors
-- CAW token contract: `0xf3b9569f82b18aef890de263b84189bd33ebe452`
-- CAW deployer (Etherscan-labeled): `0x36B59455AfeEdf0866FE6E775FE7651bbBe3e005`
-- Intermediary: `0x81A0daaab45dBbcE68b11E7AEdDd6A0D1970bdeA`
-- SHIB deployer: `0xB8f226dDb7bC672E27dffB67e4adAbFa8c0dFA08`
+This document records **verifiable** chain receipts only.
+Anything speculative belongs in the private lab repo.
 
-## Funding chain (timed receipts)
-- SHIB deployer → intermediary: `0xb5b81a63c957fcc33469d59f9c969e860d24574bb72d8b2fc482c7232cb13062`
-- intermediary → CAW deployer: `0xbfed9c9fe98cf7705b6668afbe9f01c81310f062ae5853b2ac31efd2847f44f0`
-- CAW contract creation tx: `0x4d160fb54fbfbf23725f03cc0b780b6666a66c9884f6d1024ef1287321c22515c`
+## Contract anchor
+- CAW contract: `0xf3b9569F82B18aEf890De263B84189bd33EBe452`
+- Chain: Ethereum mainnet
 
-## Riddle self-transactions
-- R1 tx (0.666 ETH): `0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b` (wallet `0xbaeEDcCcbFB112d4a921dAa635AC2276307A1705`)
-- R2 tx (0.999 ETH): `0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4` (wallet `0xbaeEDcCcbFB112d4a921dAa635AC2276307A1705`)
+## Proxy-admin / implementation slots (EIP-1967)
+These slots being zero indicates **no standard proxy admin/implementation configured**.
 
-## Links
-- https://etherscan.io/address/0xf3b9569f82b18aef890de263b84189bd33ebe452
-- https://etherscan.io/address/0x36B59455AfeEdf0866FE6E775FE7651bbBe3e005
-- https://etherscan.io/address/0x81A0daaab45dBbcE68b11E7AEdDd6A0D1970bdeA
-- https://etherscan.io/address/0xB8f226dDb7bC672E27dffB67e4adAbFa8c0dFA08
-- https://etherscan.io/tx/0xb5b81a63c957fcc33469d59f9c969e860d24574bb72d8b2fc482c7232cb13062
-- https://etherscan.io/tx/0xbfed9c9fe98cf7705b6668afbe9f01c81310f062ae5853b2ac31efd2847f44f0
-- https://etherscan.io/tx/0x4d160fb54fbfbf23725f03cc0b780b6666a66c9884f6d1024ef1287321c22515c
-- https://etherscan.io/tx/0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b
-- https://etherscan.io/tx/0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4
+- implementation slot: `0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc`
+- admin slot:          `0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103`
 
-## Important limitation
-“Deployer” labels are on-chain roles/attribution, not verified identity.
+### Receipts
+Command environment:
+- RPC: `https://ethereum-rpc.publicnode.com`
+- cast: `1.5.1-stable`
+
+`cast storage` outputs:
+- implementation slot value: `0x0000000000000000000000000000000000000000000000000000000000000000`
+- admin slot value:          `0x0000000000000000000000000000000000000000000000000000000000000000`
