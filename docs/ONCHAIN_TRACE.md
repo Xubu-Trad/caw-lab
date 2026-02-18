@@ -21,3 +21,9 @@ Command environment:
 `cast storage` outputs:
 - implementation slot value: `0x0000000000000000000000000000000000000000000000000000000000000000`
 - admin slot value:          `0x0000000000000000000000000000000000000000000000000000000000000000`
+
+## Creation flow (receipts)
+- SHIB deployer → intermediary tx: `0x...`
+- intermediary → CAW deployer tx: `0x...`
+- CAW contract creation tx: `0x...`
+
