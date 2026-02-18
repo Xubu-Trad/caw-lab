@@ -23,7 +23,7 @@ Command environment:
 - admin slot value:          `0x0000000000000000000000000000000000000000000000000000000000000000`
 
 ## Creation flow (receipts)
-- SHIB deployer → intermediary tx: `0x...`
-- intermediary → CAW deployer tx: `0x...`
-- CAW contract creation tx: `0x...`
+- SHIB deployer → intermediary tx: `0xb5b81a63c957fcc33469d59f9c969e860d24574bb72d8b2fc482c7232cb13062`
+- intermediary → CAW deployer tx: `0xbfed9c9fe98cf7705b6668afbe9f01c81310f062ae5853b2ac31efd2847f44f0`
+- CAW contract creation tx: `0x4d160fb54fbfbf23725f03cc0b780b6666a66c9884f6d1024ef1287321c22515`
 
