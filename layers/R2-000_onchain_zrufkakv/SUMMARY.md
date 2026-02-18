@@ -1,5 +1,6 @@
 # R2-000_onchain_zrufkakv
 
-Status: scaffold.
+Status: not_executed
 
-Put the layer narrative here and link to evidence artifacts under `EVIDENCE/`.
+## Anchor
+- zrUfKaKV

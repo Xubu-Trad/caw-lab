@@ -1,5 +1,9 @@
 # R1-010_friderici_poem_coords
 
-Status: scaffold.
+Status: not_executed
 
-Put the layer narrative here and link to evidence artifacts under `EVIDENCE/`.
+## Anchor
+- 58bZfQ1
+
+## Notes
+This layer tracks the current working state and receipts for this step.
