@@ -1,5 +1,7 @@
 # R1-010 summary
 
+Status: in_progress
+
 Canon receipts committed in this layer:
 
 - Poem text (from TG export):
