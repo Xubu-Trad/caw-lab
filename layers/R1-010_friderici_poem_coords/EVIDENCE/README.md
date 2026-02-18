@@ -1,3 +1,4 @@
-# Evidence for R1-010_friderici_poem_coords
+# Receipt placeholder
 
-Store non-empty evidence artifacts here (scripts, logs, extracted blobs, hashes).
+This file must not be 0 bytes.
+Replace with real receipts when available (commands + outputs + hashes).
