@@ -1,6 +1,6 @@
 # R2-000_onchain_zrufkakv
 
-Status: in_progress
+Status: not_executed
 
 ## Anchor
 - zrUfKaKV

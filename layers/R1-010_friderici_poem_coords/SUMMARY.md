@@ -1,6 +1,6 @@
 # R1-010_friderici_poem_coords
 
-Status: in_progress
+Status: not_executed
 
 ## Anchor
 - 58bZfQ1

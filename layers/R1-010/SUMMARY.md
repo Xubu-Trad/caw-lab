@@ -1,6 +1,6 @@
 # R1-010 summary
 
-Status: in_progress
+Status: receipted
 
 Canon receipts committed in this layer:
 

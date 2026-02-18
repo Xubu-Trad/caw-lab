@@ -1,5 +1,5 @@
 # R1-000_yale_oldking
 
-Status: in_progress
+Status: receipted
 ## Anchor
 - 58bZfQ1
