@@ -1,3 +1,1 @@
-Text-only canon receipts for the recovered zrUfKaKV payload triage stage: decoded-file, JPEG, trailer, and numeric-anchor reports. See `../DETAILS.md` for the fuller layer narrative.
-
-See also: `../DETAILS.md`.
+Text-only canon receipts for the recovered-payload triage stage of R2. These files preserve the decoded-file list, JPEG receipt report, trailer receipt report, and numeric-anchor receipt family. Together they define the strongest currently promoted public observations for the R2 payload lane.

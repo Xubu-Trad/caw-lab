@@ -1,3 +1,1 @@
-Text-only canon receipts for the on-chain zrUfKaKV stage: status notes and checksum receipts. See `../DETAILS.md` for the fuller layer narrative.
-
-See also: `../DETAILS.md`.
+Text-only canon receipts for the public anchor and status layer of R2. These files preserve the current public state note plus L01/L02 checksum receipts that anchor the presently tracked R2 lane packs.

@@ -1,5 +1,3 @@
 # R2-000 summary
 
-This layer records text-only receipts for the on-chain zrUfKaKV stage: the current R2 status note and the L01/L02 SHA256 receipts copied from the private lab. These receipts document the tracked on-chain and lane-state evidence without claiming a completed end-to-end R2 solve. Only the committed status and checksum artifacts are promoted here.
-
-See also: `DETAILS.md` and `../../docs/R2_zrUfKaKV_STATUS.md`.
+This layer is the public anchor and status layer for the second riddle. It records the on-chain / public entrypoint `zrUfKaKV`, the canonical transaction receipt, and the preserved checksum/status packets that define the current public state of R2. This layer does not claim a finished solve. Its purpose is to fix the starting point, preserve the tracked state of the lane packs, and hand the reader forward into the recovered-payload triage layer.
