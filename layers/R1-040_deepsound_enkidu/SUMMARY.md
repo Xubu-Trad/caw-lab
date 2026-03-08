@@ -1,3 +1,3 @@
 # R1-040 summary
 
-This layer preserves the Enkidu-stage handoff as staged text receipts. Public evidence carries both the nibble-sub / hex-like `enkidu.txt` artifact and the more legible stage text `enkidu.stage0.txt`. Together they prove that the riddle passes through an Enkidu intermediate text lane before manifesto recovery. Public canon does not yet claim that the current repo alone reruns the original DeepSound extraction end to end.
+This layer preserves the exact Enkidu-stage handoff as text receipts. The full pseudo-hex body is now surfaced directly in `HEX_FULL.md` and carried in `EVIDENCE/enkidu.full_pseudohex.txt` (sha256 `4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19`), alongside `EVIDENCE/enkidu.stage0.txt` (sha256 `ef7d07f8ca22cddf5b791a0fdfc85b2dfdd71b8284b18f5f030a4cc678a974e4`).

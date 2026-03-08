@@ -1,18 +1,19 @@
-# R1-040 - DeepSound / Enkidu receipt verification
-
-This layer verifies the committed Enkidu-stage receipts only.
+# R1-040 — Enkidu receipt verification
 
 ## Inputs
+- `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt`
 - `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.stage0.txt`
-- `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.txt`
 
 ## Run from repo root
-    set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
-    sha256sum \
-      layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.stage0.txt \
-      layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.txt
+    set -u
+    IFS=$'\n\t'
+    LC_ALL=C
+    sha256sum                   layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt                   layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.stage0.txt
+    sed -n '1,20p' layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt
+    printf '\n[tail]\n'
+    tail -n 5 layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt
+    printf '\n[stage0]\n'
     sed -n '1,40p' layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.stage0.txt
-    sed -n '1,40p' layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.txt
 
 ## Expected result
-The committed text receipts hash cleanly and preview the tracked Enkidu-stage content promoted into canon for this layer.
+The full pseudo-hex body and the stage text both hash cleanly and are visibly present inside the layer.

@@ -1,25 +1,33 @@
 # R1-040 details
 
 ## Role in the chain
-This layer records the DeepSound / Enkidu intermediate in exact receipt terms.
+This layer preserves the exact Enkidu-stage handoff between the APE / DeepSound branch and the final manifesto branch.
 
 ## Exact canon constants
 - DeepSound password: `enkidu`
+- full pseudo-hex file: `EVIDENCE/enkidu.full_pseudohex.txt`
+- `enkidu.full_pseudohex.txt` bytes: `21192`
+- `enkidu.full_pseudohex.txt` sha256: `4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19`
+- `enkidu.stage0.txt` bytes: `10596`
 - `enkidu.stage0.txt` sha256: `ef7d07f8ca22cddf5b791a0fdfc85b2dfdd71b8284b18f5f030a4cc678a974e4`
-- `enkidu.txt` sha256: `4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19`
-- `enkidu.txt` bytes: `21192`
-- exact pseudo-hex prefix:
-  `41204W616V69666573746U206U6V206120446563656V7472616X697Z656420536U6369616X20436X656172696V6720486U757365202V2V2V28414Y412920434157`
-- exact promoted mapping:
-  - `U -> b`
-  - `V -> e`
-  - `W -> d`
-  - `X -> c`
-  - `Y -> f`
-  - `Z -> a`
-- uploaded normalized stage-2 clean receipt sha256: `2ce02dffb32577a38ad646be06cb705782b0c4344271ed528aa252c08bca8944`
+
+## Full pseudo-hex receipt
+The full preserved pseudo-hex body is now surfaced directly in this layer in:
+- `HEX_FULL.md`
+- `EVIDENCE/enkidu.full_pseudohex.txt`
 
 ## What this layer proves
-- the Enkidu stage is not a vague claim; it is preserved as a specific pseudo-hex text family with exact bytes and hash
-- the promoted character-substitution mapping is explicit
-- the downstream cleaned manifesto family can be tied back to a specific preserved Enkidu intermediate
+- the riddle passes through an Enkidu-stage pseudo-hex text lane
+- the exact preserved pseudo-hex body is now directly carried in this layer
+- the more legible stage text is preserved beside it as `enkidu.stage0.txt`
+
+## What this layer still does not prove
+- not yet a single bounded public replay of the original DeepSound extraction
+- not yet the full public deterministic transform from pseudo-hex to final normalized manifesto
+
+## Evidence in this layer
+- `EVIDENCE/enkidu.full_pseudohex.txt`
+- `EVIDENCE/enkidu.stage0.txt`
+
+## Reader handoff
+Continue to `../R1-050_manifesto_final_payload/DETAILS.md`.

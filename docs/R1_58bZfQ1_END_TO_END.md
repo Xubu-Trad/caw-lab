@@ -49,7 +49,8 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
      - cid=`QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
 
 6. **DeepSound / Enkidu stage**
-   - The promoted pseudo-hex Enkidu artifact is preserved as `enkidu.txt`.
+   - The promoted pseudo-hex Enkidu artifact is preserved in full as `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt`.
+   - This is the full preserved pseudo-hex body, not just a prefix excerpt.
    - The exact uploaded pseudo-hex receipt hash is:
      - bytes: `21192`
      - sha256: `4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19`
@@ -83,3 +84,6 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
 - `layers/R1-030_ipfs_ape_audio/`
 - `layers/R1-040_deepsound_enkidu/`
 - `layers/R1-050_manifesto_final_payload/`
+
+- The promoted pseudo-hex Enkidu artifact is preserved in full as `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt`.
+- The full body is also surfaced directly in `layers/R1-040_deepsound_enkidu/HEX_FULL.md`.
