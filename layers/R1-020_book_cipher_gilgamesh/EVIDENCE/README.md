@@ -1,3 +1,1 @@
-# Evidence for R1-020_book_cipher_gilgamesh
-
-Store non-empty evidence artifacts here (scripts, logs, extracted blobs, hashes).
+Text-only canon receipts for the book-cipher stage: coordinate logs, CID candidate logs, and extracted CID history artifacts.

@@ -1,3 +1,6 @@
-[placeholder — NOT a receipt yet]
-This file was committed empty by mistake. Replace it by running the layer's REPRODUCE.md steps
-and committing the generated output (text-only).
+R1-000 public anchor receipt
+
+This layer is the provenance entrypoint for the first-riddle public anchor family only.
+No binary image is committed in this repo.
+The canon claim at this layer is limited to: there is a public first-riddle image entrypoint, and downstream verified text receipts are carried by later layers.
+This file replaces the old placeholder text so the layer is no longer a scaffold stub pretending to contain evidence it did not yet describe.

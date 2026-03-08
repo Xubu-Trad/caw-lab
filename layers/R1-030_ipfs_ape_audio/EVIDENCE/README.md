@@ -1,3 +1,1 @@
-# Evidence for R1-030_ipfs_ape_audio
-
-Store non-empty evidence artifacts here (scripts, logs, extracted blobs, hashes).
+Text-only canon receipts for the IPFS / APE stage: ffprobe output, APE checks, and stripped-path logs.

@@ -1,11 +1,18 @@
-# Reproduce: R1-040_deepsound_enkidu
+# R1-040 - DeepSound / Enkidu receipt verification
 
-## Preconditions
-- Run from repo root.
-- Record tool versions.
-- Hash every artifact saved under `EVIDENCE/`.
+This layer verifies the committed Enkidu-stage receipts only.
 
-## Steps
-- [ ] Add exact commands
-- [ ] Save outputs under `EVIDENCE/`
-- [ ] Record sha256 for every output
+## Inputs
+- `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.stage0.txt`
+- `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.txt`
+
+## Run from repo root
+    set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
+    sha256sum \
+      layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.stage0.txt \
+      layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.txt
+    sed -n '1,40p' layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.stage0.txt
+    sed -n '1,40p' layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.txt
+
+## Expected result
+The committed text receipts hash cleanly and preview the tracked Enkidu-stage content promoted into canon for this layer.

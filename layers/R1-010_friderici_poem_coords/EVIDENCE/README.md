@@ -1,3 +1,9 @@
-# Evidence for R1-010_friderici_poem_coords
+Text-only canon receipts for the Friderici / poem / coordinate layer.
 
-Store non-empty evidence artifacts here (scripts, logs, extracted blobs, hashes).
+Committed here:
+- poem text
+- 46-coordinate receipt
+- fallback letter-count note
+- EXIF receipt text
+
+This README is descriptive only and is not a placeholder.

@@ -1,3 +1,1 @@
-# Evidence for R2-010_pastebin_payload
-
-Store non-empty evidence artifacts here (scripts, logs, extracted blobs, hashes).
+Text-only canon receipts for the recovered zrUfKaKV payload triage stage: decoded-file, JPEG, trailer, and numeric-anchor reports.

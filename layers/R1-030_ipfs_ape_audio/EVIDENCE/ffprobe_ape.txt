@@ -1,0 +1,55 @@
+Input #0, ape, from 'OUT/R1_AUDIO_FORENSICS_V1_20260205T172918Z/first_riddle_song.ape':
+  Duration: 00:02:15.23, start: 0.000000, bitrate: 530 kb/s
+  Stream #0:0: Audio: ape (APE  / 0x20455041), 48000 Hz, stereo, s16p
+[STREAM]
+index=0
+codec_name=ape
+codec_long_name=Monkey's Audio
+profile=unknown
+codec_type=audio
+codec_tag_string=APE 
+codec_tag=0x20455041
+sample_fmt=s16p
+sample_rate=48000
+channels=2
+channel_layout=stereo
+bits_per_sample=0
+id=N/A
+r_frame_rate=0/0
+avg_frame_rate=0/0
+time_base=1/48000
+start_pts=0
+start_time=0.000000
+duration_ts=6491116
+duration=135.231583
+bit_rate=N/A
+max_bit_rate=N/A
+bits_per_raw_sample=16
+nb_frames=89
+nb_read_frames=N/A
+nb_read_packets=N/A
+DISPOSITION:default=0
+DISPOSITION:dub=0
+DISPOSITION:original=0
+DISPOSITION:comment=0
+DISPOSITION:lyrics=0
+DISPOSITION:karaoke=0
+DISPOSITION:forced=0
+DISPOSITION:hearing_impaired=0
+DISPOSITION:visual_impaired=0
+DISPOSITION:clean_effects=0
+DISPOSITION:attached_pic=0
+DISPOSITION:timed_thumbnails=0
+[/STREAM]
+[FORMAT]
+filename=OUT/R1_AUDIO_FORENSICS_V1_20260205T172918Z/first_riddle_song.ape
+nb_streams=1
+nb_programs=0
+format_name=ape
+format_long_name=Monkey's Audio
+start_time=0.000000
+duration=135.231583
+size=8968236
+bit_rate=530540
+probe_score=100
+[/FORMAT]

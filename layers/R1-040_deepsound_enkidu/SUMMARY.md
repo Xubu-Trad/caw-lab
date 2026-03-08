@@ -1,5 +1,3 @@
-# R1-040_deepsound_enkidu
+# R1-040 summary
 
-Status: scaffold.
-
-Put the layer narrative here and link to evidence artifacts under `EVIDENCE/`.
+This layer records text-only receipts for the DeepSound / Enkidu stage: the extracted `enkidu.stage0` and `enkidu.txt` text artifacts copied from the private lab history. These are canon receipts for what was recovered at this stage. No broader interpretation is asserted beyond the text that is actually committed here.
