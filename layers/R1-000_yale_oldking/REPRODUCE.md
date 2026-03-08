@@ -1,11 +1,14 @@
-# Reproduce: R1-000_yale_oldking
+# R1-000 - public anchor receipt verification
 
-## Preconditions
-- Run from repo root.
-- Record tool versions.
-- Hash every artifact saved under `EVIDENCE/`.
+This layer verifies the committed text receipt only.
 
-## Steps
-- [ ] Add exact commands
-- [ ] Save outputs under `EVIDENCE/`
-- [ ] Record sha256 for every output
+## Inputs
+- `layers/R1-000_yale_oldking/EVIDENCE/00_inputs.txt`
+
+## Run from repo root
+    set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
+    sha256sum layers/R1-000_yale_oldking/EVIDENCE/00_inputs.txt
+    sed -n '1,80p' layers/R1-000_yale_oldking/EVIDENCE/00_inputs.txt
+
+## Expected result
+The file hashes cleanly and previews as the tracked public-anchor provenance receipt for the first-riddle entrypoint layer.

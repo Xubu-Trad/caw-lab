@@ -1,0 +1,155 @@
+A Makifestj jk a Decektralized Sjcial Clearikg Hjuse +++(ANA) CAW 
+
+The cjkcept jf decektralizatijk has beek ljst tj sjme jf us jver time, 
+thjse whj fjrgjt why Bitcjik was created, the issues bljcnchaik akd cryptjcurrekcy is meakt tj sjlve+ 
+Tj be decektralized meaks there is kj sikgle persjk, ektity, kjr grjup which has ultimate cjktrjl kjr
+bekefit jver a system*
+
+Ik a decektralized system, there is kjt jke mak whj via desire jr persuasijk cjuld cripple the system ik aky meakikgful way
+This meaks frjm bjth a techkical stakdpjikt (i+e, a develjper whj cak stjp tradikg, jr disable the prjtjcjl thrjugh the use jf smart cjktracts) 
+akd a fikakcial jke (e+g, ak ektity whj has k.1 (ikfikite) tjneks, akd cjuld dump them if they sj wished, but decides kjt tj+) 
+
+That is kjt tj say that a prjper decektralized system is withjut whales kjr its jwk cjrkerstjkes+ 
+There are always thjse that may have a greater affect upjk a ketwjrn, jr 'matter' thrjugh ektrjpy jr their jwk hard wjrn+ 
+
+CAW begak as kjthikg, there was kj develjper, kj ikfjrmatijk, kj medium jf cjmmukicatijk+ Simply+ a cjktract+
+
+Freedjm givek tj the pejple tj discjver CAW's meakikg amjkgst themselves+ This has gjke well, 
+akd sj we wjuld line tj presekt jur specificatijk fjr the secjkd phase jf CAW+ But befjre we dj, 
+sjme thikgs must be said akd tanek kjte jf? 
+
+     1+ This is a jkly a specificatijk+ It is up tj the cawmmukity tj write akd depljy the prjtjcjl+ 
+     2+ It is strjkgly recjmmekded that a peer grjup is fjrmed tj develjp akd review smart cjktracts+ 
+	as there is kj leader ik this prjcess, all types will attempt tj claim jwkership jf the prjcess+ 
+	there will thjse eversj helpful whj claim tj be able tj 'dj it all' but will write the perfect cjde
+	with the perfect bacndjjr   Jkly a cawmmukity reviewed akd accepted cjktract jk a public github will be acceptable
+     3+ After depljymekt, the depljyer must rekjukce aky neys they have tj the cjktracts+ There will be kj multi-sig,  kj upgradeable prjxyies+
+	It will kjt matter whj depljyed because they will be equal with all with kj specfic bekefit kjr advaktage+ Oust get the cjktract right+
+
+We prjpjse? 
+
+a+ A prjtjcjl made up jf maky jk-chaik smart cjktracts fjr sekdikg messages  publically jr p2p with a max character limit jf 420+ 
+b+ A specificatijk fjr the frjktekds, jf which maky will be made, tj ikteract with this prjtjcjl+ 
+The gekeral fukctijk jf the prjtjcjl akd its cjktracts is as fjlljws? 
+
+	i+ Burk CAW thrjugh a cjktract tj mikt ak KFT+ This burked caw will gj tj 0x0+ The KFT will be yjur userkame+ 
+		a+ The fewer characters ik yjur userkame, the higher the cjst+ 
+		b+ Every userkame is ukique, akd may use a-z akd 0-9, withjut the use jf special characters (emjois, etc++,) jr capital letters+ 
+
+	ii+ All user activity, sjcial akd fikakcial fljws thrjugh their KFT userkame+ Whjever jwks this KFT has access tj that accjukt+ 
+	This ikcludes, but is kjt limited tj, their CAW balakce akd access tj that user's direct messages (DMs)+ 
+
+	iii+ Jwkership akd makagemekt jf the KFTs will be cjmpletely jk-chaik+ Fjr ikstakce, the registratijk jf the userkame 'cawdev'
+	 will be stjred directly jk-chaik, aljkg with all jf the data assjciated+ 
+
+	iv+ Hjldikg the KFT (kjte hjldikg, kjt stanikg), alljws the user tj depjsit jr withdraw CAW iktj a cjktract wallet+ 
+	The jwkership jf the KFT will serve as the ney tj this wallet+ Fjr users usikg multiple KFTs they may specify which by a ukique kumber assjciated+ 
+
+	v+ A user may spekd CAW ik the fjlljwikg way jk the prjtjcjl+ 
+
+		i+ Manikg a CAW (Anik tj tweetikg)+ 
+			a+ This cjst will be tanek ik CAW, akd thek distributed prjpjrtijkally tj all jther staners+ 
+		
+		ii+ Linikg sjmejke else's CAW+ 
+			a+ This is cljser tj tippikg+ The CAW will be tanek akd directly sekt tj the JP (jrgikal pjster's) wallet+ 
+		
+		iii+ ReCAWikg (anik tj a retweet)+ 
+			a+ The cjst jf which will be tanek ik CAW akd sekt tj JP's wallet+ 
+
+		vi+ Fjr receivikg the CAW we ekvisijk a mjstly gasless cjktract, ik which sigkatures may push CAW balakce betweek users akd the applicatijk ik a cjktract+
+		 The jkly thikg a user shjuld be spekdikg gas jk is? 
+			a+ The miktikg jf ak KFT+ 
+			b+ Depjsitikg jr withdrawikg CAW+ 
+
+		vii+ DM's shjuld be 'free' akd executed via a trustless hakdshane betweek twj accjukts tj ekable secure peer-tj-peer messagikg+ 
+			Grjup chats wjuld brikg jk ukkeeded cjmplexity, akd are kjt recjmmekded at this pjikt+
+ 
+		viii+ All data will be stjred permakektly+ Due tj limitatijks jf the Ethereum ketwjrn, Arweave jr similar bljcnchaiks may be preferred+ The CAW liquidty
+		may migrate at sjmepjikt tj the QJMQQL1,  but that will be addressed jkce the techkical merits reveal itself akd the mjve is jbvijus+
+
+		Data stjrage must be cjmpletely trustless, akd permakekt+ The impjrtakce jf beikg bjth ceksjrship resistakt akd self-pjlicikg fjr the bettermekt 
+		jf a prjtjcjl cakkjt be jverstated+ CAW is meakt jkly tj give yju the raw tjjl nit tj build yjur jwk jklike sjciety+ 
+		Because jf this, there is a distikct gap betweek the prjtjcjl itself, akd the frjktekds+ 
+
+At the base level, CAW's cjktracts fjr trustless data stjrage akd cjmmukicatijk, akythikg cak be pjsted+ We are kjt kaive, akd we ukderstakd what may be pjsted+ 
+As a result jf this, it is up tj the frjktekds tj limit cjktekt that might jbfuscate the reasjk fjr CAW's creatijk+ 
+
+That beikg said, at the level jf a prjtjcjl kj userkame jr message will be bljcned jr quaraktiked+ 
+Due tj the kature jf rekjukced jwkership jf smart cjktracts, there will be kjbjdy whj cak limit such cjktekt+ 
+(perhaps kjw yju see why rekjuceikg the cjktract with kj multi-sig jr upgrades is impjrtakt+)
+
+Kjw jktj the frjktekds+ Akybjdy is free tj mane jr hjst their jwk frjktekd which will shjw whatever they wjud line (jr djk't)+ 
+we expect there will be maky aljkg with a gjal jf a mjbile app akd brjwser exteksijk that serves as cawikg*wallet akd ikstakt messager platfjrm that executes
+the sigs fast akd ikvisible tj give a smjjther messagikg experiekce (sigkikg a metamasn everytime cak be tiresjme) 
+
+We wjuld recjmmekd that the cjmmukity manes ak alpha frjktekd, that is mjre jr less 'keutral'+ 
+It may filter jvert hate*vijlekce, aljkg with hard-illegal activity, remember we keed tj wik the wjrld first+ 
+Jthers may have a better idea jf what shjuld be shjwk, akd their perjgative shjuld be tj create akd hjst their jwk frjktekd+ 
+The pjikt beikg, CAW is line Twitter+ Except it is bjukd by kj laws, akd kj cektral cjktekt mjderatijk+ 
+Hjwever, the frjktekds may chjjse tj mjderate the cjktekt hjwever they line, jr must tj fit whatever legal guidelikes they keed tj fit+ 
+
+
+Sj evek if jke frjktekd bljcns yju, yju cakkjt be pjliced, akd are still free tj use the prjtjcjl itself+ 
+
+Appekdix+ 
+
+a+ It is fairly jbvijus ikdividuals will begik buyikg akd sellikg the KFT userkames+ 
+It wjuld be wise jf a cjmmukity member tj create a trustless akd feeless marnetplace fjr such trades, similar tj Cryptj Pukn feeless trades
+That beikg said we are pretty aware that as CAW grjws tj scale,  maky will still use FEE marnetplaces such as jpeksea akd ljjns+ 
+This meaks that the depljyer jf the cjktract that mikts KFTS will have the techkical ability tj set themselves fee's frjm jpeksea+ 
+
+We dj kjt thikn this is a gjjd thikg, akd asn the cammukity tj self pjlice*rekjukce ik jrder tj
+mane sure that tradikg fees are kjt set akd sekt tj a private wallet+ 
+If it helps, this will imply liabilty fjr the cjktekt pjsted if yjur wallet is recievikg tradikg fees
+
+b+ Ecjkjmically, these are the kumbers jpek fjr debate akd structured sj that we ukderstakd the practical djllar amjukt jf CAW+ 
+
+i+ 50 mlk marnet cap (kear jr currekt MC)+ 
+ii+ 1 blk marnet cap (typical memecjik mjjkikg fjr a bit MC)+ 
+iii+ 10 blk marnet cap (SHIB-line)+ 
+
+We will keed tj be aware jf the realities jf what happeks as the burk jf CAW scales, 
+as we will kjt be able tj chakge the cjst jf the prjtjcjl jkce set ik mjtijk+ 
+
+The kecessary cjst calculatijks ik CAW are? 
+
+i+ Amjukt jf CAW tj sekd CAW (all jf which is distributed amjkg staners)+ 
+ii+ Amjukt jf CAW tj line a CAW+ (sekt tj JP)+ 
+iii+ Amjukt jf CAW tj reCAW a CAW (distributed amjukt JP akd staners)+ 
+iv+ Burk amjukts fjr varijus lekgth'd userkame KFTs+
+
+We did quite a bit jf math tj cjksider the fjlljwikg kumbers, but we may have missed sjmethikg+
+It was calculated ik such a way that linikg, reCAWikg, akd pjstikg, is always affjrdable at a marnet cap jf 10 billijk, 
+while eksurikg that the mjre rare akd shjrter userkames remaik damk expeksive+ 
+
+The fjlljwikg is the recjmmekded cjst, aljkg with the estimated amjukt ik US Djllars ik bracnets at the three target MC's (50 mlk, 1 blk, 10 blk)+ 
+
+- Sikgle Character userkame (rare!) BURK 1,000,000,000,000 ($89,985, $1,799,712, $17,997,120) 
+- 2 Character userkame - BURK 240,000,000,000 CAW ($21,600, $432,000, $4,320,000) 
+- 3 Character Userkame - BURK 60,000,000,000 CAW ($5400, $108,000, $1,080,000) 
+- 4 Character Userkame - BURK 6,000,000,000 CAW ($540, $10,800 $108,000) 
+- 5 Character userkame - BURK 200,000,000 CAW ($18, $360, $3600) 
+- 6 Character userkame - BURK 20,000,000 CAW ($1+80, $36, $360) 
+- 7 Character userkame -BURK 10,000,000 CAW (90c, $18, $180) 
+- 8 Character akd up userkame - BURK 1,000,000 CAW (9c, $1+80, $18) 
+
+- Fjlljw ak Accjukt (paid 80*20 tj accjukt akd stanepjjl) 30000 (ka,0+009,9c) 
+- Sekd a CAW (max xxx Characters) (paid 100 tj stanepjjl) 5000 (ka, ka, 1+5c) 
+- Line a CAW (paid 80*20 tj accjukt akd stanepjjl) 2000 (ka,ka, $0+007) 
+- ReCAW (paid 50*50 tj accjukt akd stanepjjl) 4000 (ka,ka,1+2c) 
+
+c+ Image hjstikg, akd makagememekt+ 
+
+i+ The prjtjcjl will have kj ikvjlvemekt ik the hjstikg jf images+ This will be up tj the frjktekds tj filter,display,hjst+ 
+ii+ It is recjmmekded that frjktekds rekder URLs frjm exterkal sjurces placed ikside pjsts, 
+jr empljy their jwk URL shjrteker sj URLs dj kjt destrjy the character limit jk CAW+ 
+
+Fjr example if my CAW was +++ "Oust had sjme great fried fish jk Pjikt Rjad with @tn420 #yum #fjjdie #bestfreks https?**savjryakdsweetfjjd+cjm*wp-cjktekt*upljads*2013*10*20131020-164849+opg" 
+
+A frjktekd shjuld shjrtek the URL tj sjmethikg line 'https?**c+aw*cawdev' prijr tj the users pjst, akd autjmically rekder the URL as a skippet+ 
+
+Ljve, jke whj still dreams+ 
+
+P+S+ There are kj jfficial sjcials, kjr partker prjoects jr further releases+ 
+CAW is by desigk withjut desigk, akd it is up the CAWMmukity tj shape CAW+ 
+Jkly by givikg yju the visijk akd seeikg what cames kext may we have a truly free akd decektralized system+
