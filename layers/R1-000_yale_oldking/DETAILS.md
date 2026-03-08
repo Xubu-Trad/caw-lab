@@ -1,25 +1,28 @@
 # R1-000 details
 
-## Scope
-This layer is the first-riddle public anchor and provenance layer. Its job is to state the public entrypoint family clearly, without over-claiming later decode stages.
+## Role in the chain
+This is the public entrypoint layer for the first riddle.
 
-## Proven receipts
-- The first riddle begins from an on-chain short-code trailhead associated with the CAW deployer's self-message pattern.
-- The public short code for R1 is `58bZfQ1`.
-- That short code resolves to the public image clue commonly referred to as the Yale / OldKing / first-clue tablet image.
-- This layer is intentionally limited to the entrypoint and its provenance role. It does not claim poem extraction, coordinate extraction, corpus selection, CID derivation, APE decoding, or manifesto recovery. Those belong to later layers.
+## Public anchors
+- Short code: `58bZfQ1`
+- Image URL: `https://ibb.co/58bZfQ1`
+- R1 tx: `0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b`
 
-## Why this layer exists
-The public repo should not force readers to infer where R1 starts. This layer exists so an auditor can understand that the puzzle has a public trailhead before any stego or corpus work begins.
+## What this layer proves
+- There is a public, stable entrypoint for R1.
+- The first riddle starts from the Yale / OldKing tablet image family.
+- This layer is provenance only.
+
+## What this layer does NOT prove
+- poem extraction
+- coordinate extraction
+- book-cipher solution
+- CID derivation
+- APE / DeepSound / manifesto recovery
 
 ## Evidence in this layer
-- `EVIDENCE/00_inputs.txt` — public-anchor receipt text
-- `EVIDENCE/README.md` — short description of evidence scope
+- `EVIDENCE/00_inputs.txt`
 
-## Boundaries
-Not claimed here:
-- no full poem claim
-- no coordinate claim
-- no book-cipher claim
-- no CID claim
-- no APE / DeepSound / manifesto claim
+## Reader handoff
+Continue to `../R1-010_friderici_poem_coords/DETAILS.md`.
+

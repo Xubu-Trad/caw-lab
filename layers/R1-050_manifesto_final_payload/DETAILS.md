@@ -1,25 +1,21 @@
 # R1-050 details
 
-## Scope
-This layer covers the final text payload currently promoted for R1: the recovered manifesto family.
+## Role in the chain
+This is the final text-payload layer for R1.
 
-## Proven receipts
-- Canon now includes `manifesto.recovered.txt`.
-- Canon now includes `manifesto.en.txt`.
-- Private working notes describe the Enkidu transform as yielding a manifesto-like final payload.
-- The public repo should treat this as the final text-payload layer of R1 unless a later canon promotion proves an additional downstream layer.
-
-## Why this layer matters
-This is the stage where the chain resolves back into readable text and ideology / rule content.
-A reader should be able to answer:
-- what final text is being claimed
-- which version is recovered vs English-reference style
-- how this stage relates to the Enkidu lane immediately before it
+## What this layer proves
+- the final payload family currently promoted into canon is the manifesto
+- recovered and English-reference variants are preserved as text evidence
 
 ## Evidence in this layer
 - `EVIDENCE/manifesto.recovered.txt`
 - `EVIDENCE/manifesto.en.txt`
-- `EVIDENCE/README.md`
 
-## Boundaries
-This layer does not claim hidden material beyond the currently promoted manifesto receipts.
+## What still needs to be explicit here
+- byte-for-byte relationship between the final payload and the Enkidu-stage artifact
+- whether the current public repo can reproduce the final text from current public receipts alone
+- whether this layer is treated as fully reproduced or historically preserved pending a missing transform step
+
+## Reader handoff
+See `../../docs/R1_58bZfQ1_END_TO_END.md`.
+

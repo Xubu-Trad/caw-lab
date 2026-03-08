@@ -1,29 +1,26 @@
 # R2-010 details
 
-## Scope
-This layer covers the recovered payload triage for the `zrUfKaKV` lane after the on-chain short code points into the removed / archived Pastebin-family material.
+## Role in the chain
+This layer records the recovered-payload triage for the second riddle.
 
-## Proven receipts
-- Canon now includes the decoded-file report.
-- Canon now includes the JPEG report.
-- Canon now includes the trailer report.
-- Canon now includes the numeric anchors file.
-- Private notes describe R2 as a mode-switch / byte-lane problem and caution that removed-Pastebin gaps are being filled by archives and community documentation rather than a currently live source.
-
-## Why this layer matters
-This is the current public evidence state for R2 payload handling.
-A reader should be able to see:
-- what files were decoded from hex containers
-- what JPEG structure was observed
-- what trailer bytes were preserved
-- what numeric anchors are being tracked
+## What this layer proves
+- decoded-file receipts exist
+- JPEG-head / JPEG-trailer structure was observed and preserved
+- numeric anchors were extracted and committed
+- this layer is analysis-state canon, not solved-state canon
 
 ## Evidence in this layer
 - `EVIDENCE/decoded_files.tsv`
 - `EVIDENCE/jpeg_report.tsv`
 - `EVIDENCE/trailer_report.tsv`
 - `EVIDENCE/r2_numeric_anchors.txt`
-- `EVIDENCE/README.md`
 
-## Boundaries
-This layer is triage, not final resolution. It records what was actually observed and preserved.
+## What still needs to be explicit here
+- what each decoded file came from
+- which outputs are strongest candidates for the real payload
+- which observations are red herrings vs promising lanes
+- how this triage connects back to the on-chain anchor and forward into lane work
+
+## Reader handoff
+See `../../docs/R2_zrUfKaKV_STATUS.md`.
+

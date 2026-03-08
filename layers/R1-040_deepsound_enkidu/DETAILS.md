@@ -1,25 +1,24 @@
 # R1-040 details
 
-## Scope
-This layer covers the DeepSound / Enkidu stage that follows the APE payload lane.
+## Role in the chain
+This layer covers the DeepSound extraction and the `enkidu` handoff.
 
-## Proven receipts
-- Canon now includes `enkidu.stage0.txt`.
-- Canon now includes `enkidu.txt`.
-- Private working notes describe this stage as: DeepSound password `enkidu` -> `Enkidu.txt`.
-- Those same notes describe `Enkidu.txt` as pseudo-hex / broken-hex style material that resolves only after the intended transform logic is applied.
+## Public anchors
+- DeepSound password: `enkidu`
 
-## Why this layer matters
-This is the transition from media/container work back into text/encoding work.
-A reader should understand here:
-- that DeepSound is part of the claimed R1 chain
-- that the password handoff is `enkidu`
-- that the resulting text is not plain English but an encoded intermediate artifact
+## What this layer proves
+- `enkidu` is the canonical password associated with the DeepSound stage.
+- `enkidu.stage0.txt` and `enkidu.txt` are the promoted text artifacts for this layer.
 
 ## Evidence in this layer
 - `EVIDENCE/enkidu.stage0.txt`
 - `EVIDENCE/enkidu.txt`
-- `EVIDENCE/README.md`
 
-## Boundaries
-This layer records the Enkidu-stage receipts. The manifesto recovery itself belongs in R1-050.
+## What still needs to be explicit here
+- whether DeepSound extraction itself is currently reproduced from committed public receipts
+- whether the promoted `enkidu.txt` is the exact historical extract or a preserved downstream copy
+- what transform chain from `enkidu.txt` is actually reproduced vs only historically claimed
+
+## Reader handoff
+Continue to `../R1-050_manifesto_final_payload/DETAILS.md`.
+

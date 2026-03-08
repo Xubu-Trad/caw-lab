@@ -1,20 +1,19 @@
 # R1-010 details
 
-## Scope
-This layer covers the image-side hidden-text and coordinate receipts that bridge the public clue image into the book-cipher stage.
+## Role in the chain
+This layer converts the public image into actionable extraction material.
 
-## Proven receipts
-- The image contains a hidden textual layer that yields the poem / verse instructions.
-- The committed canon evidence includes the poem text itself.
-- The committed canon evidence includes the 46-coordinate list.
-- The committed canon evidence includes the fallback letter-count note that explains how to proceed when a LINE:WORD lookup fails.
-- The committed canon evidence includes the EXIF rebuild receipt text from prior work.
+## What belongs here
+- the old-King / tablets / red-herring / song instruction family
+- the Friderici / EXIF / hidden-text receipts
+- the canonical coordinate list
+- the fallback letter-count rule
+- mirror / backwards instructions where evidenced
 
-## Why this layer matters
-This is the instruction layer. It is where the public image stops being "just an image" and starts behaving like a cipher carrier:
-- it introduces mirror / backwards procedure
-- it frames corpus choice problems
-- it hands off the coordinate material used in the next layer
+## What this layer proves
+- the image is not just a visual clue; it carries extraction instructions
+- the coordinate list exists as a committed canon artifact
+- fallback indexing behavior is part of the historical solve record
 
 ## Evidence in this layer
 - `EVIDENCE/poem.txt`
@@ -22,12 +21,12 @@ This is the instruction layer. It is where the public image stops being "just an
 - `EVIDENCE/fallback_lettercount.txt`
 - `EVIDENCE/png_exif_rebuild_v1/exiftool.txt`
 
-## Auditor notes
-A reader inspecting this layer should be able to answer:
-1. What was extracted from the image?
-2. What coordinate list is being treated as canon?
-3. What fallback rule is documented for insufficient word counts?
-4. What image-metadata receipt text was preserved?
+## Needed narrative clarity
+This layer should explicitly separate:
+1. visible overlay text
+2. hidden hex / metadata text
+3. the coordinate list actually used downstream
 
-## Boundaries
-This layer does not itself prove which Gilgamesh corpus slice is final. That belongs in R1-020.
+## Reader handoff
+Continue to `../R1-020_book_cipher_gilgamesh/DETAILS.md`.
+

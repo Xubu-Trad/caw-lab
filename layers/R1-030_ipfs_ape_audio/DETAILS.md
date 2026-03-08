@@ -1,27 +1,26 @@
 # R1-030 details
 
-## Scope
-This layer covers the CID-to-payload stage: the point where the R1 book-cipher handoff yields an IPFS payload associated with Monkey's Audio artifacts.
+## Role in the chain
+This layer turns the CID handoff into an audio-payload claim.
 
-## Proven receipts
-- Canon now includes the ffprobe receipt for the APE stage.
-- Canon now includes APE-check receipts.
-- Canon now includes stripped-path receipt text for the APE lane.
-- Private working notes identify this stage as the IPFS payload handoff and recommend making one canonical payload decision among the `.ape`, `.zip`, and related derived artifacts.
+## Public anchors
+- Historical IPFS CID: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
 
-## Why this layer matters
-This is the first hard file-format confirmation after the book-cipher lane.
-A good public reader should learn here:
-- what payload family the CID led to
-- what format evidence was observed
-- which artifact is being treated as primary vs derived
-- what uncertainties remain around derived copies or repackaged payloads
+## What this layer proves
+- APE-stage receipts exist in the private lab and are promoted here as text-only canon evidence.
+- The community story associates this stage with a Leonardo audio artifact.
+- Public canon currently preserves the triage state, not a guaranteed live refetch.
 
 ## Evidence in this layer
 - `EVIDENCE/ffprobe_ape.txt`
 - `EVIDENCE/ape_checks.txt`
 - `EVIDENCE/ape_stripped_paths.txt`
-- `EVIDENCE/README.md`
 
-## Boundaries
-This layer does not itself prove the DeepSound extraction. That belongs in R1-040.
+## What still needs to be explicit here
+- whether the APE is locally present, historically attested only, or both
+- whether the Leonardo identification is locally verified or just community-ground-truth
+- what exact reconstruction command recreates the APE from committed public receipts, if possible
+
+## Reader handoff
+Continue to `../R1-040_deepsound_enkidu/DETAILS.md`.
+

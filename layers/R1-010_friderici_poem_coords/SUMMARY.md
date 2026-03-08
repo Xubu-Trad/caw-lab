@@ -18,3 +18,5 @@ Not canon (until reproducible from committed receipts):
 - Any claimed decoded words/CIDs beyond the receipts above.
 - Any EXIF raw-profile reconstruction unless generated deterministically from `EVIDENCE/exiftool.txt`.
 
+
+See also: `DETAILS.md` and `../../docs/R1_58bZfQ1_END_TO_END.md`.
