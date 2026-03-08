@@ -36,3 +36,6 @@ Public canon does **not** currently claim that the public repo alone can fetch o
 
 ## Reader handoff
 Continue to `../R1-040_deepsound_enkidu/DETAILS.md`.
+## Cross-reference
+See `../../docs/R1_DETERMINISM_STATUS.md` for the current public determinism gap summary.
+

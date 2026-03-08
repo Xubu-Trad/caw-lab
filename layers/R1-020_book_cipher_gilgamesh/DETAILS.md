@@ -27,3 +27,6 @@ The book-cipher lane is now honest: the CID target is stable, but the exact publ
 
 ## Reader handoff
 Continue to `../R1-030_ipfs_ape_audio/DETAILS.md`.
+## Cross-reference
+See `../../docs/R1_DETERMINISM_STATUS.md` for the current public determinism gap summary.
+

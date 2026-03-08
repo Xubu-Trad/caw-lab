@@ -24,3 +24,6 @@ Public canon does **not** currently claim that a reader can rerun the original D
 
 ## Reader handoff
 Continue to `../R1-050_manifesto_final_payload/DETAILS.md`.
+## Cross-reference
+See `../../docs/R1_DETERMINISM_STATUS.md` for the current public determinism gap summary.
+

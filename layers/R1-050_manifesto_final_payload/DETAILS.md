@@ -27,3 +27,6 @@ This keeps the public canon honest: the manifesto is real and receipt-backed, bu
 
 ## Reader handoff
 See `../../docs/R1_58bZfQ1_END_TO_END.md`.
+## Cross-reference
+See `../../docs/R1_DETERMINISM_STATUS.md` for the current public determinism gap summary.
+
