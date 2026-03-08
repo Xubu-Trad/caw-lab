@@ -1,5 +1,3 @@
 # R1-040 summary
 
-This layer records text-only receipts for the DeepSound / Enkidu stage: the extracted `enkidu.stage0` and `enkidu.txt` text artifacts copied from the private lab history. These are canon receipts for what was recovered at this stage. No broader interpretation is asserted beyond the text that is actually committed here.
-
-See also: `DETAILS.md` and `../../docs/R1_58bZfQ1_END_TO_END.md`.
+This layer preserves the Enkidu-stage handoff as staged text receipts. Public evidence carries both the nibble-sub / hex-like `enkidu.txt` artifact and the more legible stage text `enkidu.stage0.txt`. Together they prove that the riddle passes through an Enkidu intermediate text lane before manifesto recovery. Public canon does not yet claim that the current repo alone reruns the original DeepSound extraction end to end.

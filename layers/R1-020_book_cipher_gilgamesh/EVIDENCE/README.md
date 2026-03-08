@@ -1,3 +1,8 @@
-Text-only canon receipts for the book-cipher stage: coordinate logs, CID candidate logs, and extracted CID history artifacts. See `../DETAILS.md` for the fuller layer narrative.
+Text-only canon receipts for the R1 book-cipher handoff stage.
 
-See also: `../DETAILS.md`.
+This evidence folder preserves:
+- the historical coordinate list
+- the historical CID candidate list
+- the extracted-CID history table showing repeated recovery of the target CID
+
+These receipts prove that the CID target is stable in history. They do not by themselves settle the final public deterministic replay recipe for corpus choice, trim, offset, and indexing behavior.

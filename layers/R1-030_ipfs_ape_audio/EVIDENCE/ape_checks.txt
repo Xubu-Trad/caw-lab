@@ -1,24 +1,24 @@
-== /Drive/CAW_AI_FILES_2025-05-30_to_present/linux/gilg/OUT/FIRST_RIDDLE_SONG/ipfs_payload/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
--rwxrwxrwx 1 user user 8968098 Dec 18 17:08 /Drive/CAW_AI_FILES_2025-05-30_to_present/linux/gilg/OUT/FIRST_RIDDLE_SONG/ipfs_payload/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
-ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263  /Drive/CAW_AI_FILES_2025-05-30_to_present/linux/gilg/OUT/FIRST_RIDDLE_SONG/ipfs_payload/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+== ARCHIVE_A/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+-rwxrwxrwx 1 user user 8968098 Dec 18 17:08 ARCHIVE_A/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263  ARCHIVE_A/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
 00000000: 4d 41 43 20 96 0f 20 20 34 20 20 20 18 20 20 20  MAC ..  4   .   
-== /Drive/CAW_CHATGPT_READY/01_TEXT_PRIORITY/Windows_Downloads_AUTO/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
--rwxrwxrwx 1 user user 8968236 Dec 18 17:08 /Drive/CAW_CHATGPT_READY/01_TEXT_PRIORITY/Windows_Downloads_AUTO/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
-57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575  /Drive/CAW_CHATGPT_READY/01_TEXT_PRIORITY/Windows_Downloads_AUTO/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+== ARCHIVE_B/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+-rwxrwxrwx 1 user user 8968236 Dec 18 17:08 ARCHIVE_B/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575  ARCHIVE_B/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
 00000000: 4d 41 43 20 96 0f 00 00 34 00 00 00 18 00 00 00  MAC ....4.......
-== /Drive/ChatGptHistory/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
--rwxrwxrwx 1 user user 8968236 Dec 18 17:08 /Drive/ChatGptHistory/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
-57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575  /Drive/ChatGptHistory/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+== ARCHIVE_C/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+-rwxrwxrwx 1 user user 8968236 Dec 18 17:08 ARCHIVE_C/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575  ARCHIVE_C/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
 00000000: 4d 41 43 20 96 0f 00 00 34 00 00 00 18 00 00 00  MAC ....4.......
-== /Drive/_staging_from_C/master_reference_upload/Downloads/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
--rwxrwxrwx 1 user user 8968236 Dec 18 17:08 /Drive/_staging_from_C/master_reference_upload/Downloads/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
-57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575  /Drive/_staging_from_C/master_reference_upload/Downloads/Telegram Desktop/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+== ARCHIVE_D/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+-rwxrwxrwx 1 user user 8968236 Dec 18 17:08 ARCHIVE_D/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575  ARCHIVE_D/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
 00000000: 4d 41 43 20 96 0f 00 00 34 00 00 00 18 00 00 00  MAC ....4.......
-== /Drive/_staging_from_C/master_reference_upload/MyDrive/CAW_AI_FILES_2025-05-30_to_present/linux/gilg/OUT/FIRST_RIDDLE_SONG/ipfs_payload/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
--rwxrwxrwx 1 user user 8968098 Dec 18 17:08 /Drive/_staging_from_C/master_reference_upload/MyDrive/CAW_AI_FILES_2025-05-30_to_present/linux/gilg/OUT/FIRST_RIDDLE_SONG/ipfs_payload/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
-ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263  /Drive/_staging_from_C/master_reference_upload/MyDrive/CAW_AI_FILES_2025-05-30_to_present/linux/gilg/OUT/FIRST_RIDDLE_SONG/ipfs_payload/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+== ARCHIVE_E/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+-rwxrwxrwx 1 user user 8968098 Dec 18 17:08 ARCHIVE_E/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263  ARCHIVE_E/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
 00000000: 4d 41 43 20 96 0f 20 20 34 20 20 20 18 20 20 20  MAC ..  4   .   
-== /Drive/_staging_from_C/master_reference_upload/MyDrive/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
--rwxrwxrwx 1 user user 8968098 Dec 18 17:08 /Drive/_staging_from_C/master_reference_upload/MyDrive/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
-ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263  /Drive/_staging_from_C/master_reference_upload/MyDrive/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+== ARCHIVE_F/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+-rwxrwxrwx 1 user user 8968098 Dec 18 17:08 ARCHIVE_F/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
+ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263  ARCHIVE_F/QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.stripped
 00000000: 4d 41 43 20 96 0f 20 20 34 20 20 20 18 20 20 20  MAC ..  4   .   

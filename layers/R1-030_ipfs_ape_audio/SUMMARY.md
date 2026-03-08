@@ -1,5 +1,3 @@
 # R1-030 summary
 
-This layer records text-only receipts for the IPFS / APE stage: `ffprobe` output, APE checks, and stripped-path logs from the private lab history. These are canon receipts for the existence and triage of the APE audio stage. They do not overclaim a fresh decode beyond what the committed logs actually prove.
-
-See also: `DETAILS.md` and `../../docs/R1_58bZfQ1_END_TO_END.md`.
+This layer preserves local verification of the APE handoff. Public evidence shows that the target CID is tied to a real Monkey's Audio artifact observed in preserved receipts: `ffprobe` identifies a `135.231583` second, `48000 Hz`, stereo APE stream, and the stripped-copy receipts document at least two archived binary variants (`8968236` bytes / sha256 `57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575`, and `8968098` bytes / sha256 `ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263`). Public canon treats the APE stage as locally verified from receipts, while stopping short of claiming a one-command rebuild from public text receipts alone.

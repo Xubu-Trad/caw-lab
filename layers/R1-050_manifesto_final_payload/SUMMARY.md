@@ -1,5 +1,3 @@
 # R1-050 summary
 
-This layer records text-only receipts for the final-payload stage of R1: the recovered manifesto text and the English manifesto text copied from the private lab history. These are canon receipts for the manifesto payload that was actually recovered. No extra hidden layer is claimed here beyond the committed text artifacts.
-
-See also: `DETAILS.md` and `../../docs/R1_58bZfQ1_END_TO_END.md`.
+This layer preserves the final manifesto payload family. Public evidence includes both a historically recovered manifesto text and a normalized English rendering. Together they show that the manifesto payload is real and stable as an artifact family. Public canon still stops short of claiming a one-command replay from the currently committed Enkidu evidence to the final normalized English text.

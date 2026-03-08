@@ -1,5 +1,3 @@
 # R1-020 summary
 
-This layer records text-only receipts for the book-cipher stage: a historical full-coords receipt, CID candidate logs, and extracted CID history TSVs copied from the private lab. These are canon receipts for what was actually observed and logged during book-cipher work. They do not claim that every CID candidate is final; they preserve the bounded evidence needed to verify the state of the book-cipher lane without promoting unproven end-to-end claims.
-
-See also: `DETAILS.md` and `../../docs/R1_58bZfQ1_END_TO_END.md`.
+This layer preserves the book-cipher handoff receipts. The target CID `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV` is stable across preserved candidate logs and extracted-CID history, but the current public repo does not yet make that CID fall out deterministically from the committed corpus with one bounded replay. Public canon therefore treats the CID as historically stable and receipt-backed, while marking the exact cleaned corpus / trim / offset / indexing recipe as still needing a fully public deterministic replay.
