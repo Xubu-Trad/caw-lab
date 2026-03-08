@@ -55,6 +55,9 @@ R1 is now receipt-backed from public anchor through manifesto family. The remain
 - exact public replay of the Enkidu extraction lane
 - exact public replay from Enkidu-stage receipts to normalized manifesto text
 
+## Determinism note
+- `docs/R1_DETERMINISM_STATUS.md`
+
 ## Layer map
 - `layers/R1-000_yale_oldking/`
 - `layers/R1-010_friderici_poem_coords/`
