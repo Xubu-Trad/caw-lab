@@ -1,32 +1,21 @@
 # R1-020 details
 
 ## Role in the chain
-This layer applies the canonical coordinate list to a Gilgamesh corpus in order to produce the CID handoff into the audio stage.
+This layer applies the preserved coordinate family to a Gilgamesh corpus and hands off into the CID stage.
+
+## Exact canon constants
+- Historical target CID: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
+- `H00243__full_coords.txt` sha256: `476f7fb5ccffd86fdf306c8a627feeacf8f087afcc22e3ad4b23fa76055c78ea`
+- `H00030__cids.txt` sha256: `0973232b8f8db5b2a7883a0d353ead07eb855eea4f496b99785fc08286ba0892`
+- `history_extracted_cids.tsv` sha256: `9b9349fab12a6b6441c9ff8cee8a47979d3c70f76d51ec057fa310faf6823a58`
 
 ## What this layer proves
-- the coordinate set is preserved as a stable historical receipt
-- the CID candidate family is preserved as a stable historical receipt
-- the target CID `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV` appears repeatedly in preserved logs
-- the missing piece is not "whether a CID exists", but "which exact public corpus normalization and offset recipe reproduces it deterministically"
+- the coordinate family and CID candidate family are preserved as stable text receipts
+- the target CID is not folklore only; it is present in multiple preserved receipt families
+- the remaining issue is exact public replay, not target identification
 
-## What is publicly receipt-backed right now
-- `EVIDENCE/full_coords_from_history.txt` preserves the historical coordinate list
-- `EVIDENCE/cids.txt` preserves the broader CID candidate family and includes the target CID
-- `EVIDENCE/history_extracted_cids.tsv` shows the target CID recurring in preserved extraction history
-
-## What is not yet claimed
-Public canon does **not** currently claim that a reader can take the committed public corpus, run one exact documented command, and deterministically reproduce the target CID with no ambiguity. That corpus/offset recipe is still the unresolved public-determinism gap.
-
-## Why this matters
-The book-cipher lane is now honest: the CID target is stable, but the exact public replay still needs the final corpus-normalization recipe to be spelled out.
-
-## Evidence in this layer
-- `EVIDENCE/full_coords_from_history.txt`
-- `EVIDENCE/cids.txt`
-- `EVIDENCE/history_extracted_cids.tsv`
-
-## Reader handoff
-Continue to `../R1-030_ipfs_ape_audio/DETAILS.md`.
-## Cross-reference
-See `../../docs/R1_DETERMINISM_STATUS.md` for the current public determinism gap summary.
-
+## What still must be made explicit for full public determinism
+- the exact corpus artifact
+- the exact trim / offset rule
+- the exact fallback indexing rule
+- the exact order that turns the preserved coords into the target CID

@@ -1,62 +1,80 @@
-# R1 (58bZfQ1) - end-to-end narrative
+# R1 (58bZfQ1) — end-to-end narrative
 
 ## Goal
-Explain the first riddle in one place so a new reader can understand the full chain, while also seeing exactly which parts are receipt-backed, which parts are historically stable, and which parts still need a fully public deterministic replay.
+Explain the first riddle with full canon identifiers, full hashes, full URLs, and exact receipt-backed boundaries.
 
 ## Public anchors
-- R1 transaction: `0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b`
-- Public image slug: `58bZfQ1`
-- Image URL: `https://ibb.co/58bZfQ1`
-- Historical IPFS CID: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
+- R1 transaction ID: `0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b`
+- Public short code: `58bZfQ1`
+- Public image URL: `https://ibb.co/58bZfQ1`
+- Historical IPFS CIDv0 handoff: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
 - DeepSound password: `enkidu`
 
 ## Canon chain
 1. **On-chain anchor**
-   - The short code `58bZfQ1` is emitted on-chain and serves as the public entrypoint to the first riddle.
+   - The first-riddle trailhead is the self-message transaction `0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b`.
+   - The promoted public short code is `58bZfQ1`.
+   - The promoted public image URL is `https://ibb.co/58bZfQ1`.
 
 2. **Image entrypoint**
-   - `58bZfQ1` resolves to the Yale / OldKing tablet image.
-   - This image is the public artifact from which the poem, coordinates, and follow-on instructions are derived.
+   - The URL `https://ibb.co/58bZfQ1` resolves to the Yale / OldKing / first-clue tablet image family.
+   - That image is the public artifact from which the poem, coordinate, mirror, and downstream handoff material are historically derived.
 
-3. **Poem / Friderici / coordinate layer**
-   - This stage yields the poem, the coordinate list, the fallback letter-count note, and the mirror / backwards hints.
-   - These receipts are public-canon stable.
+3. **Poem / coordinate layer**
+   - Public canon preserves the coordinate family and the fallback indexing rule separately from the anchor image.
+   - Promoted receipt hashes from the determinism packet:
+     - `H00243__full_coords.txt` -> `476f7fb5ccffd86fdf306c8a627feeacf8f087afcc22e3ad4b23fa76055c78ea`
+     - `H00030__cids.txt` -> `0973232b8f8db5b2a7883a0d353ead07eb855eea4f496b99785fc08286ba0892`
 
 4. **Book-cipher stage**
-   - Preserved receipts show a stable historical target CID: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`.
-   - The current public repo does **not yet** make that CID fall out deterministically from the committed corpus with one bounded replay.
-   - The unresolved part is the exact cleaned corpus / trim / offset / indexing combination for the archive-oriented Gilgamesh text.
+   - The target historical CID preserved across receipts is `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`.
+   - Public determinism is still blocked on the exact corpus normalization / trim / offset / indexing rule that reproduces that CID from public artifacts alone.
 
 5. **IPFS / APE stage**
-   - Preserved receipts show that the target CID corresponds to a real APE-stage artifact.
-   - `ffprobe` receipts identify a Monkey's Audio stream of duration `135.231583` seconds at `48000 Hz`, stereo.
-   - Preserved stripped-copy receipts document at least two binary variants of the same APE family:
-     - `8968236` bytes, sha256 `57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575`
-     - `8968098` bytes, sha256 `ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263`
-   - Public canon treats the audio stage as locally verified from receipts, but not yet one-command rebuilt from public text artifacts alone.
+   - The canonical uploaded APE receipt is:
+     - filename: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape`
+     - bytes: `8968236`
+     - sha256: `57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575`
+     - ipfs-only-hash CID: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
+   - The non-canonical stripped / zip-copy family preserved in receipts is:
+     - filename: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.NONCANON_zipcopy`
+     - bytes: `8968098`
+     - sha256: `ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263`
+     - ipfs-only-hash CID: `QmYRZiiGvVqbQgzuCLPWzWyZvrpWSh2VN7pCNDm91Lvt1M`
+   - The currently preserved exact sweep match for the canonical CID is:
+     - chunker=`size-262144`
+     - raw_leaves=`false`
+     - trickle=`false`
+     - wrap=`false`
+     - cid=`QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
 
 6. **DeepSound / Enkidu stage**
-   - Public evidence preserves both the nibble-sub / hex-like `enkidu.txt` artifact and the more legible stage text `enkidu.stage0.txt`.
-   - This proves the riddle passes through an Enkidu intermediate text lane.
-   - Public canon does **not yet** claim that the current repo alone reruns the original DeepSound extraction end to end.
+   - The promoted pseudo-hex Enkidu artifact is preserved as `enkidu.txt`.
+   - The exact uploaded pseudo-hex receipt hash is:
+     - bytes: `21192`
+     - sha256: `4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19`
+   - Its exact leading prefix is:
+     - `41204W616V69666573746U206U6V206120446563656V7472616X697Z656420536U6369616X20436X656172696V6720486U757365202V2V2V28414Y412920434157`
+   - The public decoding helper family preserved in uploaded receipts applies the mapping:
+     - `U -> b`
+     - `V -> e`
+     - `W -> d`
+     - `X -> c`
+     - `Y -> f`
+     - `Z -> a`
 
 7. **Final manifesto stage**
-   - Public evidence preserves both a historically recovered manifesto text and a normalized English rendering.
-   - This shows the manifesto payload family is real and stable.
-   - Public canon still stops short of claiming a one-command replay from the currently committed Enkidu evidence to the final normalized English text.
+   - The uploaded normalized stage-2 clean manifesto receipt is:
+     - bytes: `10596`
+     - sha256: `2ce02dffb32577a38ad646be06cb705782b0c4344271ed528aa252c08bca8944`
+   - The promoted public-canon manifesto receipts are:
+     - `manifesto.recovered.txt` -> `e5816ee2a75a1c939543773983f8b6d2b9eb05afee8d4f9ac91336e8ab6c01fa`
+     - `manifesto.en.txt` -> `836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c`
 
-## Current honest status
-R1 is now receipt-backed from public anchor through manifesto family. The remaining gap is not whether the chain exists, but whether every step can be replayed deterministically from the public repo alone with exact corpus and transform rules.
-
-## What still needs to be made fully public-canon deterministic
-- exact Gilgamesh corpus artifact and normalization
-- exact trim / offset / blank-line handling for the book cipher
-- exact public replay path from CID receipts to APE identity
-- exact public replay of the Enkidu extraction lane
-- exact public replay from Enkidu-stage receipts to normalized manifesto text
-
-## Determinism note
-- `docs/R1_DETERMINISM_STATUS.md`
+## What still blocks a fully deterministic public replay
+- the exact public corpus recipe that yields the historical CID from the coords
+- the exact public replay from the book-cipher receipts to the canonical APE
+- the exact public replay from `enkidu.txt` to the final normalized manifesto text using only committed public artifacts
 
 ## Layer map
 - `layers/R1-000_yale_oldking/`

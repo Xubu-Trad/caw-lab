@@ -1,39 +1,28 @@
 # R1 determinism status
 
 ## Purpose
-This note explains exactly what remains between the current public R1 canon and a fully deterministic public replay.
+State exactly what is stable in public canon and exactly what still prevents a fully deterministic public replay.
 
-## What is now stable
-The public canon is no longer just narrative. It is backed by preserved receipts showing:
+## Stable canon constants
+- R1 transaction ID: `0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b`
+- Public short code: `58bZfQ1`
+- Public image URL: `https://ibb.co/58bZfQ1`
+- Historical target CID: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
+- Canonical uploaded APE sha256: `57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575`
+- Non-canonical stripped / zip-copy sha256: `ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263`
+- Enkidu pseudo-hex sha256: `4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19`
+- Manifesto recovered sha256: `e5816ee2a75a1c939543773983f8b6d2b9eb05afee8d4f9ac91336e8ab6c01fa`
+- Manifesto English sha256: `836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c`
 
-- a stable historical target CID:
-  `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
-- an APE-stage handoff verified in preserved receipts
-- an Enkidu-stage intermediate preserved as text artifacts
-- a final manifesto family preserved as recovered and normalized text
+## What is already receipt-backed
+- the public anchor
+- the historical target CID
+- the canonical APE receipt versus the non-canonical stripped family
+- the Enkidu pseudo-hex intermediate
+- the normalized manifesto family
 
-## What is still missing for full public determinism
-The remaining gap is now narrow and specific:
+## Exact determinism gap
+Public canon still does not contain one completely bounded replay that starts from `https://ibb.co/58bZfQ1`, applies one exact public corpus normalization/indexing rule, reproduces `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`, fetches the canonical APE byte-for-byte, and deterministically walks from `enkidu.txt` to the final normalized manifesto text.
 
-1. **Exact book-cipher corpus recipe**
-   - exact corpus artifact
-   - exact cleaning / trimming
-   - exact offset handling
-   - exact indexing behavior
-
-2. **Exact public APE replay**
-   - a bounded public method that moves from CID receipts to the verified APE-stage artifact
-
-3. **Exact Enkidu-to-manifesto replay**
-   - a bounded public method that moves from the committed Enkidu-stage receipts to the final normalized manifesto text
-
-## Honest current public claim
-The R1 chain is receipt-backed end to end as a historical and locally verified artifact family.
-What the public repo still does not claim is a single one-command deterministic replay for every step.
-
-## Where this connects
-- `docs/R1_58bZfQ1_END_TO_END.md`
-- `layers/R1-020_book_cipher_gilgamesh/`
-- `layers/R1-030_ipfs_ape_audio/`
-- `layers/R1-040_deepsound_enkidu/`
-- `layers/R1-050_manifesto_final_payload/`
+## Why the gap is narrow now
+The uploaded receipts fix the target constants. The remaining problem is not "what is the target?" but "which exact public replay recipe reaches the target without relying on historical side knowledge?"

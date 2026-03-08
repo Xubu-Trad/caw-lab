@@ -3,30 +3,18 @@
 ## Role in the chain
 This is the final text-payload layer for R1.
 
+## Exact canon constants
+- `manifesto.recovered.txt` sha256: `e5816ee2a75a1c939543773983f8b6d2b9eb05afee8d4f9ac91336e8ab6c01fa`
+- `manifesto.en.txt` sha256: `836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c`
+- uploaded normalized stage-2 clean sha256: `2ce02dffb32577a38ad646be06cb705782b0c4344271ed528aa252c08bca8944`
+
+## Exact leading payload text
+`A Manifesto on a Decentralized Social Clearing House ...(AKA) CAW`
+
 ## What this layer proves
-- the final payload family currently promoted into canon is the manifesto
-- a historically recovered text form is preserved
-- a normalized English form is preserved
-- the manifesto family is therefore stable as an artifact family, not just a rumor or summary
+- the final promoted payload family is the manifesto family
+- both the recovered receipt and the normalized English receipt are preserved by exact hash
+- public canon can now identify the final payload family precisely even where full public replay is still incomplete
 
-## Public evidence in this layer
-- `EVIDENCE/manifesto.recovered.txt`
-  - preserves the historically recovered text with its rough punctuation / separator quirks
-- `EVIDENCE/manifesto.en.txt`
-  - preserves a normalized English rendering of the same payload family
-
-## What is not yet claimed
-Public canon does **not** currently claim that the repo alone reruns every transform from Enkidu-stage evidence to the final normalized English manifesto in one exact bounded command. The repo preserves the output family honestly while leaving the final deterministic replay recipe as follow-on work.
-
-## Why this matters
-This keeps the public canon honest: the manifesto is real and receipt-backed, but the replay path is described only to the extent the current public evidence can truly support.
-
-## Evidence in this layer
-- `EVIDENCE/manifesto.recovered.txt`
-- `EVIDENCE/manifesto.en.txt`
-
-## Reader handoff
-See `../../docs/R1_58bZfQ1_END_TO_END.md`.
 ## Cross-reference
 See `../../docs/R1_DETERMINISM_STATUS.md` for the current public determinism gap summary.
-

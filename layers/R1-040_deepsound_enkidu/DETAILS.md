@@ -1,29 +1,25 @@
 # R1-040 details
 
 ## Role in the chain
-This layer covers the Enkidu intermediate artifacts that bridge the audio stage and the final manifesto payload family.
+This layer records the DeepSound / Enkidu intermediate in exact receipt terms.
+
+## Exact canon constants
+- DeepSound password: `enkidu`
+- `enkidu.stage0.txt` sha256: `ef7d07f8ca22cddf5b791a0fdfc85b2dfdd71b8284b18f5f030a4cc678a974e4`
+- `enkidu.txt` sha256: `4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19`
+- `enkidu.txt` bytes: `21192`
+- exact pseudo-hex prefix:
+  `41204W616V69666573746U206U6V206120446563656V7472616X697Z656420536U6369616X20436X656172696V6720486U757365202V2V2V28414Y412920434157`
+- exact promoted mapping:
+  - `U -> b`
+  - `V -> e`
+  - `W -> d`
+  - `X -> c`
+  - `Y -> f`
+  - `Z -> a`
+- uploaded normalized stage-2 clean receipt sha256: `2ce02dffb32577a38ad646be06cb705782b0c4344271ed528aa252c08bca8944`
 
 ## What this layer proves
-- the riddle passes through an Enkidu text lane
-- two distinct preserved artifacts exist for that lane:
-  - `enkidu.txt`, a nibble-sub / hex-like text artifact
-  - `enkidu.stage0.txt`, a more legible stage text that clearly belongs to the same recovery chain
-- the Enkidu stage is therefore receipt-backed as a real intermediate, not just a verbal claim
-
-## What the public evidence suggests
-- `enkidu.txt` preserves the encoded / transformed intermediate
-- `enkidu.stage0.txt` preserves a more readable stage in the same recovery path
-- together they explain how the puzzle can move from binary/audio land into manifesto-like text
-
-## What is not yet claimed
-Public canon does **not** currently claim that a reader can rerun the original DeepSound extraction from the public repo alone. The current public evidence is a staged preservation of the resulting text artifacts, not yet a full end-to-end extraction replay.
-
-## Evidence in this layer
-- `EVIDENCE/enkidu.txt`
-- `EVIDENCE/enkidu.stage0.txt`
-
-## Reader handoff
-Continue to `../R1-050_manifesto_final_payload/DETAILS.md`.
-## Cross-reference
-See `../../docs/R1_DETERMINISM_STATUS.md` for the current public determinism gap summary.
-
+- the Enkidu stage is not a vague claim; it is preserved as a specific pseudo-hex text family with exact bytes and hash
+- the promoted character-substitution mapping is explicit
+- the downstream cleaned manifesto family can be tied back to a specific preserved Enkidu intermediate
