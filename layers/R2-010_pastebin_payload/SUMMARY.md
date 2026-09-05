@@ -1,3 +1,3 @@
-# R2-010 summary
+# R2-010 · Historical payload triage
 
-This layer records the strongest currently promoted public receipts for the recovered-payload triage stage of R2. Public canon preserves decoded-file reports, JPEG reports, trailer reports, and numeric-anchor receipts. The strongest repeated observation in this layer is that two recovered JPEG-like outputs share the same 1773-byte trailer family, while a third candidate lacks a valid EOI in the current receipt set. This is analysis-state canon, not solved-state canon.
+These receipts preserve earlier candidate JPEG, trailer and numeric-anchor observations. They are not verified transformation steps from the live Pastebin input. The reproduced route is now [R2-020 hex transposition](../R2-020_hex_transposition/REPRODUCE.md).

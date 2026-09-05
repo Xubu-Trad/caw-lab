@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "ape_bytes": 8968236,
+  "ape_sha256": "57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575",
+  "pcm_bytes": 25964464,
+  "pcm_sha256": "9a50dfecbbe8612b6470f804e6a752d2d98ad43c2daae126fd80fc4bf094086d",
+  "pcm_sample_format": "48000 Hz, stereo, signed 16-bit little-endian",
+  "samples_per_channel": 6491116,
+  "lsb_container_pcm_offset": 0,
+  "header_hex": "44534346040113ac6a5c147142b32ece842d02453f46710c90b9",
+  "mode": 4,
+  "encrypted": 1,
+  "password": "enkidu",
+  "key": "ASCII zero-padded to 32 bytes",
+  "cipher": "AES-256-ECB",
+  "ciphertext_container_offset": 26,
+  "ciphertext_bytes_consumed": 21232,
+  "filename": "enkidu.txt",
+  "declared_payload_bytes": 21192,
+  "payload_sha256": "4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19",
+  "footer_hex": "0000000044535346",
+  "limitation": "Reproduces the known Enkidu file; does not establish a new riddle layer or exhaust other possible audio steganography."
+}

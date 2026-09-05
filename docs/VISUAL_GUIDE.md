@@ -13,11 +13,11 @@ flowchart LR
     A[Original tablet PNG] -->|reproduced| B[46 coordinates + poem]
     B -->|public OCR replay| C[Historical IPFS identifier]
     C --> D[Known APE audio receipt]
-    D -. extraction replay open .-> E[Preserved Enkidu text]
+    D -->|DeepSound replay| E[Extracted Enkidu text]
     E -->|reproduced| F[English manifesto]
 ```
 
-The solid historical CID-to-audio handoff has a preserved receipt; it is not a new live network retrieval. The dashed edge marks the remaining independent audio-extraction gap. [Replay the book cipher](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md).
+The solid historical CID-to-audio handoff has a preserved receipt; it is not a new live network retrieval. The audio-to-Enkidu extraction now reproduces independently. [Replay the book cipher](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md).
 
 ### What the image actually carries
 
@@ -29,9 +29,18 @@ The solid historical CID-to-audio handoff has a preserved receipt; it is not a n
 
 The poem and coordinates were already known. This update supplies an independent, exact replay from the image. It does not announce a new hidden layer.
 
-## R2 · keep the input fixed
+## R2 · a message in the hex
 
-`zrUfKaKV` is the trailhead. A file that looks compressed, encrypted or audio-like still needs a complete parser or checksum validation. A short header match cannot carry that claim.
+`zrUfKaKV` now yields a coherent message through an exact permutation of its hex characters.
+
+```mermaid
+flowchart LR
+    A[2884 source hex characters] -->|inverse stride 641| B[1442-byte message]
+    B -->|declared two-byte rotation| C[Readable beginning]
+    C -->|step 9 plus origin offset| A
+```
+
+[Read and reproduce the message](../layers/R2-020_hex_transposition/REPRODUCE.md). The full inverse restores every original character. No further hidden layer is established.
 
 [R2 status and limits](R2_zrUfKaKV_STATUS.md) · [Full layer index](../LAYER_INDEX.md)
 

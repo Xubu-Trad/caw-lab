@@ -1,0 +1,18 @@
+{
+  "source_file_sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+  "wrapper_whitespace_removed": 0,
+  "hex_digits": 2884,
+  "normalized_hex_sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+  "decoded_input_sha256": "a7f4839ffa14040e5a68d05ba668826ddcbda9bcdf28f5f8e5a59390a898d92c",
+  "origin_recipe": "P[j] = C[(641*j) mod 2884]; hex-decode P",
+  "reading_rotation": "Move the final two bytes (th) to the front, with no edits.",
+  "reading_recipe": "R[j] = C[(320+641*j) mod 2884]; hex-decode R",
+  "origin_inverse": "C[j] = P[(9*j) mod 2884]",
+  "reading_inverse": "C[j] = R[(4+9*j) mod 2884]",
+  "output_bytes": 1442,
+  "origin_sha256": "f8aeadf1d0f7933a5ae87ccc22ca4d0ad41ee038da85f785bb7a15feb7f8a12f",
+  "reading_sha256": "2a77d034354b3ee698dd0266f93dfd5627e033cb8f79ec891498b80b7eab0e52",
+  "bijection_uses_every_hex_digit_once": true,
+  "both_inverse_roundtrips_exact": true,
+  "no_padding_dropped_bytes_or_spelling_repairs": true
+}

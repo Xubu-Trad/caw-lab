@@ -1,0 +1,32 @@
+{
+  "lsb_container_bytes": 6491116,
+  "accounted_container_bytes": 21258,
+  "lsb_bytes_after_known_encrypted_file": 6469858,
+  "accounted_ciphertext_bytes": 21232,
+  "plaintext_header_bytes": 32,
+  "plaintext_payload_bytes": 21192,
+  "plaintext_footer_bytes": 8,
+  "aes_padding_bytes_inside_accounted_file": 0,
+  "decrypted_header_hex": "44535346656e6b6964752e74787400000000000000000000000052c800000000",
+  "decrypted_footer_hex": "0000000044535346",
+  "markers_entire_normal_lsb": {
+    "DSCF": [
+      0
+    ],
+    "DSSF": [],
+    "enkidu.txt": []
+  },
+  "markers_entire_ecb_decryption_from_26": {
+    "DSCF": [],
+    "DSSF": [
+      0,
+      21228
+    ],
+    "enkidu.txt": [
+      4
+    ]
+  },
+  "next_64_bytes_after_accounted_container": "d3757d62fd2a663dc7eb07dacef8c0e7f02de954b7530c1d4e2eea60ca7eba5efa0d65a367e9ff57e904729a4af8d44eb130df1f0fbf604d41cd6d614bfedf7a",
+  "next_64_decrypted_audio_bytes": "d1027f4c24aae8bd9014c88855f2ed2cdd76ae378653c671cae01dee62740ca98b87cb3de46ee76c70a3a8d7084c52b14adedd3ae033a49a0b6535ce776b2309",
+  "limits": "Full normal-quality LSB scan at four byte alignments finds only the one DSCF header. This bounded marker scan finds no second DSSF-framed file. The remaining audio is not thereby proved free of other encoding; no entropy or readable fragments are treated as a solve."
+}

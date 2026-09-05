@@ -22,8 +22,10 @@ The full preserved pseudo-hex body is now surfaced directly in this layer in:
 - the more legible stage text is preserved beside it as `enkidu.stage0.txt`
 
 ## What this layer still does not prove
-- not yet a single bounded public replay of the original DeepSound extraction
-- not yet the full public deterministic transform from pseudo-hex to final normalized manifesto
+- Historical custody and a fresh CID-to-audio network retrieval are separate from byte-level reproduction.
+- The terminal answer or absence of another layer is not established.
+
+The [public replay](REPRODUCE.md) now independently extracts Enkidu from the canonical APE, then converts the pseudohex to the exact normalized manifesto.
 
 ## Evidence in this layer
 - `EVIDENCE/enkidu.full_pseudohex.txt`

@@ -17,11 +17,11 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
    - The promoted public image URL is `https://ibb.co/58bZfQ1`.
 
 2. **Image entrypoint**
-   - The URL `https://ibb.co/58bZfQ1` resolves to the Yale / OldKing / first-clue tablet image family.
+   - The historical URL `https://ibb.co/58bZfQ1` identifies the Yale / OldKing / first-clue tablet image family; the replay pins the preserved image bytes.
    - That image is the public artifact from which the poem, coordinate, mirror, and downstream handoff material are historically derived.
 
 3. **Poem / coordinate layer**
-   - Public canon preserves the coordinate family and the fallback indexing rule separately from the anchor image.
+   - The canonical tablet independently reproduces the 46 coordinates and literal poem. The successful book recipe uses no fallback; older fallback attempts remain historical evidence.
    - Promoted receipt hashes from the determinism packet:
      - `H00243__full_coords.txt` -> `476f7fb5ccffd86fdf306c8a627feeacf8f087afcc22e3ad4b23fa76055c78ea`
      - `H00030__cids.txt` -> `0973232b8f8db5b2a7883a0d353ead07eb855eea4f496b99785fc08286ba0892`
@@ -49,6 +49,7 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
      - cid=`QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
 
 6. **DeepSound / Enkidu stage**
+   - The canonical APE now independently yields the exact Enkidu file. Normal-quality LSB decoding exposes `DSCF`; the padded `enkidu` key matches its SHA-1 verifier; AES-256-ECB yields `DSSF`, the filename, declared size and complete payload. [Exact replay](../layers/R1-040_deepsound_enkidu/REPRODUCE.md#canonical-ape-to-enkidu-2026-09-05).
    - The promoted pseudo-hex Enkidu artifact is preserved in full as `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt`.
    - This is the full preserved pseudo-hex body, not just a prefix excerpt.
    - The exact uploaded pseudo-hex receipt hash is:
@@ -72,9 +73,10 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
      - `manifesto.recovered.txt` -> `e5816ee2a75a1c939543773983f8b6d2b9eb05afee8d4f9ac91336e8ab6c01fa`
      - `manifesto.en.txt` -> `836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c`
 
-## What still blocks a fully deterministic public replay
-- the exact public replay from the book-cipher receipts to the canonical APE
-- upstream APE-to-Enkidu extraction provenance remains distinct from the now-reproduced pseudohex-to-English step
+## Remaining custody and completion questions
+- The book cipher reproduces the CID, and preserved canonical APE bytes reproduce Enkidu. Fresh live retrieval of those exact audio bytes through that CID remains a separate check.
+- Artifact replay does not authenticate historical authorship or prove that the manifesto is a terminal answer.
+- The audio extraction gap is closed; historical source custody and a new downstream layer are separate questions.
 
 ## Layer map
 - `layers/R1-000_yale_oldking/`
@@ -88,7 +90,11 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
 - The full body is also surfaced directly in `layers/R1-040_deepsound_enkidu/HEX_FULL.md`.
 
 ## Reproduced text step (2026-09-05)
-`python3 scripts/reproduce_enkidu.py` reproduces the committed `manifesto.en.txt` exactly by the mapping above, hex decoding, and replacing 60 tabs with single spaces. See `layers/R1-040_deepsound_enkidu/REPRODUCE.md` for intermediate hashes and limits. This bounded artifact comparison does not close the upstream gaps or establish a terminal riddle solve.
+`python3 scripts/reproduce_enkidu.py` reproduces the committed `manifesto.en.txt` exactly by the mapping above, hex decoding, and replacing 60 tabs with single spaces. See `layers/R1-040_deepsound_enkidu/REPRODUCE.md` for intermediate hashes and limits. The separate audio replay now closes APE-to-Enkidu extraction. These checks do not establish live IPFS custody or a terminal riddle solve.
 
 ## Reproduced image step (2026-09-05)
-`python3 scripts/reproduce_tablet.py` independently recovers the 46 coordinate pairs from RGB low bits and the known poem from the IEND CRC insertion. Both match the existing normalized receipts. See [the tablet replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-text receipt gap; the independent audio extraction gap remains; the public corpus-to-CID step is now reproduced.
+`python3 scripts/reproduce_tablet.py` independently recovers the 46 coordinate pairs from RGB low bits and the known poem from the IEND CRC insertion. Both match the existing normalized receipts. See [the tablet replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). The image-to-text, public corpus-to-CID and canonical APE-to-Enkidu steps now reproduce. Live IPFS retrieval remains separate.
+
+## Reproduced audio step (2026-09-05)
+
+`python3 scripts/reproduce_ape_to_enkidu.py canonical.ape canonical.wav` verifies the original APE and decoded PCM hashes, then extracts the complete Enkidu file. The output hash matches the pseudohex above. The 32-byte file header, 21,192-byte payload and 8-byte footer occupy exactly 21,232 ciphertext bytes; no unaccounted AES padding or second framed file was found in the bounded check. [Extraction receipt](../layers/R1-040_deepsound_enkidu/EVIDENCE/ape_to_enkidu_replay.json).

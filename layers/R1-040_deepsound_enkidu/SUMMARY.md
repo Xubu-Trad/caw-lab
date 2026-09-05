@@ -1,3 +1,3 @@
-# R1-040 summary
+# R1-040 · Audio to Enkidu and manifesto
 
-This layer preserves the exact Enkidu-stage handoff as text receipts. The full pseudo-hex body is now surfaced directly in `HEX_FULL.md` and carried in `EVIDENCE/enkidu.full_pseudohex.txt` (sha256 `4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19`), alongside `EVIDENCE/enkidu.stage0.txt` (sha256 `ef7d07f8ca22cddf5b791a0fdfc85b2dfdd71b8284b18f5f030a4cc678a974e4`).
+The canonical APE now yields the exact 21,192-byte Enkidu pseudohex through its encrypted DeepSound container. Password `enkidu`, zero-padding to 32 bytes and AES-256-ECB reproduce the file declared by the container header. The separate pseudohex conversion reproduces the normalized manifesto. [Replay and fingerprints](REPRODUCE.md). Historical source custody and terminal-answer claims remain separate.

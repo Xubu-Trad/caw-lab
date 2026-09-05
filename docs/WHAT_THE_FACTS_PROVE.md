@@ -18,3 +18,9 @@
 - Identity: on-chain deployer roles do not prove who a person is.
 - Intent: receipts alone do not prove motivations.
 - Control today: provenance does not imply an individual retains control now.
+
+## Riddle artifact checks (2026-09-05)
+
+The pinned R1 tablet reproduces its coordinates and poem. The pinned public OCR edition reproduces the historical CID. The canonical APE now independently yields the complete Enkidu pseudohex, whose deterministic text conversion reproduces `manifesto.en.txt`. [R1 verification status](R1_DETERMINISM_STATUS.md) and [audio extraction receipt](../layers/R1-040_deepsound_enkidu/EVIDENCE/ape_to_enkidu_replay.json).
+
+These are checks of artifact bytes and transformations. They do not establish fresh live IPFS custody, identify the author or operator, verify the manifesto's assertions, or prove that no later riddle layer exists. A password shared with a character or account name is not evidence of a person's identity.

@@ -1,28 +1,19 @@
 # Riddle progress
 
-Reviewed 2026-09-05. This is a reading guide, not a claim that both riddles are solved.
+## R2 · a decoded message
 
-## R1 — 58bZfQ1
+The live `zrUfKaKV` hex yields coherent English through a reversible step-9 transposition. Both the unrotated output and the explicitly rotated reading copy restore the original 2,884 hex characters exactly. [Message and method](../layers/R2-020_hex_transposition/REPRODUCE.md).
 
-Follow the [R1 narrative](R1_58bZfQ1_END_TO_END.md) for the historical sequence, then the [determinism status](R1_DETERMINISM_STATUS.md) for the exact remaining gaps.
+The message concerns building CAW and removing privileged developer control. It does not explicitly identify a further ciphertext or URL. This proves a decoded layer, not that the entire riddle is finished.
 
-The preserved pseudohex-to-English conversion is reproduced byte for byte by [scripts/reproduce_enkidu.py](../scripts/reproduce_enkidu.py). Its [receipt](../layers/R1-040_deepsound_enkidu/REPRODUCE.md) states the alphabet mapping, 60 tab replacements, and intermediate/output hashes. This does not independently reproduce the upstream book-cipher or audio extraction.
+## R1 · the audio extraction gap is closed
 
-## R2 — zrUfKaKV
+The preserved tablet yields its coordinates and poem; the pinned public Gilgamesh OCR yields the historical CID. Canonical APE audio now independently yields the exact Enkidu file through its encrypted DeepSound container. Enkidu pseudohex then reproduces the manifesto byte for byte. [Audio and text replay](../layers/R1-040_deepsound_enkidu/REPRODUCE.md).
 
-R2 remains unsolved. Begin with [the R2 status and provenance limitations](R2_zrUfKaKV_STATUS.md). Do not substitute a historical paste reference for a verified R2 input, and do not treat readable text or a translation as a solved decode.
+Live CID-to-audio retrieval custody and any further hidden layer remain separate questions. Single-channel strings such as `LfjbJnjJ…` are explained by the known coordinate bits; they add no independent cipher data.
 
-## Navigate by question
+## Continue from evidence
 
-| Question | Reference |
-| --- | --- |
-| Which layer comes next? | [Generated layer index](../LAYER_INDEX.md) |
-| What are the public chain anchors? | [On-chain trace](ONCHAIN_TRACE.md) |
-| What do the receipts actually establish? | [Facts and limits](WHAT_THE_FACTS_PROVE.md) |
-| Where are the exact inputs and commands? | Each layer's EVIDENCE directory and REPRODUCE.md, linked from the layer index |
+[Visual guide](VISUAL_GUIDE.md) · [Layer index](../LAYER_INDEX.md) · [R1 limits](R1_DETERMINISM_STATUS.md) · [R2 status](R2_zrUfKaKV_STATUS.md)
 
-Only a reproduced transformation supports a solved-step claim. Source custody, historical reports, and hypotheses are different forms of evidence.
-
-## Reproduced tablet extraction (2026-09-05)
-
-The original tablet now reproduces both the 46 coordinates and literal poem. [Run the exact image replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-clues step; the independent audio extraction gap remains open. [The public book-cipher replay](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md) now closes the corpus-to-CID step.
+Archived instructions and AI conclusions are historical material. A new step needs exact input bytes, a complete transformation, an independently checked output and clear limits.

@@ -1,3 +1,5 @@
+> Historical receipt. The current verified R2 decode is documented in [R2 status](../../../docs/R2_zrUfKaKV_STATUS.md). Candidate containers below are not steps in that decode.
+
 # Riddle 2 (zrUfKaKV) — status
 
 Anchor tx: `0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4`

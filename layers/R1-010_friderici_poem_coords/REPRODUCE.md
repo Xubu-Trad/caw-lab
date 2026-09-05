@@ -53,3 +53,9 @@ python3 scripts/reproduce_exif_thumbnail.py
 Two transcribed screenshot prefixes match this EXIF hex at digit offsets 25,222 and 12,511. The latter starts on an odd hex digit, halfway through a byte. This explains why a displayed line cannot automatically be treated as a byte-aligned hex input. These are prefix comparisons, not full screenshot OCR or proof of why a particular candidate image failed. The complete profile and thumbnail are ordinary image metadata; this check establishes no new cipher layer.
 
 [`tablet_replay.json`](EVIDENCE/tablet_replay.json) records the machine-checkable result. [PNG structure reference](https://www.w3.org/TR/png-3/) defines the chunk and CRC layout.
+
+## Single-channel strings are coordinate projections
+
+`python3 scripts/reproduce_coordinate_aliases.py` (requires Pillow) reproduces the apparent `Fb'` and `LfjbJnjJ…` strings from the known coordinate bits alone. Selecting every third known RGB bit yields exactly the first 97 red-channel bytes; reversing the first 80 bytes yields the familiar mirrored row. The historical quote escapes three double quotes; removing only those escape backslashes gives the exact 80-byte comparison. The green-channel text is likewise a projection.
+
+[Measured receipt](EVIDENCE/coordinate_aliases.json). These particular strings add no independent cipher data. This does not exhaust all other pixels or possible encodings.

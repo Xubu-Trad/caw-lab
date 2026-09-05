@@ -1,0 +1,11 @@
+{
+  "url": "https://pastebin.com/raw/zrUfKaKV",
+  "retrieved_at_utc": "2026-09-05T22:19:44.090639+00:00",
+  "http_status": 200,
+  "response_bytes": 2884,
+  "response_sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+  "hex_decoded_bytes": 1442,
+  "hex_decoded_sha256": "a7f4839ffa14040e5a68d05ba668826ddcbda9bcdf28f5f8e5a59390a898d92c",
+  "matches_preserved_full_page_and_local_candidate": true,
+  "limits": "Current public retrieval and preserved evidence agree. This does not independently authenticate the full historical custody or author identity."
+}

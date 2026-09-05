@@ -1,3 +1,5 @@
+> Historical receipt. The current verified R2 decode is documented in [R2 status](../../docs/R2_zrUfKaKV_STATUS.md). Candidate containers below are not steps in that decode.
+
 # R2-010 - Pastebin payload receipt verification
 
 This layer verifies the committed recovered-payload triage receipts only.

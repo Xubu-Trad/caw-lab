@@ -26,3 +26,4 @@ jobs:
         run: |
           python3 scripts/reproduce_tablet.py
           python3 scripts/reproduce_enkidu.py
+          python3 scripts/reproduce_r2_transposition.py layers/R2-020_hex_transposition/EVIDENCE/zrUfKaKV.hex --out-dir "$RUNNER_TEMP/r2-replay"

@@ -1,0 +1,74 @@
+{
+  "png_sha256": "889253e7fa85f5e5fd05622b8a105fd61acf83bdfdae3e600bdfedd173b2da41",
+  "rgb_coordinates_bytes": 290,
+  "rgb_coordinates_sha256": "cd8b7360f4363064f6c0719d1658e859b546dc5d95a10aa026a68b268ed53998",
+  "known_bit_count_including_NUL": 2328,
+  "channels": [
+    {
+      "channel": "r",
+      "predicted_bytes": 97,
+      "prediction_sha256": "9b310e2d3b84769c1a744da86a1a482dcc9993d754cf99f4ec63330fc51b8148",
+      "predicted_hex": "466227604362226a4a4b2e6046404266266a6b424b4a264a6a6a2662234a266b226a6b4e4067606f6063644667274a224a4a424b6e6b426a6e4062604266274a6a426a4364436b2e4a6a6e4a626a664c66646e67274a234b2a6a2e6a26426a6e40",
+      "predicted_text": "Fb'`Cb\"jJK.`F@Bf&jkBKJ&Jjj&b#J&k\"jkN@g`o`cdFg'J\"JJBKnkBjn@b`Bf'JjBjCdCk.JjnJbjfLfdng'J#K*j.j&Bjn@",
+      "matches_original_lane_prefix": true,
+      "printable_runs": [
+        {
+          "offset": 0,
+          "length": 97,
+          "text": "Fb'`Cb\"jJK.`F@Bf&jkBKJ&Jjj&b#J&k\"jkN@g`o`cdFg'J\"JJBKnkBjn@b`Bf'JjBjCdCk.JjnJbjfLfdng'J#K*j.j&Bjn@"
+        }
+      ]
+    },
+    {
+      "channel": "g",
+      "predicted_bytes": 97,
+      "prediction_sha256": "17e6a527ce2d1332fc61a26ce5422d792341ce09093e4588e127262a6ebd0939",
+      "predicted_hex": "3b525a593a52533222735251733932535a3203332233521223335a53525352135a130233311359125913513a525312521223132213223b2333311a5132535372027b223a593313523202130233023b313359325252325a32521253325233033330",
+      "predicted_text": ";RZY:RS2\"sRQs92SZ2\u00033\"3R\u0012#3ZSRSR\u0013Z\u0013\u000231\u0013Y\u0012Y\u0013Q:RS\u0012R\u0012#\u0013\"\u0013\";#31\u001aQ2SSr\u0002{\":Y3\u0013R2\u0002\u0013\u00023\u0002;13Y2RR2Z2R\u0012S2R3\u000330",
+      "matches_original_lane_prefix": true,
+      "printable_runs": [
+        {
+          "offset": 0,
+          "length": 18,
+          "text": ";RZY:RS2\"sRQs92SZ2"
+        },
+        {
+          "offset": 24,
+          "length": 7,
+          "text": "#3ZSRSR"
+        },
+        {
+          "offset": 78,
+          "length": 11,
+          "text": ";13Y2RR2Z2R"
+        }
+      ]
+    },
+    {
+      "channel": "b",
+      "predicted_bytes": 97,
+      "prediction_sha256": "a88189b1f3e400b7e3bff8e05b920e0e7e57117c6d60a3ccd7400262c866b908",
+      "predicted_hex": "99991192909818d98b99119a9292999018d9c99289d911998898109918981bd910d889929ad99ad19ad992da90189b199988d288d289da89d29a9a9ad8911999899a89919a91d913998ad2cad2c99a92d99ad091199a10d913d91199119a89d298",
+      "predicted_text": "\ufffd\ufffd\u0011\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\ufffd\u0011\ufffd\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\ufffd\ufffd\ufffd\u0011\ufffd\ufffd\ufffd\u0010\ufffd\u0018\ufffd\u001b\ufffd\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\u0019\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0019\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0013\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0019\ufffd\u0010\ufffd\u0013\ufffd\u0011\ufffd\u0011\ufffd\ufffd\ufffd\ufffd",
+      "matches_original_lane_prefix": true,
+      "printable_runs": []
+    }
+  ],
+  "red_first_row_reversed_bytes": {
+    "method": "Reverse the 80 red-channel bytes of the first 640-pixel row. This corresponds to horizontal reversed pixel traversal and opposite bit packing.",
+    "text": "LfjbJnjJ.kCdCjBjJ'fB`b@njBknKBJJ\"J'gFdc`o`g@Nkj\"k&J#b&jjJ&JKBkj&fB@F`.KJj\"bC`'bF",
+    "sha256": "f81be2b74ab9d158b98ee750ca1db954564e882c783f7e4660477a0e0ade046c",
+    "fully_predictable_from_known_coordinates": true
+  },
+  "historical_exact_match": {
+    "file": "messages12.html",
+    "message_id": "message12260",
+    "export_timestamp": "24.05.2026 18:06:09 UTC-05:00",
+    "forwarded_timestamp": "12.05.2022 05:57:08 UTC-05:00",
+    "raw_quote_bytes": 83,
+    "normalization": "Remove three backslashes used to escape literal double quotes; no other characters changed",
+    "normalized_quoted_bytes": 80,
+    "quote_sha256": "f81be2b74ab9d158b98ee750ca1db954564e882c783f7e4660477a0e0ade046c",
+    "exact_match": true
+  }
+}

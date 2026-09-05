@@ -1,0 +1,11 @@
+{
+  "live_input_roundtrip": true,
+  "all_bytes_ascii": true,
+  "only_printable_or_newline": true,
+  "source_length": 2884,
+  "plaintext_length": 1442,
+  "one_hex_digit_mutated_rejected": true,
+  "one_hex_digit_deleted_rejected": true,
+  "non_hex_inserted_rejected": true,
+  "wrapper_whitespace_case_only_permitted": true
+}

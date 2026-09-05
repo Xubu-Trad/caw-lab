@@ -15,12 +15,16 @@ Two on-chain trailheads. A record of what can be reproduced, and what remains op
 <p><a href="layers/R1-010_friderici_poem_coords/REPRODUCE.md">Method, hashes and limits →</a></p>
 </td></tr></table>
 
+## A message recovered
+
+The R2 hex now yields a complete message about building CAW. Every character survives an exact round trip. **[Read the message and replay the cipher](layers/R2-020_hex_transposition/REPRODUCE.md).**
+
 ## Where we stand
 
 | Trail | Reproduced | Still open |
 | --- | --- | --- |
-| **R1 · 58bZfQ1** | Image → coordinates and poem → book-cipher CID. Preserved Enkidu pseudohex → English manifesto. | Live audio retrieval and independent audio-to-Enkidu extraction. |
-| **R2 · zrUfKaKV** | Public anchor and bounded source receipts. | Input provenance and a validated decode. **Unsolved.** |
+| **R1 · 58bZfQ1** | Tablet → clues → book-cipher CID; canonical audio → Enkidu → manifesto. | Live CID-to-audio custody and any further layer. |
+| **R2 · zrUfKaKV** | Live hex → coherent message, with an exact inverse check. **Decoded layer verified.** | Any subsequent hidden layer or terminal answer. |
 
 An archived claim is a lead. A replay is evidence. Neither alone proves the whole riddle is finished.
 
@@ -37,6 +41,7 @@ An archived claim is a lead. A replay is evidence. Neither alone proves the whol
 ```sh
 python3 scripts/reproduce_tablet.py
 python3 scripts/reproduce_enkidu.py
+python3 scripts/reproduce_r2_transposition.py layers/R2-020_hex_transposition/EVIDENCE/zrUfKaKV.hex --out-dir replay-r2
 bash scripts/check_canon.sh
 ```
 

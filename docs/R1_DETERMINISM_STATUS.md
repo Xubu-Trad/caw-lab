@@ -1,9 +1,8 @@
 # R1 determinism status
 
-## Purpose
-State exactly what is stable in public canon and exactly what still prevents a fully deterministic public replay.
+The tablet clues, book cipher, audio extraction and Enkidu text conversion reproduce against pinned inputs. Fresh byte-verified retrieval of the audio through the historical IPFS CID remains separate. These results do not establish a terminal riddle answer.
 
-## Stable canon constants
+## Stable artifact constants
 - R1 transaction ID: `0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b`
 - Public short code: `58bZfQ1`
 - Public image URL: `https://ibb.co/58bZfQ1`
@@ -14,25 +13,22 @@ State exactly what is stable in public canon and exactly what still prevents a f
 - Manifesto recovered sha256: `e5816ee2a75a1c939543773983f8b6d2b9eb05afee8d4f9ac91336e8ab6c01fa`
 - Manifesto English sha256: `836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c`
 
-## What is already receipt-backed
-- the public anchor
-- the historical target CID
-- the canonical APE receipt versus the non-canonical stripped family
-- the Enkidu pseudo-hex intermediate
-- the normalized manifesto family
 
-## Exact determinism gap
-The image-to-clues and public-corpus-to-CID steps now reproduce independently, as does the preserved Enkidu-to-English conversion. [Book-cipher receipt](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md). A fresh byte-verified live audio retrieval and independent extraction of the preserved Enkidu bytes from canonical APE remain open. Historical audio receipts are retained.
+The recovered/English manifesto hashes identify separate preserved variants. The reproducible text conversion produces the English hash `836c9864…`.
 
-## Why the gap is narrow now
-The uploaded receipts fix the target constants. The remaining problem is not "what is the target?" but "which exact public replay recipe reaches the target without relying on historical side knowledge?"
+## Reproduced steps
 
-## Reproduced text conversion (2026-09-05)
+| Step | Result | Replay |
+| --- | --- | --- |
+| Tablet | Exact 46 coordinates and literal poem | [Image extraction](../layers/R1-010_friderici_poem_coords/REPRODUCE.md) |
+| Book cipher | Exact historical CID from the pinned OCR edition; no fallback | [Corpus selection](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md) |
+| Canonical APE | Exact 21,192-byte Enkidu pseudohex; password verifier, declared length and footer checked | [Audio extraction](../layers/R1-040_deepsound_enkidu/REPRODUCE.md#canonical-ape-to-enkidu-2026-09-05) |
+| Enkidu text | Translate `UVWXYZ` to `fedcba`, hex-decode, replace exactly 60 tabs with single spaces | [Text conversion](../layers/R1-040_deepsound_enkidu/REPRODUCE.md#enkidu-text-to-manifesto) |
 
-Run `python3 scripts/reproduce_enkidu.py` from the repository checkout, preserving the committed byte-level line endings. The script verifies the input hash, translates `UVWXYZ` to `fedcba`, hex-decodes, and replaces exactly 60 tab bytes with single spaces. Its 10,596-byte output exactly matches the committed `manifesto.en.txt` hash listed above.
+The audio replay uses normal-quality DeepSound LSB decoding and AES-256-ECB with ASCII `enkidu` zero-padded to 32 bytes. It reads the file length from the decrypted header before checking the expected output. [Machine-readable receipt](../layers/R1-040_deepsound_enkidu/EVIDENCE/ape_to_enkidu_replay.json).
 
-See [the reproduction receipt](../layers/R1-040_deepsound_enkidu/REPRODUCE.md) for the intermediate hash and checks. This recipe was derived by comparing preserved input and target artifacts; it does not establish the historical solver’s method or resolve upstream audio extraction. The separate public book-cipher replay now closes the corpus-to-CID step. R2 remains unsolved.
+## Remaining boundary
 
-## Reproduced tablet extraction (2026-09-05)
+The independent APE-to-Enkidu extraction gap is closed. This run used preserved APE bytes with the recorded canonical hash; it did not establish fresh live IPFS retrieval or the historical chain of custody. Historical CID hashing receipts remain evidence of their own checks.
 
-The original tablet now reproduces both the 46 coordinates and literal poem. [Run the exact image replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-clues step; the independent audio extraction gap remains open. The public corpus-to-CID recipe now reproduces.
+The replay verifies transformations between artifacts. It does not establish who authored them, authenticate every historical claim, or prove that no further layer exists. Follow [current riddle progress](RIDDLE_PROGRESS.md) for work beyond these reproduced R1 stages.

@@ -1,75 +1,17 @@
-# R2 (zrUfKaKV) — status and triage narrative
+# R2 · the hex message now reproduces
 
-## Goal
-State the second-riddle chain with full canon identifiers, full tx IDs, full hashes, full numeric anchors, and full public references where they are actually promoted.
+**Verified on 2026-09-05:** the current public `zrUfKaKV` payload decodes through an exact step-9 hex transposition. [Read the message](../layers/R2-020_hex_transposition/EVIDENCE/reading_rotation.txt) · [Replay every byte](../layers/R2-020_hex_transposition/REPRODUCE.md).
 
-## Public anchors
-- R2 transaction ID: `0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4`
-- Public short code: `zrUfKaKV`
-- Historical tooling mentioned `yhcajZq0`; its relationship to R2 is unverified. The on-chain marker is `zrUfKaKV`.
+The source is 2,884 hex characters, SHA-256 `18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76`. Ordinary hex decoding yields the familiar 1,442-byte `a7f4839f…` candidate. Reordering the hex characters by stride 641 modulo 2884 produces coherent text. Moving the final two bytes to the front establishes the declared reading origin. Both forms re-encode exactly.
 
-## Current public canon
-Public canon does not claim a complete end-to-end R2 solve. It preserves the anchor, the status/checksum packs, and the strongest recovered-payload triage receipts.
+The text discusses the liquidity lock and building a decentralized CAW implementation without privileged developer control. These are the message's words, not an audit of any contract. The recovered text contains no explicit new URL, password or ciphertext. A further hidden layer and the riddle's terminal answer remain unproven.
 
-## Strongest preserved observations
-1. Three text-origin inputs were preserved in decoded-file receipts:
-   - `INPUT/cleaned_hex_ready.txt`
-   - `INPUT/revised_output_hex.txt`
-   - `INPUT/manifesto_replicate_output_4.3_AUDIO_HEX.txt`
+## Provenance
 
-2. Their exact decoded-file receipt facts are:
-   - `INPUT/cleaned_hex_ready.txt`
-     - bytes: `3129`
-     - sha256: `158e412566e1b318b86de33e19aba3fe714d6a0adabbbd13585d75fde1994701`
-     - head hex: `ffd8ffe000104a464946000101000001`
-     - type: `jpeg`
-   - `INPUT/revised_output_hex.txt`
-     - bytes: `3251`
-     - sha256: `67588723e6398a7e920f3a0f4ad05ea4d565960fe1921b0827fa0314c2497fdb`
-     - head hex: `ffd8ffe000104a464946000101000001`
-     - type: `jpeg`
-   - `INPUT/manifesto_replicate_output_4.3_AUDIO_HEX.txt`
-     - bytes: `3251`
-     - sha256: `44f8e88920f1646cc9c9ac399aac5f62e62afc5c625ab5f684a0eef0684ae3c7`
-     - head hex: `ffd8ffe000104a464946000101000001`
-     - type: `jpeg`
+- Historical on-chain trailhead: `0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4`, marker `zrUfKaKV`.
+- [Current public Pastebin source](https://pastebin.com/raw/zrUfKaKV) returned HTTP 200; full source bytes match the preserved local candidate and saved page.
+- `yhcajZq0` is a separate historical reference. Its connection to this payload is not established.
 
-3. The strongest repeated structural signal is the shared trailer family:
-   - `cleaned_hex_ready.jpg`
-     - bytes: `3129`
-     - eoi_offset: `1354`
-     - trailer_bytes: `1773`
-     - head_sha256: `1c177ef0d80173583038459325e918279ef61ff165924dac25455a629508f359`
-     - trailer_sha256: `b469e9872446c65a7d0a0b93f425e8df5720e59f01b2d946f433b3e1a4ef28ab`
-   - `revised_output_hex.jpg`
-     - bytes: `3251`
-     - eoi_offset: `1476`
-     - trailer_bytes: `1773`
-     - head_sha256: `b8920a338a2e9015a7ea96579c2e6fcb9238ff1ae2a1638d0531661ace8c737f`
-     - trailer_sha256: `b469e9872446c65a7d0a0b93f425e8df5720e59f01b2d946f433b3e1a4ef28ab`
-   - `manifesto_replicate_output_4.3_AUDIO_HEX.jpg`
-     - bytes: `3251`
-     - eoi_offset: `-1`
-     - trailer_bytes: `0`
-     - head_sha256: `44f8e88920f1646cc9c9ac399aac5f62e62afc5c625ab5f684a0eef0684ae3c7`
+## Superseded research branches
 
-4. The preserved numeric anchor family is:
-   - `21000000`
-   - `10500000`
-   - `5250000`
-   - `2625000`
-   - `1312500`
-   - `120`
-   - `21000000:10500000:5250000:2625000:1312500`
-   - `21000000-10500000-5250000-2625000-1312500`
-
-## What public canon now says clearly
-- the exact R2 starting point
-- the exact recovered payload candidates
-- the exact repeated trailer hash that currently matters most
-- the exact numeric anchors that must be preserved for replay work
-
-## What public canon still does not claim
-- no finished end-to-end plaintext
-- no final container identity for the shared trailer family
-- no single fully deterministic replay from `zrUfKaKV` to final solved payload
+Earlier JPEG-like files, repeated trailers, numeric anchors, XOR scans and syntactic zlib headers were candidate observations. They are not validated steps from the live input. The exact hex transposition supersedes their role as the main R2 route. Historical receipts are preserved so failed approaches remain auditable; none should be described as a recovered picture or audio layer without an independent parser and provenance chain.

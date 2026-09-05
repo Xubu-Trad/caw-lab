@@ -121,7 +121,7 @@ This repo exists to keep the work **auditable**:
 
 ### R1 (58bZfQ1) — finish criteria
 - Reproduce end-to-end from: **Yale/OldKing image → Friderici/coords → book-cipher → CID → APE → DeepSound (enkidu) → final payload**.
-- Completed: [exact public book-cipher recipe](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md). Independent audio extraction remains open.
+- Completed: [exact public book-cipher recipe](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md). [Independent audio extraction](../layers/R1-040_deepsound_enkidu/REPRODUCE.md) now reproduces against the canonical APE bytes.
 - Ensure every step has:
   - commands in `REPRODUCE.md`,
   - outputs hashed into `MANIFEST.repo.sha256`,
