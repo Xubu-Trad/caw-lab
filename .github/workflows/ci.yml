@@ -27,3 +27,5 @@ jobs:
           python3 scripts/reproduce_tablet.py
           python3 scripts/reproduce_enkidu.py
           python3 scripts/reproduce_r2_transposition.py layers/R2-020_hex_transposition/EVIDENCE/zrUfKaKV.hex --out-dir "$RUNNER_TEMP/r2-replay"
+          python3 scripts/verify_r2_independent.py layers/R2-020_hex_transposition/EVIDENCE/zrUfKaKV.hex --out-dir "$RUNNER_TEMP/r2-independent"
+          python3 scripts/verify_manifesto_formatting.py layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt --out-dir "$RUNNER_TEMP/manifesto-formatting"

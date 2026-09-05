@@ -46,7 +46,7 @@ Every hex character appears exactly once. Both inverse checks restore all 2,884 
 
 ## What this establishes
 
-The message discusses relocking liquidity, no financial incentive, decentralization, a public GitHub implementation, peer review and eliminating developer privileges. These are statements inside the decoded message, not independently verified claims about deployed contracts or people.
+The message discusses relocking liquidity, no financial incentive, decentralization, a GitHub implementation, peer review and eliminating developer privileges. These are statements inside the decoded message, not independently verified claims about deployed contracts or people.
 
 The direct public retrieval returned HTTP 200 and exactly the same bytes as the preserved candidate. A saved Pastebin page also contains the complete matching hex. This closes the current-input ambiguity; it does not authenticate every historical custody claim.
 

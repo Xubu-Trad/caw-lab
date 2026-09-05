@@ -1,0 +1,19 @@
+{
+  "input_sha256": "a7f4839ffa14040e5a68d05ba668826ddcbda9bcdf28f5f8e5a59390a898d92c",
+  "utf16le_decodes_without_error": true,
+  "codepoints": 721,
+  "utf8_serialization_bytes": 2156,
+  "utf8_serialization_sha256": "494ffd3029a6d788c6ccc3cdf44da9b511c465998b12ed3fea218d21e6a18e57",
+  "can_roundtrip_back_to_same_bytes": true,
+  "raw_input_has_newline": false,
+  "input_starts_787e2963": false,
+  "787e2963_occurrences": [],
+  "article_claimed_translation_validation": "A hash of mechanical UTF16 output only identifies that output. It does not validate a translated poem or establish natural-language meaning. No translation model was run in this audit.",
+  "peter_supplied_string": {
+    "hex_chars": 1645,
+    "even": false,
+    "prefix": "787e296362717e6e",
+    "text_ascii_sha256": "2d7695eb136a188c7429ce0bc5250ec3afaabbcac136d1efb8dde86848710891",
+    "exact_substring_of_live_hex": false
+  }
+}

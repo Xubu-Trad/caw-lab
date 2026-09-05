@@ -1,0 +1,37 @@
+{
+  "source_raw_bytes": 2884,
+  "source_sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+  "source_entirely_lowercase_hex": true,
+  "source_decoded_sha256": "a7f4839ffa14040e5a68d05ba668826ddcbda9bcdf28f5f8e5a59390a898d92c",
+  "nibble_positions_unique": 2884,
+  "nibble_histogram_equal": true,
+  "scatter_rule": "Assign C[i] to P[(9*i+4) mod2884]",
+  "all_cipher_characters_roundtrip_equal": true,
+  "reading_bytes": 1442,
+  "reading_sha256": "2a77d034354b3ee698dd0266f93dfd5627e033cb8f79ec891498b80b7eab0e52",
+  "raw_origin_sha256": "f8aeadf1d0f7933a5ae87ccc22ca4d0ad41ee038da85f785bb7a15feb7f8a12f",
+  "raw_origin_to_reading": "Move final2bytes th tofront; no edits",
+  "reading_first24": "the lp was relocked.  we",
+  "reading_last24": " says it is.\n\ngl anons. ",
+  "modular_inverse": {
+    "multiplier": 9,
+    "inverse": 641,
+    "product": 5769,
+    "modulus": 2884
+  },
+  "article_file_sha256": "beb371ddb63e3ddc35dd75226979880fceba2fb4fa12dff0dcc07e293c499354",
+  "exact_hex_runs_in_article": [
+    {
+      "character_offset": 223859,
+      "line": 10748,
+      "hex_chars": 2884,
+      "sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76"
+    }
+  ],
+  "roundtrip_counterexample": {
+    "stride": 1,
+    "roundtrip_exact": true,
+    "meaning": "Identity is also reversible but original bytes are incoherent; reversibility alone is not semantic evidence."
+  },
+  "rotation_ambiguity": "All1442byte circular rotations remain the same decoded circular message. The natural the...gl anons. boundary is chosen semantically and explicitly disclosed; it is not a unique boundary supplied by a checksum."
+}

@@ -17,7 +17,7 @@ Two on-chain trailheads. A record of what can be reproduced, and what remains op
 
 ## A message recovered
 
-The R2 hex now yields a complete message about building CAW. Every character survives an exact round trip. **[Read the message and replay the cipher](layers/R2-020_hex_transposition/REPRODUCE.md).**
+The R2 hex now yields a complete message about building CAW. Every character survives an exact round trip. **[Read the message](layers/R2-020_hex_transposition/MESSAGE.md)** · **[How it was found and verified](docs/R2_RECOVERY_EXPOSE.md)** · [Replay the cipher](layers/R2-020_hex_transposition/REPRODUCE.md).
 
 ## Where we stand
 

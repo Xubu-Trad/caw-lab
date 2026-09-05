@@ -1,0 +1,25 @@
+{
+  "source_sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+  "discovery_date": "2026-09-05",
+  "phase_1": {
+    "family": "Keep high nibbles in place; circularly shift low nibbles, with and without reversal",
+    "variants": 2884,
+    "winning_forward_shift": 320,
+    "intermediate_is_plaintext": false
+  },
+  "phase_2": {
+    "invertible_byte_strides": 612,
+    "rectangular_traversal_variants": 128,
+    "total_variants": 740,
+    "winning_byte_stride": 641,
+    "variants_are_not_claimed_unique": true
+  },
+  "training": {
+    "description": "Previously preserved R1 manifesto variant lowercased; not the R2 target paragraph",
+    "sha256": "2c15835bc3b8f0eb46ae9537f2109f0020bed50f16a8c9521f26dd7674c035d8"
+  },
+  "simplified_gather_rule": "P[j] = C[(641*j) mod 2884]",
+  "reading_rotation": "Move final two bytes th to front",
+  "independent_audit": "All 1224 invertible hex strides times two nibble parities; top result repeated with unrelated Python documentation corpus",
+  "limits": "Candidate counts describe tested configurations, not formal probabilities or global proof of uniqueness. Original and failed search outputs are preserved in the private journal."
+}

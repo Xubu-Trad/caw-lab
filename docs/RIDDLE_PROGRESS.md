@@ -6,11 +6,17 @@ The live `zrUfKaKV` hex yields coherent English through a reversible step-9 tran
 
 The message concerns building CAW and removing privileged developer control. It does not explicitly identify a further ciphertext or URL. This proves a decoded layer, not that the entire riddle is finished.
 
+The [recovery report](R2_RECOVERY_EXPOSE.md) documents the discovery search, a separate implementation, complete character mapping and current limits. The full matching hex was also located in the supplied historical article. A separate model using unrelated documentation ranks the same ordering first.
+
 ## R1 · the audio extraction gap is closed
 
 The preserved tablet yields its coordinates and poem; the pinned public Gilgamesh OCR yields the historical CID. Canonical APE audio now independently yields the exact Enkidu file through its encrypted DeepSound container. Enkidu pseudohex then reproduces the manifesto byte for byte. [Audio and text replay](../layers/R1-040_deepsound_enkidu/REPRODUCE.md).
 
 Live CID-to-audio retrieval custody and any further hidden layer remain separate questions. Single-channel strings such as `LfjbJnjJ…` are explained by the known coordinate bits; they add no independent cipher data.
+
+## Original formatting checked
+
+The original manifesto's 60 tabs and pseudohex alphabet now have a [byte-level replay](../layers/R1-050_manifesto_final_payload/EVIDENCE/formatting_2026-09-05/README.md). The historical N extraction from `moonning` fails: the source says `mooning`. No further layer was verified by the bounded capitalization, spacing and typo checks. Their full attempt records remain private.
 
 ## Continue from evidence
 

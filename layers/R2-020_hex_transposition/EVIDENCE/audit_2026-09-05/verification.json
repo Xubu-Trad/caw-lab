@@ -1,0 +1,56 @@
+{
+  "source_sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+  "source_hex_characters": 2884,
+  "rule": "Assign cipher digit C[i] to reading-hex position (9*i+4) mod 2884",
+  "every_destination_filled_once": true,
+  "exact_inverse": true,
+  "reading_bytes": 1442,
+  "reading_words_whitespace_split": 273,
+  "reading_sha256": "2a77d034354b3ee698dd0266f93dfd5627e033cb8f79ec891498b80b7eab0e52",
+  "origin_sha256": "f8aeadf1d0f7933a5ae87ccc22ca4d0ad41ee038da85f785bb7a15feb7f8a12f",
+  "rotation": "Reading moves final two bytes th from raw origin to front; semantic boundary choice, no edits",
+  "character_map_rows": 1442,
+  "character_map_sha256": "075f0fafa6bee6c023847ab510dbaddf2829fb3e04508cd5f4c996098465056e",
+  "limit": "Round-trip equality alone cannot establish meaningful decoding. The complete coherent message and independently scored ranking provide additional evidence.",
+  "unrelated_corpus_ranking": {
+    "training": "Python pydoc_data.topics, sorted topics joined by LF, UTF-8, lowercase",
+    "training_sha256": "87344f48eefc272ca1656b175c636d243a6a5b01a7fb9bd7cdc4fc9512719fe5",
+    "training_bytes": 517459,
+    "classes_tested": 2448,
+    "top_five": [
+      {
+        "stride": 641,
+        "parity": 0,
+        "score": -2.717053205914884,
+        "sha256": "f8aeadf1d0f7933a5ae87ccc22ca4d0ad41ee038da85f785bb7a15feb7f8a12f"
+      },
+      {
+        "stride": 2705,
+        "parity": 0,
+        "score": -6.599656961267716,
+        "sha256": "b40d50d822fa1f5f624e888de08b889700ca96ec8cc7a8f09da94f8e2bc0cd82"
+      },
+      {
+        "stride": 2021,
+        "parity": 0,
+        "score": -6.61121193167955,
+        "sha256": "15fe9f7d347e417d30176ea0e1e8e3ef3ce28e5b03a73939391e36709c4723f1"
+      },
+      {
+        "stride": 2083,
+        "parity": 0,
+        "score": -6.622721004250425,
+        "sha256": "1cec91726ec1ad86f5f470b5de942d4352177a93e6186962773f0d8181f629da"
+      },
+      {
+        "stride": 1819,
+        "parity": 0,
+        "score": -6.6423933974938825,
+        "sha256": "8f389984110e78d2db141112ce7c84b2ef1b89847e14e08fcf6335a6900346a7"
+      }
+    ],
+    "rank_of_641_parity_zero": 1,
+    "scope": "All invertible hex strides and both nibble parities; circular scoring identifies byte rotations. Does not choose a sentence boundary.",
+    "limit": "A heuristic robustness check, not a probability of truth or proof of author intent. Scores depend on the installed Python documentation version."
+  }
+}

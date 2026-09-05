@@ -1,0 +1,161 @@
+{
+  "source_sha256": "4f4edfdece802b300aeab48932b115d83eb04575753bfd128a3cc47c5cc25b19",
+  "source_bytes": 21192,
+  "alphabetic_source_symbols": 2327,
+  "alphabetic_source_alphabet": "UVWXYZ",
+  "mixed_case_or_alternative_A_F_letters": false,
+  "raw_manifesto_sha256": "03fa37cfe06c7d06d590020e9fcf8c67b4131671c10d48a6f1ef0283df8cfb22",
+  "raw_bytes": 10596,
+  "normalized_sha256": "836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c",
+  "normalization": "Each TAB replaced by one SPACE; no other changes",
+  "tabs": 60,
+  "tab_indented_lines": [
+    {
+      "line": 23,
+      "tabs": 1
+    },
+    {
+      "line": 24,
+      "tabs": 1
+    },
+    {
+      "line": 25,
+      "tabs": 1
+    },
+    {
+      "line": 27,
+      "tabs": 1
+    },
+    {
+      "line": 35,
+      "tabs": 1
+    },
+    {
+      "line": 36,
+      "tabs": 2
+    },
+    {
+      "line": 37,
+      "tabs": 2
+    },
+    {
+      "line": 39,
+      "tabs": 1
+    },
+    {
+      "line": 40,
+      "tabs": 1
+    },
+    {
+      "line": 42,
+      "tabs": 1
+    },
+    {
+      "line": 43,
+      "tabs": 1
+    },
+    {
+      "line": 45,
+      "tabs": 1
+    },
+    {
+      "line": 46,
+      "tabs": 1
+    },
+    {
+      "line": 48,
+      "tabs": 1
+    },
+    {
+      "line": 50,
+      "tabs": 2
+    },
+    {
+      "line": 51,
+      "tabs": 3
+    },
+    {
+      "line": 52,
+      "tabs": 2
+    },
+    {
+      "line": 53,
+      "tabs": 2
+    },
+    {
+      "line": 54,
+      "tabs": 3
+    },
+    {
+      "line": 55,
+      "tabs": 2
+    },
+    {
+      "line": 56,
+      "tabs": 2
+    },
+    {
+      "line": 57,
+      "tabs": 3
+    },
+    {
+      "line": 59,
+      "tabs": 2
+    },
+    {
+      "line": 60,
+      "tabs": 2
+    },
+    {
+      "line": 61,
+      "tabs": 3
+    },
+    {
+      "line": 62,
+      "tabs": 3
+    },
+    {
+      "line": 64,
+      "tabs": 2
+    },
+    {
+      "line": 65,
+      "tabs": 3
+    },
+    {
+      "line": 67,
+      "tabs": 2
+    },
+    {
+      "line": 68,
+      "tabs": 2
+    },
+    {
+      "line": 70,
+      "tabs": 2
+    },
+    {
+      "line": 71,
+      "tabs": 2
+    },
+    {
+      "line": 72,
+      "tabs": 2
+    }
+  ],
+  "indentation_depth_counts": {
+    "1": 12,
+    "2": 15,
+    "3": 6
+  },
+  "tabs_after_first_nonwhitespace_character": [],
+  "historical_claim": "The archived YALE AND ME recipe requests an N from moonning -> mooning",
+  "moonning_positions": [],
+  "mooning_positions": [
+    {
+      "byte": 7759,
+      "line": 108
+    }
+  ],
+  "conclusion": "That exact historical N extraction has no source in the authenticated text. Other typo-based hypotheses are not excluded."
+}

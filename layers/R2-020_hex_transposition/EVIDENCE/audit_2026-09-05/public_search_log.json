@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-05",
+  "method": "web search queries; inspect returned results; quoted strings can still yield relaxed fallback results",
+  "result": "No relevant returned result exposed the same decoded English message or the reversible stride-641 derivation. This is not an exhaustive absence claim.",
+  "queries": [
+    "\"CAW\" \"lp was relocked\"",
+    "\"CAW\" \"gl anons\"",
+    "\"decentralization is a deeper dive then most realize\"",
+    "\"some dev to put up a github\"",
+    "\"CAW\" \"relocked\" \"2022\"",
+    "\"CAW\" \"no financial incentive\"",
+    "\"CAW\" \"growth fund\"",
+    "\"CAW\" \"you are the dev\"",
+    "\"zrUfKaKV\" \"641\"",
+    "\"zrUfKaKV\" \"decoded\" \"relocked\"",
+    "\"caw\" \"forever home\" \"lp\"",
+    "\"caw\" \"gl anons\" site:x.com",
+    "\"the lp was relocked\" -site:github.com/Xubu-Trad -site:medium.com/@xubutrad",
+    "\"decentralization is a deeper dive\" CAW",
+    "\"we have no financial incentive here\" \"caw\"",
+    "\"caw\" \"no dev backdoors\"",
+    "\"CAW\" \"relocked\" \"July\" \"2022\"",
+    "\"CAW\" \"relock\" \"July 17\"",
+    "\"needs to be greater than any single human or group\"",
+    "\"no hidden hand, nobody to wait on\""
+  ],
+  "relevant_context_pages_opened": [
+    {"url": "https://medium.com/@xubutrad/va-gru-chefhvg-bs-gehgu-610efb781ca5", "date_shown": "2026-02-09", "role": "User-authored historical research account, not independent authentication of all its claims"},
+    {"url": "https://note.com/yamasan666/n/n4dbe7f011887", "date_shown": "2024-01-03 10:21", "role": "Primary authored previous solution claim; identifier association, not current full-payload plaintext"},
+    {"url": "https://github.com/cawdevelopment/manifesto", "date_shown": null, "role": "Current manifesto content thematically corresponds to the decoded development instructions; historical commit chronology not established here"},
+    {"url": "https://threadreaderapp.com/thread/1613215430877020160.html", "date_shown": "Jan 11", "role": "Secondary mirror of translated discussion; background only"}
+  ]
+}

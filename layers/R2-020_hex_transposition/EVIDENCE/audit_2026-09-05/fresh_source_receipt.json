@@ -1,0 +1,20 @@
+{
+  "retrieved_at_utc": "2026-09-05T22:44:15.364201+00:00",
+  "source_url": "https://pastebin.com/raw/zrUfKaKV",
+  "http_status": 200,
+  "source_bytes": 2884,
+  "source_sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+  "independent_algorithm": "Scatter each source hex character C[j] into slot (9*j)%2884; hex-decode completed slots. No prior decoder import.",
+  "destination_slot_multiplicities": [
+    1
+  ],
+  "origin_sha256": "f8aeadf1d0f7933a5ae87ccc22ca4d0ad41ee038da85f785bb7a15feb7f8a12f",
+  "reading_rotation_bytes": 2,
+  "reading_sha256": "2a77d034354b3ee698dd0266f93dfd5627e033cb8f79ec891498b80b7eab0e52",
+  "reading_bytes": 1442,
+  "word_count_whitespace_split": 273,
+  "inverse_restores_all_source_characters": true,
+  "interpretation_limit": "Full coherent plaintext plus full source-preserving permutation supports this decode; reversibility alone would not identify intended plaintext.",
+  "original_whitespace_preserved": true,
+  "reading_boundary": "Final two bytes th moved to the front; semantic choice disclosed, not a checksum-imposed boundary"
+}
