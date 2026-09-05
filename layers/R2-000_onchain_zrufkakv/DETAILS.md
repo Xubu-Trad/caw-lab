@@ -6,7 +6,7 @@ This is the public entrypoint and status layer for R2.
 ## Exact canon constants
 - R2 transaction ID: `0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4`
 - public short code: `zrUfKaKV`
-- historical raw paste reference used in older tooling: `https://pastebin.com/raw/yhcajZq0`
+- Historical tooling mentioned `yhcajZq0`; its relationship to R2 is unverified. The on-chain marker is `zrUfKaKV`.
 
 ## Evidence in this layer
 - `EVIDENCE/R2_zrUfKaKV_STATUS.md`

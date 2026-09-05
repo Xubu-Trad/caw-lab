@@ -35,16 +35,9 @@ It may contain experiments, failed attempts, and unsanitized logs.
 
 Nothing there is “canon.” Only sanitized, reproducible artifacts should be promoted into this public repo with hashes + reproduce steps.
 
-## Deployer invite status (community reference)
-Invitations are pending until accepted.
+## Historical collaboration metadata
 
-- PUBLIC repo invite → **@cawdevelopment** (permission: write)
-  - created_at (UTC): `2026-02-08T06:29:46Z`
-  - created_at (America/New_York): `Sunday, 2026-02-08 01:29:46 AM EST`
-
-- PRIVATE scratchpad invite → **@cawdevelopment** (permission: write)
-  - created_at (UTC): `2026-02-08T05:01:45Z`
-  - created_at (America/New_York): `Sunday, 2026-02-08 12:01:45 AM EST`
+Detailed invitation timestamps and private-repository invitation details are retained in the private research archive. Historical copies may remain in Git history.
 
 ## Trust model (current)
 The only maintainer we treat as authoritative is **@cawdevelopment** (manifesto repo owner). Until acceptance happens, this repo stays receipts-first: anyone can fork and verify.

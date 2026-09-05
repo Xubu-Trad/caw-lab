@@ -2,8 +2,10 @@
 
 Anchor tx: `0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4`
 
-Reported trail:
-- On-chain key points to Pastebin slug `yhcajZq0` (historic deletion).
+On-chain marker: `zrUfKaKV`.
 
-Current technical constraint (per your progress notes):
-- The recovered paste decodes into a zlib stream requiring a preset dictionary (FDICT). Without the correct dictionary bytes, decompression is blocked.
+Correction to the historical status note: it previously said the on-chain key points to `yhcajZq0`. That association is not established by the committed receipt. Do not substitute another Pastebin identifier for the on-chain marker.
+
+The older note also described a recovered paste as a zlib stream requiring a preset dictionary. A header candidate and a dictionary-required error do not establish a valid complete stream or the original source identity. Preserve that as a historical hypothesis until exact source bytes, offsets, dictionary and completed checksum-validated output are reproduced.
+
+R2 remains unresolved. These status/checksum notes are historical research receipts, not proof of an end-to-end solution.

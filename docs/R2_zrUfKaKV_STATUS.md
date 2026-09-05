@@ -6,7 +6,7 @@ State the second-riddle chain with full canon identifiers, full tx IDs, full has
 ## Public anchors
 - R2 transaction ID: `0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4`
 - Public short code: `zrUfKaKV`
-- Historical raw paste reference used in older tooling: `https://pastebin.com/raw/yhcajZq0`
+- Historical tooling mentioned `yhcajZq0`; its relationship to R2 is unverified. The on-chain marker is `zrUfKaKV`.
 
 ## Current public canon
 Public canon does not claim a complete end-to-end R2 solve. It preserves the anchor, the status/checksum packs, and the strongest recovered-payload triage receipts.

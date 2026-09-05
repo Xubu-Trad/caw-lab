@@ -28,3 +28,5 @@ For a proposed solved step, provide exact inputs, commands, output hashes and li
 ## Project background
 
 [Original mission, community acknowledgements and project policies](docs/PROJECT_BACKGROUND.md) · [Hunters](docs/HUNTERS.md) · [Security](SECURITY.md) · [License](LICENSE).
+
+Publication review: [Privacy guidance](docs/PUBLICATION_PRIVACY.md).
