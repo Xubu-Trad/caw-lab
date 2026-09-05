@@ -1,0 +1,20 @@
+{
+  "attempt_id": "R1-20260905-TABLET-REPLAY-001",
+  "input_sha256": "889253e7fa85f5e5fd05622b8a105fd61acf83bdfdae3e600bdfedd173b2da41",
+  "input_bytes": 536397,
+  "preceding_valid_crc_chunks": 70,
+  "iend_offset": 535563,
+  "observed_iend_crc": "ae426035",
+  "expected_iend_crc": "ae426082",
+  "poem_hex_offset": 535574,
+  "poem_hex_bytes": 818,
+  "deferred_crc_byte_offset": 536392,
+  "poem_bytes": 273,
+  "poem_sha256": "c1dfa2443b0a167034ae06ea67bcac44f1c3714d54a8c671d971b9613f5de19a",
+  "coordinate_pairs": 46,
+  "coordinate_bytes": 290,
+  "coordinates_sha256": "cd8b7360f4363064f6c0719d1658e859b546dc5d95a10aa026a68b268ed53998",
+  "coordinate_method": "PNG unfilter; RGB channel LSBs; row-major; pack MSB first; prefix before first NUL",
+  "normalized_existing_receipts_match": true,
+  "limits": "Reproduces known coordinates and poem. Does not solve the corpus-to-CID step or establish historical novelty."
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+<title id="title">XUBU — CAW Research</title><desc id="desc">Verified steps. Open questions. A restrained charcoal and ivory research banner.</desc>
+<rect width="1200" height="230" rx="12" fill="#11171b"/>
+<path d="M42 36V194M42 194H1158" stroke="#a89a74" stroke-width="2"/>
+<text x="72" y="58" fill="#bfb18b" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">XUBU / CAW LAB</text>
+<text x="68" y="123" fill="#f0ece2" font-family="Georgia,serif" font-size="53">Follow the evidence.</text>
+<text x="72" y="164" fill="#bec6c8" font-family="Arial,sans-serif" font-size="20">Verified steps. Open questions.</text>
+<g fill="none" stroke="#8e9a9e" stroke-width="1.5"><path d="M1018 60l45 27-45 27-45-27zM1018 114l45 27-45 27-45-27z"/><path d="M1018 60v108M973 87v54M1063 87v54"/></g>
+<text x="1080" y="95" fill="#bfb18b" font-family="monospace" font-size="15">R1</text><text x="1080" y="149" fill="#bfb18b" font-family="monospace" font-size="15">R2</text>
+</svg>

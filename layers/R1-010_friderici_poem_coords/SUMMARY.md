@@ -1,22 +1,9 @@
 # R1-010 summary
 
-Canon receipts committed in this layer:
+The committed public tablet image reproduces the existing 46 coordinates and the mirror/backwards poem. [Run the replay](REPRODUCE.md).
 
-- Poem text (from TG export):
-The archievest speaks truest of the orginal 11, but not the 12th
-in the broken hall of mirrors, he searches for his primal reflection.
-is the secret in the song or between the melody,  only the kings lover has the ears to hear
-even then, sometimes he must walk backwards.
+- Coordinates: RGB least-significant bits, row-major, packed most-significant first.
+- Poem: ASCII hex inserted inside the final IEND CRC.
+- Existing text receipts match after explicitly documented formatting normalization.
 
-- 46 LINE:WORD coordinates (book-cipher coords), in `EVIDENCE/full_coords.txt`.
-
-- Fallback rule (from TG export):
-A lot of time there isn’t enough words on line to map to so using letter count instead.
-
-Not canon (until reproducible from committed receipts):
-
-- Any claimed decoded words/CIDs beyond the receipts above.
-- Any EXIF raw-profile reconstruction unless generated deterministically from `EVIDENCE/exiftool.txt`.
-
-
-See also: `DETAILS.md` and `../../docs/R1_58bZfQ1_END_TO_END.md`.
+The historical fallback letter-count rule remains a reported rule. The exact book-cipher recipe and downstream CID derivation are still open. This is a replay of known clues, not a claim of a new solved layer.

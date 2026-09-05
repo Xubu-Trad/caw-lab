@@ -1,32 +1,44 @@
+![XUBU — CAW research. Verified steps. Open questions.](docs/assets/lab-banner.svg)
+
 # CAW riddle research
 
-A public reference for reproducible CAW riddle steps, evidence, and clearly stated limits. Start here; use the linked receipts when checking a claim.
+Two on-chain trailheads. A record of what can be reproduced, and what remains open.
 
-## Current state
+**[Read the trail](docs/VISUAL_GUIDE.md)** · **[Check the evidence](LAYER_INDEX.md)** · **[Replay the tablet](layers/R1-010_friderici_poem_coords/REPRODUCE.md)**
 
-| Riddle | Reproduced step / current limit | Read next |
+<table><tr><td width="34%">
+<a href="docs/assets/r1-tablet.png"><img src="docs/assets/r1-tablet.png" width="250" alt="The original R1 tablet image, containing the 46 coordinates and a literal poem." /></a>
+</td><td>
+<h3>The first trailhead</h3>
+<p><code>58bZfQ1</code> leads to this tablet image. Its RGB pixel bits yield 46 coordinates. A separate insertion in the final PNG checksum yields the mirror/backwards poem.</p>
+<p>Both now reproduce from the preserved image. The next gap is the exact book-cipher recipe that produces the historical IPFS identifier.</p>
+<p><a href="layers/R1-010_friderici_poem_coords/REPRODUCE.md">Method, hashes and limits →</a></p>
+</td></tr></table>
+
+## Where we stand
+
+| Trail | Reproduced | Still open |
 | --- | --- | --- |
-| R1 — 58bZfQ1 | The preserved Enkidu pseudohex converts exactly to the English manifesto. The full image → book cipher → CID → audio extraction chain remains incomplete. | [R1 status](docs/R1_DETERMINISM_STATUS.md) |
-| R2 — zrUfKaKV | Unsolved. Existing anchors and historical receipts do not establish a final decoded answer. | [R2 status](docs/R2_zrUfKaKV_STATUS.md) |
+| **R1 · 58bZfQ1** | Image → coordinates and poem. Preserved Enkidu pseudohex → English manifesto. | Exact corpus/indexing → CID; independent audio-to-Enkidu extraction. |
+| **R2 · zrUfKaKV** | Public anchor and bounded source receipts. | Input provenance and a validated decode. **Unsolved.** |
 
-## Find the evidence
+An archived claim is a lead. A replay is evidence. Neither alone proves the whole riddle is finished.
 
-- **Understand the sequence:** [Riddle progress](docs/RIDDLE_PROGRESS.md) → [layer index](LAYER_INDEX.md).
-- **Reproduce the verified text step:** [Enkidu instructions and hashes](layers/R1-040_deepsound_enkidu/REPRODUCE.md).
-- **Trace R1:** [end-to-end narrative and remaining gaps](docs/R1_58bZfQ1_END_TO_END.md).
-- **Check provenance claims:** [on-chain receipts](docs/ONCHAIN_TRACE.md) and [what the facts do and do not prove](docs/WHAT_THE_FACTS_PROVE.md).
-- **Find a layer's inputs:** open its `SUMMARY.md`, `REPRODUCE.md`, and `EVIDENCE/` folder from the layer index.
+## Choose a route
 
-A preserved receipt is not automatically a solved layer. Treat only exact, independently checkable transformations as reproduced. Historical reports and unresolved status notes retain their limitations.
+- **New to the hunt:** [visual guide](docs/VISUAL_GUIDE.md) → [riddle progress](docs/RIDDLE_PROGRESS.md).
+- **Checking a result:** [tablet replay](layers/R1-010_friderici_poem_coords/REPRODUCE.md) · [Enkidu replay](layers/R1-040_deepsound_enkidu/REPRODUCE.md).
+- **Tracing the gaps:** [R1 narrative](docs/R1_58bZfQ1_END_TO_END.md) · [R2 status](docs/R2_zrUfKaKV_STATUS.md).
+- **Checking provenance:** [on-chain receipts](docs/ONCHAIN_TRACE.md) · [what the facts prove](docs/WHAT_THE_FACTS_PROVE.md).
 
-## Verify or contribute
+## Reproduce or contribute
 
-Run `python3 scripts/reproduce_enkidu.py` for the bounded text replay. Run `bash scripts/check_canon.sh`, `bash scripts/audit_completeness.sh`, and `bash scripts/opsec_scan.sh` for repository checks; inspect any privacy-scan findings.
+```sh
+python3 scripts/reproduce_tablet.py
+python3 scripts/reproduce_enkidu.py
+bash scripts/check_canon.sh
+```
 
-For a proposed solved step, provide exact inputs, commands, output hashes and limits. Follow [the layer template](layers/TEMPLATE/), update the repository manifest, and submit a pull request to `canon`. Keep private correspondence, credentials, personal paths and unsupported identity claims out of public evidence.
+For a proposed step, provide exact inputs, commands, output hashes and limits. Use the [layer template](layers/TEMPLATE/) and update the manifest. Public evidence excludes private correspondence, credentials and unsupported identity claims.
 
-## Project background
-
-[Original mission, community acknowledgements and project policies](docs/PROJECT_BACKGROUND.md) · [Hunters](docs/HUNTERS.md) · [Security](SECURITY.md) · [License](LICENSE).
-
-Publication review: [Privacy guidance](docs/PUBLICATION_PRIVACY.md).
+[Mission and acknowledgements](docs/PROJECT_BACKGROUND.md) · [Hunters](docs/HUNTERS.md) · [Privacy](docs/PUBLICATION_PRIVACY.md) · [Security](SECURITY.md) · [License](LICENSE)

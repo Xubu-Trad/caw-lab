@@ -90,3 +90,6 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
 
 ## Reproduced text step (2026-09-05)
 `python3 scripts/reproduce_enkidu.py` reproduces the committed `manifesto.en.txt` exactly by the mapping above, hex decoding, and replacing 60 tabs with single spaces. See `layers/R1-040_deepsound_enkidu/REPRODUCE.md` for intermediate hashes and limits. This bounded artifact comparison does not close the upstream gaps or establish a terminal riddle solve.
+
+## Reproduced image step (2026-09-05)
+`python3 scripts/reproduce_tablet.py` independently recovers the 46 coordinate pairs from RGB low bits and the known poem from the IEND CRC insertion. Both match the existing normalized receipts. See [the tablet replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-text receipt gap; the corpus-to-CID and independent audio extraction gaps remain.

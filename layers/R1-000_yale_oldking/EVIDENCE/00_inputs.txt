@@ -1,6 +1,6 @@
 R1-000 public anchor receipt
 
 This layer is the provenance entrypoint for the first-riddle public anchor family only.
-No binary image is committed in this repo.
+The exact public image is now preserved at docs/assets/r1-tablet.png with a source receipt and SHA-256.
 The canon claim at this layer is limited to: there is a public first-riddle image entrypoint, and downstream verified text receipts are carried by later layers.
 This file replaces the old placeholder text so the layer is no longer a scaffold stub pretending to contain evidence it did not yet describe.

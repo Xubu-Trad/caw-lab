@@ -2,11 +2,18 @@
 set -Eeuo pipefail; IFS=$'\n\t'; LC_ALL=C
 git rev-parse --is-inside-work-tree >/dev/null
 
-# Disallow tracked binary blobs in canon.
-# Evidence must be committed as text: .txt/.hex/.b64 + sha256 (binaries stay external-by-hash).
+# Permit only the exact reviewed public illustration; other binary evidence stays external.
+# The explicit image request supersedes the old blanket image exclusion.
 pat='\.(png|jpeg?|webp|gi|pdf|zip|7z|rar|bin|dat|ape|aac|mp3|wav|mp4|mov|exe|dmg)$'
 
-mapfile -t bad < <(git ls-files | grep -Eai "$pat" || true)
+bad=()
+while IFS= read -r file; do
+  if [[ "$file" == "docs/assets/r1-tablet.png" ]]; then
+    printf '%s  %s\n' '889253e7fa85f5e5fd05622b8a105fd61acf83bdfdae3e600bdfedd173b2da41' "$file" | sha256sum -c -
+  else
+    bad+=("$file")
+  fi
+done < <(git ls-files | grep -Eai "$pat" || true)
 
 if (( ${#bad[@]} )); then
   echo "[fail] tracked binary blobs are not allowed in canon."
@@ -15,4 +22,4 @@ if (( ${#bad[@]} )); then
   exit 1
 fi
 
-echo "[ok] no tracked binary blobs"
+echo "[ok] only the reviewed, hash-verified tablet image is tracked"

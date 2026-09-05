@@ -15,9 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Canon gate (manifest + no-binaries + no-empty-evidence)
+      - name: Canon gate (manifest + reviewed-image allowlist + no-empty-evidence)
         shell: bash
         run: |
           set -Eeuo pipefail; LC_ALL=C
           test -x scripts/check_canon.sh || { echo "[fail] scripts/check_canon.sh missing"; exit 1; }
           bash scripts/check_canon.sh
+
+      - name: Replay tablet and Enkidu evidence
+        run: |
+          python3 scripts/reproduce_tablet.py
+          python3 scripts/reproduce_enkidu.py

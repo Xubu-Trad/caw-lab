@@ -32,3 +32,7 @@ The uploaded receipts fix the target constants. The remaining problem is not "wh
 Run `python3 scripts/reproduce_enkidu.py` from the repository checkout, preserving the committed byte-level line endings. The script verifies the input hash, translates `UVWXYZ` to `fedcba`, hex-decodes, and replaces exactly 60 tab bytes with single spaces. Its 10,596-byte output exactly matches the committed `manifesto.en.txt` hash listed above.
 
 See [the reproduction receipt](../layers/R1-040_deepsound_enkidu/REPRODUCE.md) for the intermediate hash and checks. This recipe was derived by comparing preserved input and target artifacts; it does not establish the historical solver’s method or resolve the upstream extraction and book-cipher gaps. R2 remains unsolved.
+
+## Reproduced tablet extraction (2026-09-05)
+
+The original tablet now reproduces both the 46 coordinates and literal poem. [Run the exact image replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-clues step; the corpus-to-CID and independent audio extraction gaps remain open.

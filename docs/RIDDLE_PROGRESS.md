@@ -22,3 +22,7 @@ R2 remains unsolved. Begin with [the R2 status and provenance limitations](R2_zr
 | Where are the exact inputs and commands? | Each layer's EVIDENCE directory and REPRODUCE.md, linked from the layer index |
 
 Only a reproduced transformation supports a solved-step claim. Source custody, historical reports, and hypotheses are different forms of evidence.
+
+## Reproduced tablet extraction (2026-09-05)
+
+The original tablet now reproduces both the 46 coordinates and literal poem. [Run the exact image replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-clues step; the corpus-to-CID and independent audio extraction gaps remain open.
