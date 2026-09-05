@@ -17,3 +17,7 @@ The script verifies the input hash, translates U,V,W,X,Y,Z to f,e,d,c,b,a respec
 Verified on 2026-09-05 against the committed input and target blobs. The transformation was derived by comparing the preserved artifacts, then checked over all bytes; it does not establish the historical solver's method. The older U=b / Y=f description does not reproduce this target.
 
 This reproduces only the preserved pseudohex-to-English step. It does not independently extract Enkidu from the APE, derive the IPFS CID from the book cipher, authenticate the original extraction, prove the manifesto is the riddle's terminal answer, or solve R2. The stored stage0 and manifesto.recovered variants are not silently rewritten.
+
+## Plain-hex corroboration
+
+A separately supplied 21,192-byte plain-hex copy was checked on 2026-09-05 (SHA-256 `31344ddefad096833a41368212e22ba6bfda180fa4f273899038b289b4ad6c3c`). Direct hex decoding produces the exact intermediate hash above; replacing its 60 tabs produces the exact normalized output. It corroborates this preserved stage. It is not the pseudohex input and does not independently establish the earlier audio extraction or a new solved layer.
