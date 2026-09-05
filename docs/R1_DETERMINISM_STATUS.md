@@ -22,7 +22,13 @@ State exactly what is stable in public canon and exactly what still prevents a f
 - the normalized manifesto family
 
 ## Exact determinism gap
-Public canon still does not contain one completely bounded replay that starts from `https://ibb.co/58bZfQ1`, applies one exact public corpus normalization/indexing rule, reproduces `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`, fetches the canonical APE byte-for-byte, and deterministically walks from `enkidu.txt` to the final normalized manifesto text.
+Public canon still does not contain one completely bounded replay that starts from `https://ibb.co/58bZfQ1`, applies one exact public corpus normalization/indexing rule, reproduces `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`, fetches the canonical APE byte-for-byte, and independently extracts the preserved Enkidu bytes from that APE. The subsequent preserved pseudohex-to-English conversion is now reproduced exactly, as documented below.
 
 ## Why the gap is narrow now
 The uploaded receipts fix the target constants. The remaining problem is not "what is the target?" but "which exact public replay recipe reaches the target without relying on historical side knowledge?"
+
+## Reproduced text conversion (2026-09-05)
+
+Run `python3 scripts/reproduce_enkidu.py` from the repository checkout, preserving the committed byte-level line endings. The script verifies the input hash, translates `UVWXYZ` to `fedcba`, hex-decodes, and replaces exactly 60 tab bytes with single spaces. Its 10,596-byte output exactly matches the committed `manifesto.en.txt` hash listed above.
+
+See [the reproduction receipt](../layers/R1-040_deepsound_enkidu/REPRODUCE.md) for the intermediate hash and checks. This recipe was derived by comparing preserved input and target artifacts; it does not establish the historical solver’s method or resolve the upstream extraction and book-cipher gaps. R2 remains unsolved.
