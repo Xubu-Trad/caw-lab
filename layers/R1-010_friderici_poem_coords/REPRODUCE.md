@@ -1,6 +1,6 @@
 # R1-010 — replay the tablet
 
-**Result:** the preserved public PNG independently yields the existing 46 coordinates and mirror/backwards poem. This closes the image-to-text receipt gap; the book-cipher step remains open.
+**Result:** the preserved public PNG independently yields the existing 46 coordinates and mirror/backwards poem. The following [book-cipher step is also reproduced](../R1-020_book_cipher_gilgamesh/REPRODUCE.md).
 
 ```sh
 python3 scripts/reproduce_tablet.py
@@ -30,6 +30,16 @@ To match the existing [`poem.txt`](EVIDENCE/poem.txt), strip trailing spaces on 
 
 ## Limits
 
-These are known clues, now reproducible from the image. Neither this result nor the Telegram discussion establishes a newly discovered layer. The fallback letter-count rule is a historical claim; the exact corpus, normalization and indexing that produce the CID still need reproduction.
+These are known clues, now reproducible from the image. Neither this result nor the Telegram discussion establishes a newly discovered layer. The subsequent public book-cipher replay uses punctuation stripping and number-word conversion, with no fallback letter-count rule. The earlier audio extraction remains a separate provenance question.
+
+## Reversed coordinate copy
+
+The supplied 38-pair secondary copy reverses the first 38 known pairs: reverse token order, then reverse every character in each token. This restores the exact prefix of the 46-pair sequence. Leading zeros arise from reversed digits. The copy omits the last eight pairs; it does not establish a separate coordinate layer.
+
+```sh
+python3 scripts/reproduce_mirrored_coordinates.py
+```
+
+The script contains the literal copied sequence and compares all 38 results with the committed coordinates. It does not claim to extract an independent second sequence from the image.
 
 [`tablet_replay.json`](EVIDENCE/tablet_replay.json) records the machine-checkable result. [PNG structure reference](https://www.w3.org/TR/png-3/) defines the chunk and CRC layout.

@@ -30,6 +30,7 @@ An archived claim is a lead. A replay is evidence. Neither alone proves the whol
 - **Checking a result:** [tablet replay](layers/R1-010_friderici_poem_coords/REPRODUCE.md) · [Enkidu replay](layers/R1-040_deepsound_enkidu/REPRODUCE.md).
 - **Tracing the gaps:** [R1 narrative](docs/R1_58bZfQ1_END_TO_END.md) · [R2 status](docs/R2_zrUfKaKV_STATUS.md).
 - **Checking provenance:** [on-chain receipts](docs/ONCHAIN_TRACE.md) · [what the facts prove](docs/WHAT_THE_FACTS_PROVE.md).
+- **Reading XUBU:** [collected Medium articles](https://github.com/Xubu-Trad/xubu-medium). Historical writing is separate from verified riddle canon.
 
 ## Reproduce or contribute
 
