@@ -57,11 +57,11 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
    - Its exact leading prefix is:
      - `41204W616V69666573746U206U6V206120446563656V7472616X697Z656420536U6369616X20436X656172696V6720486U757365202V2V2V28414Y412920434157`
    - The public decoding helper family preserved in uploaded receipts applies the mapping:
-     - `U -> b`
+     - `U -> f`
      - `V -> e`
      - `W -> d`
      - `X -> c`
-     - `Y -> f`
+     - `Y -> b`
      - `Z -> a`
 
 7. **Final manifesto stage**
@@ -75,7 +75,7 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
 ## What still blocks a fully deterministic public replay
 - the exact public corpus recipe that yields the historical CID from the coords
 - the exact public replay from the book-cipher receipts to the canonical APE
-- the exact public replay from `enkidu.txt` to the final normalized manifesto text using only committed public artifacts
+- upstream APE-to-Enkidu extraction provenance remains distinct from the now-reproduced pseudohex-to-English step
 
 ## Layer map
 - `layers/R1-000_yale_oldking/`
@@ -87,3 +87,6 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
 
 - The promoted pseudo-hex Enkidu artifact is preserved in full as `layers/R1-040_deepsound_enkidu/EVIDENCE/enkidu.full_pseudohex.txt`.
 - The full body is also surfaced directly in `layers/R1-040_deepsound_enkidu/HEX_FULL.md`.
+
+## Reproduced text step (2026-09-05)
+`python3 scripts/reproduce_enkidu.py` reproduces the committed `manifesto.en.txt` exactly by the mapping above, hex decoding, and replacing 60 tabs with single spaces. See `layers/R1-040_deepsound_enkidu/REPRODUCE.md` for intermediate hashes and limits. This bounded artifact comparison does not close the upstream gaps or establish a terminal riddle solve.
