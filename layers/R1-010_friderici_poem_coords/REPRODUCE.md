@@ -42,4 +42,14 @@ python3 scripts/reproduce_mirrored_coordinates.py
 
 The script contains the literal copied sequence and compares all 38 results with the committed coordinates. It does not claim to extract an independent second sequence from the image.
 
+## EXIF hex screenshots
+
+The compressed EXIF profile at PNG offset `0x40` expands to 35,060 bytes of text describing 17,282 EXIF bytes. Those bytes contain a 16,948-byte JPEG thumbnail at offset 334, SHA-256 `d01b9f33ccbfbee1851c3c771df07536238340841a8d31feb913cfcadfac88d1`. Local image decoding displays a 211×256 thumbnail of the tablet.
+
+```sh
+python3 scripts/reproduce_exif_thumbnail.py
+```
+
+Two transcribed screenshot prefixes match this EXIF hex at digit offsets 25,222 and 12,511. The latter starts on an odd hex digit, halfway through a byte. This explains why a displayed line cannot automatically be treated as a byte-aligned hex input. These are prefix comparisons, not full screenshot OCR or proof of why a particular candidate image failed. The complete profile and thumbnail are ordinary image metadata; this check establishes no new cipher layer.
+
 [`tablet_replay.json`](EVIDENCE/tablet_replay.json) records the machine-checkable result. [PNG structure reference](https://www.w3.org/TR/png-3/) defines the chunk and CRC layout.
