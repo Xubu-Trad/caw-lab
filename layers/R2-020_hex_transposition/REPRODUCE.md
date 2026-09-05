@@ -18,7 +18,7 @@ Let `C` be the 2,884-character source hex string, with zero-based indices. For e
 P[j] = C[(641*j) mod 2884]
 ```
 
-Hex-decode `P`. This gives [origin.txt](EVIDENCE/origin.txt), beginning `e lp was relocked.` and ending `gl anons. th`. The reading copy moves only the final two bytes, `th`, to the front. It does not change spelling, punctuation, spaces, case or line breaks. [Read the message](EVIDENCE/reading_rotation.txt).
+Hex-decode `P`. This gives [origin.txt](EVIDENCE/origin.txt), beginning `e lp was relocked.` and ending `gl anons. th`. The reading copy moves only the final two bytes, `th`, to the front. It does not change spelling, punctuation, spaces, case or line breaks. [Read the message](MESSAGE.md).
 
 The same reading copy can be obtained directly:
 

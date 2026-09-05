@@ -1,6 +1,6 @@
 # R2 · the hex message now reproduces
 
-**Verified on 2026-09-05:** the current public `zrUfKaKV` payload decodes through an exact step-9 hex transposition. [Read the message](../layers/R2-020_hex_transposition/EVIDENCE/reading_rotation.txt) · [Replay every byte](../layers/R2-020_hex_transposition/REPRODUCE.md).
+**Verified on 2026-09-05:** the current public `zrUfKaKV` payload decodes through an exact step-9 hex transposition. [Read the message](../layers/R2-020_hex_transposition/MESSAGE.md) · [Replay every byte](../layers/R2-020_hex_transposition/REPRODUCE.md).
 
 The source is 2,884 hex characters, SHA-256 `18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76`. Ordinary hex decoding yields the familiar 1,442-byte `a7f4839f…` candidate. Reordering the hex characters by stride 641 modulo 2884 produces coherent text. Moving the final two bytes to the front establishes the declared reading origin. Both forms re-encode exactly.
 
