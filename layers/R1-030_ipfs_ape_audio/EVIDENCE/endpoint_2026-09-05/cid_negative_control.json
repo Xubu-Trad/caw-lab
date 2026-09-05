@@ -1,0 +1,6 @@
+{
+  "control": "Flip low bit of last file byte only",
+  "mutated_input_bytes": 8968236,
+  "mutated_root_cid": "QmacgnYpjkPGGkkq9EyCM8oZ4JPcA664ehXpy3q2xZDxC8",
+  "equals_canonical_cid": false
+}

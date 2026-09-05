@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/cawdevelopment/manifesto",
+  "normalization": "Decode Enkidu U-Z to f-a; replace 60 tabs with one space each. Remove the first Markdown title line of each upstream README. No other edits.",
+  "decoded_original_sha256": "03fa37cfe06c7d06d590020e9fcf8c67b4131671c10d48a6f1ef0283df8cfb22",
+  "normalized_sha256": "836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c",
+  "rows": [
+    {
+      "commit": "a5c85ac9b2f4a960964e3898637c2fe9f5cb6e87",
+      "author_date": "2022-08-25T14:16:23+02:00",
+      "title": "# dev",
+      "file_bytes": 134,
+      "file_sha256": "080e124fc69d225f8c9425318a986b700a3bf463e23b6f26172df2472bfccc47",
+      "body_bytes": 128,
+      "body_sha256": "6005021536064f22deb9f3c245008ef6249bf7ff3c887604d68aaeac120f0581",
+      "exact_normalized_manifesto_match": false
+    },
+    {
+      "commit": "37399aeb55974d4b09d404014865b5ef8918e9de",
+      "author_date": "2022-08-25T14:16:53+02:00",
+      "title": "# dev",
+      "file_bytes": 10602,
+      "file_sha256": "066b14262bd29118a8f86d75bece0d5bde96c2b665b1a3b356c3867689094761",
+      "body_bytes": 10596,
+      "body_sha256": "836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c",
+      "exact_normalized_manifesto_match": true
+    },
+    {
+      "commit": "95da76a8ab376e871e4b579e0927b8ccc58aad4b",
+      "author_date": "2022-08-25T14:17:11+02:00",
+      "title": "# devs spec",
+      "file_bytes": 10608,
+      "file_sha256": "fb2963032175ae33cea9e883ad03c39d15ebf8315feb0a4b1f50f8a1cdee528f",
+      "body_bytes": 10596,
+      "body_sha256": "836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c",
+      "exact_normalized_manifesto_match": true
+    },
+    {
+      "commit": "bdca31c8e4ae732378b345c9da585c9fec2804ec",
+      "author_date": "2022-08-25T20:27:50+02:00",
+      "title": "# Manifesto",
+      "file_bytes": 10608,
+      "file_sha256": "bb032d92591a3d8b8bc5421dd6b4e92c35b9dd64648c9b0efa071f9dad61dd5b",
+      "body_bytes": 10596,
+      "body_sha256": "836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c",
+      "exact_normalized_manifesto_match": true
+    }
+  ],
+  "conclusion": "The entire 10596-byte normalized audio-derived manifesto is the body of all three substantial August25,2022 commits. The later two commits only change the Markdown heading.",
+  "limit": "Exact text correspondence corroborates the recovered document. It is not proof that the repository account is the riddle author or an assertion that no additional cipher could exist."
+}

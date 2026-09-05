@@ -35,18 +35,20 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
      - filename: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape`
      - bytes: `8968236`
      - sha256: `57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575`
-     - ipfs-only-hash CID: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
+     - independently recomputed CID: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
    - The non-canonical stripped / zip-copy family preserved in receipts is:
      - filename: `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV.ape.NONCANON_zipcopy`
      - bytes: `8968098`
      - sha256: `ea7c96accf476e389aade152efca89bdb92c4c4852e257cb6fe4da8e05b1d263`
      - ipfs-only-hash CID: `QmYRZiiGvVqbQgzuCLPWzWyZvrpWSh2VN7pCNDm91Lvt1M`
-   - The currently preserved exact sweep match for the canonical CID is:
+   - A fresh standard-library replay constructs the UnixFS DAG and reproduces that exact CID. Its fixed settings are:
      - chunker=`size-262144`
      - raw_leaves=`false`
      - trickle=`false`
      - wrap=`false`
+     - link names: present empty legacy strings; no mode or modification time
      - cid=`QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`
+   - This proves content identity between the book-cipher address and the preserved APE under those settings. It does not establish current network availability or historical custody. [Fresh CID receipt](../layers/R1-030_ipfs_ape_audio/EVIDENCE/endpoint_2026-09-05/cid_receipt.json).
 
 6. **DeepSound / Enkidu stage**
    - The canonical APE now independently yields the exact Enkidu file. Normal-quality LSB decoding exposes `DSCF`; the padded `enkidu` key matches its SHA-1 verifier; AES-256-ECB yields `DSSF`, the filename, declared size and complete payload. [Exact replay](../layers/R1-040_deepsound_enkidu/REPRODUCE.md#canonical-ape-to-enkidu-2026-09-05).
@@ -66,17 +68,19 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
      - `Z -> a`
 
 7. **Final manifesto stage**
-   - The uploaded normalized stage-2 clean manifesto receipt is:
+   - The reproduced manifesto before tab normalization is:
      - bytes: `10596`
-     - sha256: `2ce02dffb32577a38ad646be06cb705782b0c4344271ed528aa252c08bca8944`
+     - sha256: `03fa37cfe06c7d06d590020e9fcf8c67b4131671c10d48a6f1ef0283df8cfb22`
+   - Replacing its exactly 60 tabs with single spaces preserves the 10,596-byte length and produces `manifesto.en.txt`, sha256 `836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c`.
+   - The older stage-2 receipt `2ce02dffb32577a38ad646be06cb705782b0c4344271ed528aa252c08bca8944` is a legacy recorded hash. It is not the output of this reproduced normalization.
    - The promoted public-canon manifesto receipts are:
      - `manifesto.recovered.txt` -> `e5816ee2a75a1c939543773983f8b6d2b9eb05afee8d4f9ac91336e8ab6c01fa`
      - `manifesto.en.txt` -> `836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c`
 
 ## Remaining custody and completion questions
-- The book cipher reproduces the CID, and preserved canonical APE bytes reproduce Enkidu. Fresh live retrieval of those exact audio bytes through that CID remains a separate check.
+- The book cipher reproduces the CID; the canonical APE independently hashes to that same CID and yields Enkidu. Fresh live retrieval of those exact audio bytes through that CID remains a separate check.
 - Artifact replay does not authenticate historical authorship or prove that the manifesto is a terminal answer.
-- The audio extraction gap is closed; historical source custody and a new downstream layer are separate questions.
+- The audio extraction and content identity gaps are closed; historical source custody and a new downstream layer are separate questions.
 
 ## Layer map
 - `layers/R1-000_yale_oldking/`
@@ -98,3 +102,15 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
 ## Reproduced audio step (2026-09-05)
 
 `python3 scripts/reproduce_ape_to_enkidu.py canonical.ape canonical.wav` verifies the original APE and decoded PCM hashes, then extracts the complete Enkidu file. The output hash matches the pseudohex above. The 32-byte file header, 21,192-byte payload and 8-byte footer occupy exactly 21,232 ciphertext bytes; no unaccounted AES padding or second framed file was found in the bounded check. [Extraction receipt](../layers/R1-040_deepsound_enkidu/EVIDENCE/ape_to_enkidu_replay.json).
+
+## Reproduced CID step (2026-09-05)
+
+From the repository root:
+
+```sh
+python3 scripts/reproduce_r1_cid.py canonical.ape --out-dir replay-cid
+```
+
+The script requires only Python's standard library. It builds 35 file leaves and a 1,690-byte root following the [UnixFS](https://specs.ipfs.tech/unixfs/) and [DAG-PB](https://ipld.io/specs/codecs/dag-pb/spec/) schemas. The computed root CID exactly matches the book-cipher address. The official empty-file vector passes, and a fixed one-bit mutation of the APE produces a different CID. [CID receipt](../layers/R1-030_ipfs_ape_audio/EVIDENCE/endpoint_2026-09-05/cid_receipt.json) · [Negative control](../layers/R1-030_ipfs_ape_audio/EVIDENCE/endpoint_2026-09-05/cid_negative_control.json).
+
+This is an independent content-address computation from the preserved file. It uses no network retrieval and does not establish when or by whom that file was published.

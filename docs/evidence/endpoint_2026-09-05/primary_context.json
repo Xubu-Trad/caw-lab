@@ -1,0 +1,22 @@
+{
+  "review_date": "2026-09-05",
+  "sources": [
+    {
+      "url": "https://threadreaderapp.com/thread/1534892255730966529.html",
+      "original_url": "https://x.com/CommunityCaw/status/1534892255730966529",
+      "displayed_date": "2022-06-09",
+      "kind": "Third-party mirror of a contemporaneous community-authored Twitter thread; direct live X text unavailable",
+      "observations": "The 24-post thread opens by announcing a manifesto decode. Posts 15-18 trace DeepSound, enkidu and the substitution into a proposal. Post 19 identifies pastebin.com/yhcajZq0 as its final version. It closes with proposal wording and community/builders invitations.",
+      "limit": "This supports contemporaneous community recognition of the manifesto as R1's result. Community attribution and historical identity claims are not authenticated creator confirmation or proof against every further layer."
+    },
+    {
+      "url": "https://www.savoryandsweetfood.com/2013/10/20/fried-fish-masala/",
+      "image_url_in_manifesto": "https://savoryandsweetfood.com/wp-content/uploads/2013/10/20131020-164849.jpg",
+      "displayed_original_date": "2013-10-20",
+      "displayed_update_date": "2020-06-04",
+      "kind": "Original food publisher's recipe page",
+      "observations": "The exact image filename from the manifesto occurs among the recipe's photographs. The recipe author identifies the fish used as white pomfret. The manifesto introduces the URL as an example of a social post and frontend image rendering.",
+      "limit": "An interpretation of the red-colored food as a red-herring puzzle instruction is not established by this source. The page's displayed dates are not cryptographic proof of historical image-byte identity, and this does not exclude an intentional allusion by the manifesto writer."
+    }
+  ]
+}

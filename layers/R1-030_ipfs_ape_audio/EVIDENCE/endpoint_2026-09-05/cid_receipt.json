@@ -1,0 +1,264 @@
+{
+  "ape_bytes": 8968236,
+  "ape_sha256": "57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575",
+  "cid": "QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV",
+  "matches_book_cipher_cid": true,
+  "chunk_bytes": 262144,
+  "raw_leaves": false,
+  "layout": "balanced",
+  "wrap_with_directory": false,
+  "link_name_encoding": "present empty legacy string",
+  "leaf_nodes": 35,
+  "root_bytes": 1690,
+  "root_sha256": "e326e78a4dfa9892eb50bbeb7d75658d92aa1b78666ac2e8f475fc09af9c0d2e",
+  "cumulative_dag_bytes": 8970416,
+  "empty_file_test_vector": "QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH",
+  "leaves": [
+    {
+      "index": 0,
+      "file_offset": 0,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmdVj7AMNeoCGL7yNAjGciko7UGoC5EoqbMbLj9Braiu4G"
+    },
+    {
+      "index": 1,
+      "file_offset": 262144,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmZWh3h9c2CcsxWS4XPaH89NRYkFTounbEoTzDYoUvFWUj"
+    },
+    {
+      "index": 2,
+      "file_offset": 524288,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmUkAeS1zMQCarM5RWfc94kN8sxvs4kvEXMjJvDbqsvwem"
+    },
+    {
+      "index": 3,
+      "file_offset": 786432,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmbEuvfsMjwfqbKfJ6jdSdtL6WaV2oM63tu74KAn514cXV"
+    },
+    {
+      "index": 4,
+      "file_offset": 1048576,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmbtUnqZo5ieeor5dvmVTvxC52RzTXn4F3qR1u5CBmZjNU"
+    },
+    {
+      "index": 5,
+      "file_offset": 1310720,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmQ5UEFV3dgEPpzQxH8qJpwSY6rotEpiWD5GTa1GvN6kUr"
+    },
+    {
+      "index": 6,
+      "file_offset": 1572864,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmSXLPGy6tqgt1prS4LVMVt5dZzLxryrc78mpxoXZtf6DQ"
+    },
+    {
+      "index": 7,
+      "file_offset": 1835008,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmRA2DN7T8dB4RbRAcYDepsnZbqi4Ss8fXGNn1FtyitToz"
+    },
+    {
+      "index": 8,
+      "file_offset": 2097152,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmUwQHmKjeYmaCgA43JMU4axF9xG7J1mRSPfGZdxiCTApn"
+    },
+    {
+      "index": 9,
+      "file_offset": 2359296,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmbK1NNVk6s4fnr29H1x9No6TMoygbr41BEon854433u6o"
+    },
+    {
+      "index": 10,
+      "file_offset": 2621440,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmP5PpRg3e1pCABuKuzdL7HBuwzh2ppviQqaYeVDNpBzUq"
+    },
+    {
+      "index": 11,
+      "file_offset": 2883584,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmfJJkmhhkBhmH9sinJEpdDqi25AVqb2jJHjCu6yz3S2QU"
+    },
+    {
+      "index": 12,
+      "file_offset": 3145728,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmS5kmvVohhs84EtZzyLG2KRAFwXK5teMLr8MijRdCb7gG"
+    },
+    {
+      "index": 13,
+      "file_offset": 3407872,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmSioQctu7S5LZaipHbr69Cp4Scsg7DffWbvptRPSC87SP"
+    },
+    {
+      "index": 14,
+      "file_offset": 3670016,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmYh6v61BqHymdojuGC8MVJBz168bSAZLtRPo1K7zUyMPV"
+    },
+    {
+      "index": 15,
+      "file_offset": 3932160,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmNw5ZJtqKf7YRFR7NdF23RLBAy8vGqtspArXSq9FmEu9f"
+    },
+    {
+      "index": 16,
+      "file_offset": 4194304,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmXMyMVwzDYJK1eLBL9tJAo3ro79NW7APBwgPag4CfpuVk"
+    },
+    {
+      "index": 17,
+      "file_offset": 4456448,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmczBgJ2usTYf6j6Ca4KuT4h1jLJASQKDsFYAEUhnbPhi3"
+    },
+    {
+      "index": 18,
+      "file_offset": 4718592,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmWeKv5RQmSzsAmQbsEop8JNbCBXxDhvJsFhm1EP5Ko33V"
+    },
+    {
+      "index": 19,
+      "file_offset": 4980736,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmT3QVbpYWC4xnbwE5443wMPyQRj3r7BfcfJJMzwyPfRWh"
+    },
+    {
+      "index": 20,
+      "file_offset": 5242880,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmceypB7ZQQs8WFAhRVcyyNEYES4dyLxpQcrFq8N3eSTCE"
+    },
+    {
+      "index": 21,
+      "file_offset": 5505024,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmZVa3zPXX4rQJwbnYZ3R9tmy97hQENHtp3oqFsnMf1QnG"
+    },
+    {
+      "index": 22,
+      "file_offset": 5767168,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmRP1XhrLT5vVtThEd3wkf3bBXqRF8qiyjBQjVVrQMUve3"
+    },
+    {
+      "index": 23,
+      "file_offset": 6029312,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmXU6o56BV3yvQidQmsWqgwzGVSZQstpP4jG2MBzMkcAqC"
+    },
+    {
+      "index": 24,
+      "file_offset": 6291456,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmfE64DUDdLMU7C9HqSP7xq5EHkeCPT9f2KtL6iDmCZ3UD"
+    },
+    {
+      "index": 25,
+      "file_offset": 6553600,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmcnxENPufeQMzhsC8qfkhH2FPjGuEHQPJKjUkvu8uo3gG"
+    },
+    {
+      "index": 26,
+      "file_offset": 6815744,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmQTx1xyEcRpDmhJ3EKQfnoKEkAWDdJxUS5MQTLF37gfw9"
+    },
+    {
+      "index": 27,
+      "file_offset": 7077888,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmaRBvDaHZG7w8wH2tXDdgC7FGeBp3xk5i1sK2PCGXoTUK"
+    },
+    {
+      "index": 28,
+      "file_offset": 7340032,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmcRNEbnC7JTw2ktjJfKJPn52PvHuDHeCbPx8fThJxEpgx"
+    },
+    {
+      "index": 29,
+      "file_offset": 7602176,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "Qma2YVhQtPoh9gQLnW1Km1ffdrJDsxgH91BTK7bnuvKCrh"
+    },
+    {
+      "index": 30,
+      "file_offset": 7864320,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmZKJe8JWLhVGjGmdxkFCrhZoLyvemPAZDKVTbcozg5JV7"
+    },
+    {
+      "index": 31,
+      "file_offset": 8126464,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmcVJM9KC5y6iR2igK3k6V5jadxPP2pvJ4d25r4ng9o5xL"
+    },
+    {
+      "index": 32,
+      "file_offset": 8388608,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmfG8KmnCpEAQU4rCQHUPwew5hNdJnBUc5ZsHLhi3fwzMV"
+    },
+    {
+      "index": 33,
+      "file_offset": 8650752,
+      "file_bytes": 262144,
+      "block_bytes": 262158,
+      "cid": "QmX9Ec88P3WY8swmcpw3yvZpwqhC6BduQn8CGHZEAcRt8a"
+    },
+    {
+      "index": 34,
+      "file_offset": 8912896,
+      "file_bytes": 55340,
+      "block_bytes": 55354,
+      "cid": "QmNQubWwQxyQEYKv3vfVZMg7j8jsBY11Tof4Q6MSx35dZf"
+    }
+  ],
+  "limits": "Proves content-address identity for the fixed historical importer settings. Does not establish live network availability or historical custody."
+}

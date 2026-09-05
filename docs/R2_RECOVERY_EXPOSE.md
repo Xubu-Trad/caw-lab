@@ -116,3 +116,8 @@ python3 scripts/verify_r2_independent.py layers/R2-020_hex_transposition/EVIDENC
 This uses Python's standard library. It writes the exact text, the complete character map and a verification receipt. The optional ranking uses the installed Python documentation, whose fingerprint is recorded because versions can differ.
 
 [Full message](https://github.com/Xubu-Trad/caw-lab/blob/canon/layers/R2-020_hex_transposition/MESSAGE.md) · [Original decoder](https://github.com/Xubu-Trad/caw-lab/blob/canon/scripts/reproduce_r2_transposition.py) · [Audit evidence](https://github.com/Xubu-Trad/caw-lab/tree/canon/layers/R2-020_hex_transposition/EVIDENCE/audit_2026-09-05) · [R1 replay](https://github.com/Xubu-Trad/caw-lab/blob/canon/layers/R1-040_deepsound_enkidu/REPRODUCE.md)
+
+
+## Endpoint evidence update · September 5, 2026
+
+The [subsequent endpoint assessment](ENDPOINT_ASSESSMENT.md) closes the R1 audio-to-CID content match, compares the complete manifesto with its historical public Git body, and verifies both riddle announcements and the contract creator's later manifesto links. The evidence now favors both recovered texts as intended outputs. No further cipher was established; absence of an absolute end declaration does not itself make the supplied ciphertext unsolved.

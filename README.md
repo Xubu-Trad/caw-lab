@@ -23,10 +23,10 @@ The R2 hex now yields a complete message about building CAW. Every character sur
 
 | Trail | Reproduced | Still open |
 | --- | --- | --- |
-| **R1 · 58bZfQ1** | Tablet → clues → book-cipher CID; canonical audio → Enkidu → manifesto. | Live CID-to-audio custody and any further layer. |
-| **R2 · zrUfKaKV** | Live hex → coherent message, with an exact inverse check. **Decoded layer verified.** | Any subsequent hidden layer or terminal answer. |
+| **R1 · 58bZfQ1** | Complete known chain to the manifesto; audio now independently matches the book CID. | Whether any additional authored layer exists. |
+| **R2 · zrUfKaKV** | Complete supplied cipher → development message, with an exact inverse. | Whether an authenticated continuation exists. |
 
-An archived claim is a lead. A replay is evidence. Neither alone proves the whole riddle is finished.
+**The evidence favors these as the intended outputs. No further layer has been verified.** [Are the riddles finished?](docs/ENDPOINT_ASSESSMENT.md)
 
 ## Choose a route
 

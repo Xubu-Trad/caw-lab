@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "label": "creation_corrected_corpus_transaction",
+      "endpoint": "https://1rpc.io/eth",
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x4d160f76cdacbffc4f7302d4fb180317e15d19080cbbaded4ef0197e71ba515c"
+      ],
+      "fetched_utc": "2026-09-05T23:41:44.014740+00:00",
+      "status": 200,
+      "sha256": "a1601ccda3e8400572462f1aa136401aee938cea6622c06f006b1c0b57428838",
+      "success": true
+    },
+    {
+      "label": "creation_corrected_corpus_receipt",
+      "endpoint": "https://1rpc.io/eth",
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x4d160f76cdacbffc4f7302d4fb180317e15d19080cbbaded4ef0197e71ba515c"
+      ],
+      "fetched_utc": "2026-09-05T23:41:44.844546+00:00",
+      "status": 200,
+      "sha256": "859f55fb8b0d93119221d0e65827bbeb2983585729500111ab550f57791092cb",
+      "success": true
+    },
+    {
+      "label": "creation_corrected_corpus_block",
+      "endpoint": "https://1rpc.io/eth",
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0xde7ee0",
+        false
+      ],
+      "fetched_utc": "2026-09-05T23:41:45.130739+00:00",
+      "status": 200,
+      "sha256": "42ebefe37280cc10755cb8e19af5b6fddb11f64e5b54d1430ce4907f56a07468",
+      "success": true
+    },
+    {
+      "label": "creation_older_corpus_transaction",
+      "endpoint": "https://1rpc.io/eth",
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x4d160fb54fbf45ec2c0cc9d6010c2f215b1d448dcf310ce7019eeac70422515c"
+      ],
+      "fetched_utc": "2026-09-05T23:41:45.711808+00:00",
+      "status": 200,
+      "sha256": "1b9f3e593e73354720f2329c7bc53c56abf4ef1c4ce38ecc7d6aa26c211b9685",
+      "error": "empty result"
+    },
+    {
+      "label": "creation_older_corpus_transaction",
+      "endpoint": "https://cloudflare-eth.com",
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x4d160fb54fbf45ec2c0cc9d6010c2f215b1d448dcf310ce7019eeac70422515c"
+      ],
+      "fetched_utc": "2026-09-05T23:41:46.158165+00:00",
+      "status": 200,
+      "sha256": "e372bed6a7f51d6e2e6c1112346e333ac770cd47c10dd5909656d9a66590165c",
+      "error": "empty result"
+    },
+    {
+      "label": "creation_older_corpus_transaction",
+      "endpoint": "https://ethereum-rpc.publicnode.com",
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x4d160fb54fbf45ec2c0cc9d6010c2f215b1d448dcf310ce7019eeac70422515c"
+      ],
+      "fetched_utc": "2026-09-05T23:41:46.597596+00:00",
+      "status": 200,
+      "sha256": "1b9f3e593e73354720f2329c7bc53c56abf4ef1c4ce38ecc7d6aa26c211b9685",
+      "error": "empty result"
+    }
+  ],
+  "transactions": {
+    "creation_corrected_corpus": {
+      "transaction_hash": "0x4d160f76cdacbffc4f7302d4fb180317e15d19080cbbaded4ef0197e71ba515c",
+      "from": "0x36b59455afeedf0866fe6e775fe7651bbbe3e005",
+      "to": null,
+      "nonce": 0,
+      "block_number": 14581472,
+      "block_hash": "0x48145d47e0095e30f06161103aa4d6c7b5745436ff3de6c83206cd6be5f9ec1c",
+      "contract_address": "0xf3b9569f82b18aef890de263b84189bd33ebe452",
+      "receipt_status": "0x1",
+      "timestamp_utc": "2022-04-14T04:41:34+00:00",
+      "block_hash_matches_transaction": true
+    }
+  }
+}

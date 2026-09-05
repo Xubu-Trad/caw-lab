@@ -1,0 +1,477 @@
+{
+  "xmp": {
+    "keyword": "XML:com.adobe.xmp",
+    "compressed": false,
+    "language": "",
+    "translated_keyword": "",
+    "text_bytes": 3330,
+    "fields": [
+      {
+        "tag": "{adobe:ns:meta/}xmpmeta",
+        "attributes": {
+          "{adobe:ns:meta/}xmptk": "XMP Core 4.4.0-Exiv2"
+        },
+        "text": ""
+      },
+      {
+        "tag": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description",
+        "attributes": {
+          "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about": "",
+          "{http://ns.adobe.com/xap/1.0/mm/}DocumentID": "gimp:docid:gimp:906173c9-d537-4dd3-bf9f-1b37af073328",
+          "{http://ns.adobe.com/xap/1.0/mm/}InstanceID": "xmp.iid:095ce9d5-e4ad-4b0d-af32-8e6c13033c3d",
+          "{http://ns.adobe.com/xap/1.0/mm/}OriginalDocumentID": "xmp.did:6f3638dc-d1b6-409e-8045-828f6d7f19ea",
+          "{http://purl.org/dc/elements/1.1/}Format": "image/png",
+          "{http://www.gimp.org/xmp/}API": "2.0",
+          "{http://www.gimp.org/xmp/}Platform": "Windows",
+          "{http://www.gimp.org/xmp/}TimeStamp": "1651630902699720",
+          "{http://www.gimp.org/xmp/}Version": "2.10.30",
+          "{http://ns.adobe.com/tiff/1.0/}Orientation": "1",
+          "{http://ns.adobe.com/xap/1.0/}CreatorTool": "GIMP 2.10"
+        },
+        "text": ""
+      },
+      {
+        "tag": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}li",
+        "attributes": {
+          "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}action": "saved",
+          "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}changed": "/",
+          "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}instanceID": "xmp.iid:d5004044-8a90-4014-81a1-c780c28f7877",
+          "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}softwareAgent": "Gimp 2.10 (Windows)",
+          "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}when": "2022-05-03T19:21:42"
+        },
+        "text": ""
+      }
+    ],
+    "padding_bytes": 2049,
+    "padding_counter": {
+      "10": 22,
+      "32": 2027
+    },
+    "padding_line_lengths": [
+      0,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      27
+    ]
+  },
+  "exif": {
+    "bytes": 17282,
+    "sha256": "85d475c3671ce4b824100f8ec8495760d6782a36f8626af69d902fe7229153f1",
+    "ifds": [
+      {
+        "offset": 8,
+        "next": 208,
+        "entries": [
+          {
+            "tag": 256,
+            "name": "ImageWidth",
+            "type": 4,
+            "count": 1,
+            "offset": 18,
+            "bytes": 4,
+            "values": [
+              640
+            ]
+          },
+          {
+            "tag": 257,
+            "name": "ImageLength",
+            "type": 4,
+            "count": 1,
+            "offset": 30,
+            "bytes": 4,
+            "values": [
+              776
+            ]
+          },
+          {
+            "tag": 258,
+            "name": "BitsPerSample",
+            "type": 3,
+            "count": 3,
+            "offset": 134,
+            "bytes": 6,
+            "values": [
+              8,
+              8,
+              8
+            ]
+          },
+          {
+            "tag": 274,
+            "name": "Orientation",
+            "type": 3,
+            "count": 1,
+            "offset": 54,
+            "bytes": 2,
+            "values": [
+              1
+            ]
+          },
+          {
+            "tag": 282,
+            "name": "XResolution",
+            "type": 5,
+            "count": 1,
+            "offset": 140,
+            "bytes": 8,
+            "rationals": [
+              [
+                72,
+                1
+              ]
+            ]
+          },
+          {
+            "tag": 283,
+            "name": "YResolution",
+            "type": 5,
+            "count": 1,
+            "offset": 148,
+            "bytes": 8,
+            "rationals": [
+              [
+                72,
+                1
+              ]
+            ]
+          },
+          {
+            "tag": 296,
+            "name": "ResolutionUnit",
+            "type": 3,
+            "count": 1,
+            "offset": 90,
+            "bytes": 2,
+            "values": [
+              2
+            ]
+          },
+          {
+            "tag": 305,
+            "name": "Software",
+            "type": 2,
+            "count": 13,
+            "offset": 156,
+            "bytes": 13,
+            "text": "GIMP 2.10.30"
+          },
+          {
+            "tag": 306,
+            "name": "DateTime",
+            "type": 2,
+            "count": 20,
+            "offset": 170,
+            "bytes": 20,
+            "text": "2022:05:03 19:21:34"
+          },
+          {
+            "tag": 34665,
+            "name": "ExifOffset",
+            "type": 4,
+            "count": 1,
+            "offset": 126,
+            "bytes": 4,
+            "values": [
+              190
+            ]
+          }
+        ]
+      },
+      {
+        "offset": 190,
+        "next": 0,
+        "entries": [
+          {
+            "tag": 40961,
+            "name": "ColorSpace",
+            "type": 3,
+            "count": 1,
+            "offset": 200,
+            "bytes": 2,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "offset": 208,
+        "next": 0,
+        "entries": [
+          {
+            "tag": 254,
+            "name": "NewSubfileType",
+            "type": 4,
+            "count": 1,
+            "offset": 218,
+            "bytes": 4,
+            "values": [
+              1
+            ]
+          },
+          {
+            "tag": 256,
+            "name": "ImageWidth",
+            "type": 4,
+            "count": 1,
+            "offset": 230,
+            "bytes": 4,
+            "values": [
+              211
+            ]
+          },
+          {
+            "tag": 257,
+            "name": "ImageLength",
+            "type": 4,
+            "count": 1,
+            "offset": 242,
+            "bytes": 4,
+            "values": [
+              256
+            ]
+          },
+          {
+            "tag": 258,
+            "name": "BitsPerSample",
+            "type": 3,
+            "count": 3,
+            "offset": 322,
+            "bytes": 6,
+            "values": [
+              8,
+              8,
+              8
+            ]
+          },
+          {
+            "tag": 259,
+            "name": "Compression",
+            "type": 3,
+            "count": 1,
+            "offset": 266,
+            "bytes": 2,
+            "values": [
+              6
+            ]
+          },
+          {
+            "tag": 262,
+            "name": "PhotometricInterpretation",
+            "type": 3,
+            "count": 1,
+            "offset": 278,
+            "bytes": 2,
+            "values": [
+              6
+            ]
+          },
+          {
+            "tag": 277,
+            "name": "SamplesPerPixel",
+            "type": 3,
+            "count": 1,
+            "offset": 290,
+            "bytes": 2,
+            "values": [
+              3
+            ]
+          },
+          {
+            "tag": 513,
+            "name": "JpegIFOffset",
+            "type": 4,
+            "count": 1,
+            "offset": 302,
+            "bytes": 4,
+            "values": [
+              328
+            ]
+          },
+          {
+            "tag": 514,
+            "name": "JpegIFByteCount",
+            "type": 4,
+            "count": 1,
+            "offset": 314,
+            "bytes": 4,
+            "values": [
+              16948
+            ]
+          }
+        ]
+      }
+    ],
+    "thumbnail_offset_from_exif": 334,
+    "thumbnail_bytes": 16948,
+    "thumbnail_sha256": "d01b9f33ccbfbee1851c3c771df07536238340841a8d31feb913cfcadfac88d1",
+    "uncovered_tiff_ranges": [
+      {
+        "tiff_offset": 169,
+        "bytes": 1,
+        "all_zero": true,
+        "hex": "00"
+      }
+    ]
+  },
+  "ICC": {
+    "declared_bytes": 672,
+    "actual_bytes": 672,
+    "profile_class": "mntr",
+    "color_space": "RGB ",
+    "signature": "acsp",
+    "tags": [
+      {
+        "tag": "desc",
+        "offset": 288,
+        "bytes": 64,
+        "type": "mluc",
+        "printable_runs": [],
+        "localized_strings": [
+          {
+            "language": "en",
+            "country": "US",
+            "text": "GIMP built-in sRGB"
+          }
+        ]
+      },
+      {
+        "tag": "cprt",
+        "offset": 352,
+        "bytes": 54,
+        "type": "mluc",
+        "printable_runs": [],
+        "localized_strings": [
+          {
+            "language": "en",
+            "country": "US",
+            "text": "Public Domain"
+          }
+        ]
+      },
+      {
+        "tag": "wtpt",
+        "offset": 408,
+        "bytes": 20,
+        "type": "XYZ ",
+        "printable_runs": []
+      },
+      {
+        "tag": "chad",
+        "offset": 428,
+        "bytes": 44,
+        "type": "sf32",
+        "printable_runs": []
+      },
+      {
+        "tag": "rXYZ",
+        "offset": 472,
+        "bytes": 20,
+        "type": "XYZ ",
+        "printable_runs": []
+      },
+      {
+        "tag": "bXYZ",
+        "offset": 492,
+        "bytes": 20,
+        "type": "XYZ ",
+        "printable_runs": []
+      },
+      {
+        "tag": "gXYZ",
+        "offset": 512,
+        "bytes": 20,
+        "type": "XYZ ",
+        "printable_runs": []
+      },
+      {
+        "tag": "rTRC",
+        "offset": 532,
+        "bytes": 32,
+        "type": "para",
+        "printable_runs": []
+      },
+      {
+        "tag": "gTRC",
+        "offset": 532,
+        "bytes": 32,
+        "type": "para",
+        "printable_runs": []
+      },
+      {
+        "tag": "bTRC",
+        "offset": 532,
+        "bytes": 32,
+        "type": "para",
+        "printable_runs": []
+      },
+      {
+        "tag": "chrm",
+        "offset": 564,
+        "bytes": 36,
+        "type": "chrm",
+        "printable_runs": []
+      },
+      {
+        "tag": "dmnd",
+        "offset": 600,
+        "bytes": 36,
+        "type": "mluc",
+        "printable_runs": [],
+        "localized_strings": [
+          {
+            "language": "en",
+            "country": "US",
+            "text": "GIMP"
+          }
+        ]
+      },
+      {
+        "tag": "dmdd",
+        "offset": 636,
+        "bytes": 36,
+        "type": "mluc",
+        "printable_runs": [],
+        "localized_strings": [
+          {
+            "language": "en",
+            "country": "US",
+            "text": "sRGB"
+          }
+        ]
+      }
+    ]
+  },
+  "pixels": {
+    "alpha_values": {
+      "255": 496640
+    },
+    "rgb_lsb_total_bytes": 186240,
+    "coordinate_prefix_bytes": 290,
+    "after_NUL_bytes": 185949,
+    "after_NUL_sha256": "3017c6060ee8349c8e1f3df2d050e7cd852e0baec3f0f0dc10446483257ee4ff",
+    "after_NUL_nonzero_bytes": 1019,
+    "after_NUL_prefix_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "after_NUL_first_ascii_runs": [],
+    "after_NUL_ascii_runs_12plus": 0
+  }
+}

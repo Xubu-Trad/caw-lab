@@ -1,0 +1,176 @@
+{
+  "raw": {
+    "bytes": 2884,
+    "sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+    "uppercase_hex_letters": 0,
+    "lowercase_hex_letters": 285,
+    "nonhex_positions": [],
+    "whitespace_bytes": 0,
+    "nonascii_bytes": 0
+  },
+  "pages": [
+    {
+      "kind": "current",
+      "page_sha256": "3afc69e355eca49407e2266df9c4f0dc81c237e908f4b2245adfae4419232f8f",
+      "title": "60732020686075696e2f7d716e6e68257073207e647f25256365252e666924606f2464652c6e6066 - Pastebin.com",
+      "h1": [
+        "Untitled"
+      ],
+      "metadata": {
+        "description": "Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time.",
+        "og:description": "Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time.",
+        "og:title": "60732020686075696e2f7d716e6e68257073207e647f25256365252e666924606f2464652c6e6066 - Pastebin.com",
+        "og:type": "article",
+        "og:url": "https://pastebin.com/zrUfKaKV"
+      },
+      "source_text_bytes": 2905,
+      "source_exactly_equals_raw": true,
+      "source_wrapper_whitespace": 21,
+      "source_children": [
+        {
+          "tag": "ol",
+          "class": "text"
+        },
+        {
+          "tag": "li",
+          "class": "li1"
+        },
+        {
+          "tag": "div",
+          "class": "de1"
+        }
+      ],
+      "source_attributes": {
+        "class": "source text",
+        "style": "font-size: px; line-height: px;"
+      },
+      "information_text": "a guest Jul 16th, 2022 3,258 0 0 sec Add comment",
+      "date_attributes": [
+        {
+          "title": "Saturday 16th of July 2022 10:14:51 PM CDT"
+        }
+      ],
+      "paste_actions": [
+        {
+          "text": "raw",
+          "href": "/raw/zrUfKaKV"
+        },
+        {
+          "text": "download",
+          "href": "/dl/zrUfKaKV"
+        },
+        {
+          "text": "clone",
+          "href": "/clone/zrUfKaKV"
+        },
+        {
+          "text": "embed",
+          "href": "/embed/zrUfKaKV"
+        },
+        {
+          "text": "print",
+          "href": "/print/zrUfKaKV"
+        },
+        {
+          "text": "report",
+          "href": "/report/zrUfKaKV"
+        }
+      ],
+      "comments_text": "Add Comment Please, Sign In to add comment",
+      "comments_links": [
+        "/login?return_url=%2FzrUfKaKV%23add_comment"
+      ],
+      "author_links": [
+        "/login?return_url=%2FzrUfKaKV%23add_comment"
+      ],
+      "title_hex_prefix_is_source_prefix": true,
+      "source_code_text_exactly_equals_raw": true,
+      "source_code_child_types": [
+        "str"
+      ],
+      "source_code_text_bytes": 2884
+    },
+    {
+      "kind": "preserved",
+      "page_sha256": "2a6c6251dda4c2ff4341ddb81bbc9305d3b7a393d6e504a588e14a8201685c76",
+      "title": "60732020686075696e2f7d716e6e68257073207e647f25256365252e666924606f2464652c6e6066 - Pastebin.com",
+      "h1": [
+        "Untitled"
+      ],
+      "metadata": {
+        "description": "Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time.",
+        "og:description": "Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time.",
+        "og:title": "60732020686075696e2f7d716e6e68257073207e647f25256365252e666924606f2464652c6e6066 - Pastebin.com",
+        "og:type": "article",
+        "og:url": "https://pastebin.com/zrUfKaKV"
+      },
+      "source_text_bytes": 2905,
+      "source_exactly_equals_raw": true,
+      "source_wrapper_whitespace": 21,
+      "source_children": [
+        {
+          "tag": "ol",
+          "class": "text"
+        },
+        {
+          "tag": "li",
+          "class": "li1"
+        },
+        {
+          "tag": "div",
+          "class": "de1"
+        }
+      ],
+      "source_attributes": {
+        "class": "source text",
+        "style": "font-size: px; line-height: px;"
+      },
+      "information_text": "a guest Jul 16th, 2022 1,290 0 0 sec Add comment",
+      "date_attributes": [
+        {
+          "title": "Saturday 16th of July 2022 10:14:51 PM CDT"
+        }
+      ],
+      "paste_actions": [
+        {
+          "text": "raw",
+          "href": "/raw/zrUfKaKV"
+        },
+        {
+          "text": "download",
+          "href": "/dl/zrUfKaKV"
+        },
+        {
+          "text": "clone",
+          "href": "/clone/zrUfKaKV"
+        },
+        {
+          "text": "embed",
+          "href": "/embed/zrUfKaKV"
+        },
+        {
+          "text": "print",
+          "href": "/print/zrUfKaKV"
+        },
+        {
+          "text": "report",
+          "href": "/report/zrUfKaKV"
+        }
+      ],
+      "comments_text": "Add Comment Please, Sign In to add comment",
+      "comments_links": [
+        "/login?return_url=%2FzrUfKaKV%23add_comment"
+      ],
+      "author_links": [
+        "/login?return_url=%2FzrUfKaKV%23add_comment"
+      ],
+      "title_hex_prefix_is_source_prefix": true,
+      "source_code_text_exactly_equals_raw": true,
+      "source_code_child_types": [
+        "str"
+      ],
+      "source_code_text_bytes": 2884
+    }
+  ],
+  "assessment": "No case channel is present in either checked copy. The single source-content text run matches the entire raw hex. Document titles use a source prefix while visible heading is Untitled. Description is site boilerplate. Raw/download/embed/print actions refer to the same paste. No author-supplied next instruction identified in checked metadata or comments. Page wrapper is service-generated; source whitespace distinction is recorded."
+}

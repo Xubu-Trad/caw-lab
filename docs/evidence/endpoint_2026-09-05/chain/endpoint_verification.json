@@ -1,0 +1,70 @@
+{
+  "r1": {
+    "transaction_hash": "0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b",
+    "transaction_block_hash_equals_block": true,
+    "transaction_block_number_equals_block": true,
+    "transaction_listed_in_block": true,
+    "receipt_hash_equals_transaction": true,
+    "receipt_block_hash_equals_transaction": true,
+    "receipt_status_success": true,
+    "receipt_sender_equals_transaction": true,
+    "from": "0xbaeedcccbfb112d4a921daa635ac2276307a1705",
+    "to": "0xbaeedcccbfb112d4a921daa635ac2276307a1705",
+    "timestamp_utc": "2022-05-09T06:30:41+00:00"
+  },
+  "r2": {
+    "transaction_hash": "0xcae4b15350b3ccc2b37fec5caa718560241ec181bc49741d5d1199d1d32412d4",
+    "transaction_block_hash_equals_block": true,
+    "transaction_block_number_equals_block": true,
+    "transaction_listed_in_block": true,
+    "receipt_hash_equals_transaction": true,
+    "receipt_block_hash_equals_transaction": true,
+    "receipt_status_success": true,
+    "receipt_sender_equals_transaction": true,
+    "from": "0xbaeedcccbfb112d4a921daa635ac2276307a1705",
+    "to": "0xbaeedcccbfb112d4a921daa635ac2276307a1705",
+    "timestamp_utc": "2022-07-17T03:18:35+00:00"
+  },
+  "whitehat": {
+    "transaction_hash": "0x7903adbb7ab03521da9951d63cc9050ee005dfa871ba3f6d3e20d0bb941f5c37",
+    "transaction_block_hash_equals_block": true,
+    "transaction_block_number_equals_block": true,
+    "transaction_listed_in_block": true,
+    "receipt_hash_equals_transaction": true,
+    "receipt_block_hash_equals_transaction": true,
+    "receipt_status_success": true,
+    "receipt_sender_equals_transaction": true,
+    "from": "0x36b59455afeedf0866fe6e775fe7651bbbe3e005",
+    "to": "0xba399a2580785a2ded740f5e30ec89fb3e617e6e",
+    "timestamp_utc": "2022-10-31T03:02:35+00:00"
+  },
+  "creation": {
+    "transaction_hash": "0x4d160f76cdacbffc4f7302d4fb180317e15d19080cbbaded4ef0197e71ba515c",
+    "transaction_block_hash_equals_block": true,
+    "transaction_block_number_equals_block": true,
+    "transaction_listed_in_block": true,
+    "receipt_hash_equals_transaction": true,
+    "receipt_block_hash_equals_transaction": true,
+    "receipt_status_success": true,
+    "receipt_sender_equals_transaction": true,
+    "from": "0x36b59455afeedf0866fe6e775fe7651bbbe3e005",
+    "to": null,
+    "timestamp_utc": "2022-04-14T04:41:34+00:00"
+  },
+  "source": {
+    "hex_sha256": "18f043170bc47a7d3aa9ee6989fe964803d240c90d62717b7fb7ad16539acd76",
+    "announcement_input_exact_slug": true,
+    "announcement_has_additional_input_bytes": false
+  },
+  "attribution": {
+    "creator_receipt_contract_address": "0xf3b9569f82b18aef890de263b84189bd33ebe452",
+    "creator_receipt_is_caw": true,
+    "whitehat_link_sender_equals_contract_creator": true,
+    "r2_sender_equals_contract_creator": false,
+    "r1_sender_equals_r2_sender": true,
+    "r1_input_exact_image_identifier": true,
+    "shared_human_controller_established": false,
+    "scope": "Address equality and RPC-reported inclusion only; no inference about who controls different addresses."
+  },
+  "all_assertions_passed": true
+}
