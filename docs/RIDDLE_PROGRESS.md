@@ -25,4 +25,4 @@ Only a reproduced transformation supports a solved-step claim. Source custody, h
 
 ## Reproduced tablet extraction (2026-09-05)
 
-The original tablet now reproduces both the 46 coordinates and literal poem. [Run the exact image replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-clues step; the corpus-to-CID and independent audio extraction gaps remain open.
+The original tablet now reproduces both the 46 coordinates and literal poem. [Run the exact image replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-clues step; the independent audio extraction gap remains open. [The public book-cipher replay](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md) now closes the corpus-to-CID step.

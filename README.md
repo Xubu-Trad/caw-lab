@@ -11,7 +11,7 @@ Two on-chain trailheads. A record of what can be reproduced, and what remains op
 </td><td>
 <h3>The first trailhead</h3>
 <p><code>58bZfQ1</code> leads to this tablet image. Its RGB pixel bits yield 46 coordinates. A separate insertion in the final PNG checksum yields the mirror/backwards poem.</p>
-<p>Both now reproduce from the preserved image. The next gap is the exact book-cipher recipe that produces the historical IPFS identifier.</p>
+<p>Both now reproduce from the preserved image. The public OCR book-cipher recipe now reproduces the historical IPFS identifier.</p>
 <p><a href="layers/R1-010_friderici_poem_coords/REPRODUCE.md">Method, hashes and limits →</a></p>
 </td></tr></table>
 
@@ -19,7 +19,7 @@ Two on-chain trailheads. A record of what can be reproduced, and what remains op
 
 | Trail | Reproduced | Still open |
 | --- | --- | --- |
-| **R1 · 58bZfQ1** | Image → coordinates and poem. Preserved Enkidu pseudohex → English manifesto. | Exact corpus/indexing → CID; independent audio-to-Enkidu extraction. |
+| **R1 · 58bZfQ1** | Image → coordinates and poem → book-cipher CID. Preserved Enkidu pseudohex → English manifesto. | Live audio retrieval and independent audio-to-Enkidu extraction. |
 | **R2 · zrUfKaKV** | Public anchor and bounded source receipts. | Input provenance and a validated decode. **Unsolved.** |
 
 An archived claim is a lead. A replay is evidence. Neither alone proves the whole riddle is finished.

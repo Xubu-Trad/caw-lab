@@ -1,0 +1,292 @@
+{
+  "attempt_id": "R1-20260905-PUBLIC-BOOK-REPLAY-001",
+  "status": "PASS_REPRODUCED",
+  "source_url": "https://archive.org/download/TheEpicofGilgamesh_201606/eog_djvu.txt",
+  "source_bytes": 109187,
+  "source_sha256": "b66cfab2ac8fa274638036caeb9e06518f03798c84661601c95abcfccf50e33f",
+  "nonempty_lines": 1196,
+  "coordinate_count": 46,
+  "word_selections": 46,
+  "fallback_selections": 0,
+  "number_word_selections": 7,
+  "output": "QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV",
+  "trace": [
+    {
+      "line": 173,
+      "word": 21,
+      "output": "Q",
+      "number_word": false
+    },
+    {
+      "line": 55,
+      "word": 4,
+      "output": "m",
+      "number_word": false
+    },
+    {
+      "line": 144,
+      "word": 20,
+      "output": "d",
+      "number_word": false
+    },
+    {
+      "line": 227,
+      "word": 11,
+      "output": "d",
+      "number_word": false
+    },
+    {
+      "line": 99,
+      "word": 7,
+      "output": "M",
+      "number_word": false
+    },
+    {
+      "line": 91,
+      "word": 2,
+      "output": "f",
+      "number_word": false
+    },
+    {
+      "line": 91,
+      "word": 14,
+      "output": "U",
+      "number_word": false
+    },
+    {
+      "line": 121,
+      "word": 12,
+      "output": "i",
+      "number_word": false
+    },
+    {
+      "line": 707,
+      "word": 16,
+      "output": "8",
+      "number_word": true
+    },
+    {
+      "line": 710,
+      "word": 1,
+      "output": "A",
+      "number_word": false
+    },
+    {
+      "line": 55,
+      "word": 3,
+      "output": "g",
+      "number_word": false
+    },
+    {
+      "line": 110,
+      "word": 13,
+      "output": "s",
+      "number_word": false
+    },
+    {
+      "line": 23,
+      "word": 2,
+      "output": "R",
+      "number_word": false
+    },
+    {
+      "line": 50,
+      "word": 23,
+      "output": "y",
+      "number_word": false
+    },
+    {
+      "line": 248,
+      "word": 2,
+      "output": "q",
+      "number_word": false
+    },
+    {
+      "line": 396,
+      "word": 7,
+      "output": "a",
+      "number_word": false
+    },
+    {
+      "line": 406,
+      "word": 22,
+      "output": "8",
+      "number_word": true
+    },
+    {
+      "line": 519,
+      "word": 12,
+      "output": "M",
+      "number_word": false
+    },
+    {
+      "line": 637,
+      "word": 6,
+      "output": "d",
+      "number_word": false
+    },
+    {
+      "line": 695,
+      "word": 6,
+      "output": "s",
+      "number_word": false
+    },
+    {
+      "line": 627,
+      "word": 1,
+      "output": "W",
+      "number_word": false
+    },
+    {
+      "line": 578,
+      "word": 14,
+      "output": "q",
+      "number_word": false
+    },
+    {
+      "line": 360,
+      "word": 9,
+      "output": "o",
+      "number_word": false
+    },
+    {
+      "line": 210,
+      "word": 11,
+      "output": "C",
+      "number_word": false
+    },
+    {
+      "line": 240,
+      "word": 1,
+      "output": "L",
+      "number_word": false
+    },
+    {
+      "line": 469,
+      "word": 3,
+      "output": "Y",
+      "number_word": false
+    },
+    {
+      "line": 556,
+      "word": 3,
+      "output": "m",
+      "number_word": false
+    },
+    {
+      "line": 379,
+      "word": 12,
+      "output": "V",
+      "number_word": false
+    },
+    {
+      "line": 268,
+      "word": 2,
+      "output": "6",
+      "number_word": true
+    },
+    {
+      "line": 520,
+      "word": 13,
+      "output": "k",
+      "number_word": false
+    },
+    {
+      "line": 379,
+      "word": 12,
+      "output": "V",
+      "number_word": false
+    },
+    {
+      "line": 196,
+      "word": 3,
+      "output": "J",
+      "number_word": false
+    },
+    {
+      "line": 1145,
+      "word": 7,
+      "output": "4",
+      "number_word": true
+    },
+    {
+      "line": 1076,
+      "word": 7,
+      "output": "P",
+      "number_word": false
+    },
+    {
+      "line": 991,
+      "word": 12,
+      "output": "Y",
+      "number_word": false
+    },
+    {
+      "line": 869,
+      "word": 4,
+      "output": "m",
+      "number_word": false
+    },
+    {
+      "line": 870,
+      "word": 6,
+      "output": "6",
+      "number_word": true
+    },
+    {
+      "line": 137,
+      "word": 19,
+      "output": "u",
+      "number_word": false
+    },
+    {
+      "line": 733,
+      "word": 7,
+      "output": "o",
+      "number_word": false
+    },
+    {
+      "line": 790,
+      "word": 15,
+      "output": "3",
+      "number_word": true
+    },
+    {
+      "line": 351,
+      "word": 8,
+      "output": "i",
+      "number_word": false
+    },
+    {
+      "line": 445,
+      "word": 5,
+      "output": "Q",
+      "number_word": false
+    },
+    {
+      "line": 896,
+      "word": 1,
+      "output": "7",
+      "number_word": true
+    },
+    {
+      "line": 933,
+      "word": 1,
+      "output": "W",
+      "number_word": false
+    },
+    {
+      "line": 1112,
+      "word": 2,
+      "output": "C",
+      "number_word": false
+    },
+    {
+      "line": 379,
+      "word": 12,
+      "output": "V",
+      "number_word": false
+    }
+  ],
+  "limits": "Reproduces the known CID from one exact public OCR edition. No target character is used in selection. Historical novelty, live IPFS availability and independent audio extraction are not established."
+}

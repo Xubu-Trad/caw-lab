@@ -11,13 +11,13 @@ The image is preserved unchanged, including its unusual final checksum. A displa
 ```mermaid
 flowchart LR
     A[Original tablet PNG] -->|reproduced| B[46 coordinates + poem]
-    B -. exact recipe open .-> C[Historical IPFS identifier]
+    B -->|public OCR replay| C[Historical IPFS identifier]
     C --> D[Known APE audio receipt]
     D -. extraction replay open .-> E[Preserved Enkidu text]
     E -->|reproduced| F[English manifesto]
 ```
 
-The solid historical CID-to-audio handoff has a preserved receipt; it is not a new live network retrieval. Dashed edges mark the two remaining upstream replay gaps.
+The solid historical CID-to-audio handoff has a preserved receipt; it is not a new live network retrieval. The dashed edge marks the remaining independent audio-extraction gap. [Replay the book cipher](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md).
 
 ### What the image actually carries
 

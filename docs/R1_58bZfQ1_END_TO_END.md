@@ -28,7 +28,7 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
 
 4. **Book-cipher stage**
    - The target historical CID preserved across receipts is `QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV`.
-   - Public determinism is still blocked on the exact corpus normalization / trim / offset / indexing rule that reproduces that CID from public artifacts alone.
+   - The exact public OCR edition and deterministic recipe now reproduce this CID. See [book-cipher replay](../layers/R1-020_book_cipher_gilgamesh/REPRODUCE.md).
 
 5. **IPFS / APE stage**
    - The canonical uploaded APE receipt is:
@@ -73,7 +73,6 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
      - `manifesto.en.txt` -> `836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c`
 
 ## What still blocks a fully deterministic public replay
-- the exact public corpus recipe that yields the historical CID from the coords
 - the exact public replay from the book-cipher receipts to the canonical APE
 - upstream APE-to-Enkidu extraction provenance remains distinct from the now-reproduced pseudohex-to-English step
 
@@ -92,4 +91,4 @@ Explain the first riddle with full canon identifiers, full hashes, full URLs, an
 `python3 scripts/reproduce_enkidu.py` reproduces the committed `manifesto.en.txt` exactly by the mapping above, hex decoding, and replacing 60 tabs with single spaces. See `layers/R1-040_deepsound_enkidu/REPRODUCE.md` for intermediate hashes and limits. This bounded artifact comparison does not close the upstream gaps or establish a terminal riddle solve.
 
 ## Reproduced image step (2026-09-05)
-`python3 scripts/reproduce_tablet.py` independently recovers the 46 coordinate pairs from RGB low bits and the known poem from the IEND CRC insertion. Both match the existing normalized receipts. See [the tablet replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-text receipt gap; the corpus-to-CID and independent audio extraction gaps remain.
+`python3 scripts/reproduce_tablet.py` independently recovers the 46 coordinate pairs from RGB low bits and the known poem from the IEND CRC insertion. Both match the existing normalized receipts. See [the tablet replay](../layers/R1-010_friderici_poem_coords/REPRODUCE.md). This closes the image-to-text receipt gap; the independent audio extraction gap remains; the public corpus-to-CID step is now reproduced.
