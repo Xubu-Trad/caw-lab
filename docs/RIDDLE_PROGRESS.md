@@ -1,26 +1,24 @@
-# Riddle progress (canon)
+# Riddle progress
 
-Updated: 2026-02-09 (America/New_York)
+Reviewed 2026-09-05. This is a reading guide, not a claim that both riddles are solved.
 
-This repo is a reproducible evidence pack for the CAW “A Hunter’s Dream” riddles.
+## R1 — 58bZfQ1
 
-## Docs index
-- `docs/ONCHAIN_TRACE.md`
-- `docs/WHAT_THE_FACTS_PROVE.md`
-- `docs/R1_58bZfQ1_END_TO_END.md`
-- `docs/R2_zrUfKaKV_STATUS.md`
+Follow the [R1 narrative](R1_58bZfQ1_END_TO_END.md) for the historical sequence, then the [determinism status](R1_DETERMINISM_STATUS.md) for the exact remaining gaps.
 
-## Layer index
-- `layers/R1-000_yale_oldking/`
-- `layers/R1-010_friderici_poem_coords/`
-- `layers/R1-020_book_cipher_gilgamesh/`
-- `layers/R1-030_ipfs_ape_audio/`
-- `layers/R1-040_deepsound_enkidu/`
-- `layers/R1-050_manifesto_final_payload/`
-- `layers/R2-000_onchain_zrufkakv/`
-- `layers/R2-010_pastebin_payload/`
+The preserved pseudohex-to-English conversion is reproduced byte for byte by [scripts/reproduce_enkidu.py](../scripts/reproduce_enkidu.py). Its [receipt](../layers/R1-040_deepsound_enkidu/REPRODUCE.md) states the alphabet mapping, 60 tab replacements, and intermediate/output hashes. This does not independently reproduce the upstream book-cipher or audio extraction.
 
-## Notes
-- R1 image host (reported): https://ibb.co/58bZfQ1
-- R1 known CID (reported): QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV
-- R2 Pastebin slug (reported): yhcajZq0
+## R2 — zrUfKaKV
+
+R2 remains unsolved. Begin with [the R2 status and provenance limitations](R2_zrUfKaKV_STATUS.md). Do not substitute a historical paste reference for a verified R2 input, and do not treat readable text or a translation as a solved decode.
+
+## Navigate by question
+
+| Question | Reference |
+| --- | --- |
+| Which layer comes next? | [Generated layer index](../LAYER_INDEX.md) |
+| What are the public chain anchors? | [On-chain trace](ONCHAIN_TRACE.md) |
+| What do the receipts actually establish? | [Facts and limits](WHAT_THE_FACTS_PROVE.md) |
+| Where are the exact inputs and commands? | Each layer's EVIDENCE directory and REPRODUCE.md, linked from the layer index |
+
+Only a reproduced transformation supports a solved-step claim. Source custody, historical reports, and hypotheses are different forms of evidence.
