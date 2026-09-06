@@ -19,6 +19,8 @@ Two on-chain trailheads. A record of what can be reproduced, and what remains op
 
 The R2 hex now yields a complete message about building CAW. Every character survives an exact round trip. **[Read the message](layers/R2-020_hex_transposition/MESSAGE.md)** · **[How it was found and verified](docs/R2_RECOVERY_EXPOSE.md)** · [Replay the cipher](layers/R2-020_hex_transposition/REPRODUCE.md).
 
+**XUBU’s account · September 6:** [For Those Who Stayed Long Enough to Hear It](https://medium.com/@xubutrad/for-those-who-stayed-long-enough-to-hear-it-a8d8da797a43) · [Preserved article and exact proof files](https://github.com/Xubu-Trad/xubu-medium/tree/main/articles/a8d8da797a43).
+
 ## Where we stand
 
 | Trail | Reproduced | Still open |

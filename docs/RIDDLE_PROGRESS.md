@@ -25,3 +25,7 @@ The original manifesto's 60 tabs and pseudohex alphabet now have a [byte-level r
 [Visual guide](VISUAL_GUIDE.md) · [Layer index](../LAYER_INDEX.md) · [R1 limits](R1_DETERMINISM_STATUS.md) · [R2 status](R2_zrUfKaKV_STATUS.md)
 
 Archived instructions and AI conclusions are historical material. A new step needs exact input bytes, a complete transformation, an independently checked output and clear limits.
+
+## Publication · September 6, 2026
+
+The [new XUBU article](https://medium.com/@xubutrad/for-those-who-stayed-long-enough-to-hear-it-a8d8da797a43) publishes the complete R2 proof. Its source and reordered hex match; exact message bytes and a display-whitespace note are preserved in the [article archive](https://github.com/Xubu-Trad/xubu-medium/tree/main/articles/a8d8da797a43). This adds a public account of the verified recovery, not a newly decoded layer.

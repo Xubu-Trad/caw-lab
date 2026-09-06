@@ -121,3 +121,8 @@ This uses Python's standard library. It writes the exact text, the complete char
 ## Endpoint evidence update · September 5, 2026
 
 The [subsequent endpoint assessment](ENDPOINT_ASSESSMENT.md) closes the R1 audio-to-CID content match, compares the complete manifesto with its historical public Git body, and verifies both riddle announcements and the contract creator's later manifesto links. The evidence now favors both recovered texts as intended outputs. No further cipher was established; absence of an absolute end declaration does not itself make the supplied ciphertext unsolved.
+
+
+## Published follow-up · September 6, 2026
+
+XUBU published [For Those Who Stayed Long Enough to Hear It](https://medium.com/@xubutrad/for-those-who-stayed-long-enough-to-hear-it-a8d8da797a43), with the complete source and reordered hex. Both match the verified artifacts. The article’s displayed plaintext loses six blank lines and two trailing spaces; use the [preserved exact downloads and comparison note](https://github.com/Xubu-Trad/xubu-medium/blob/main/articles/a8d8da797a43/VERIFICATION.md) for fingerprint checks. The publication is an account of this recovery, not independent author confirmation.
