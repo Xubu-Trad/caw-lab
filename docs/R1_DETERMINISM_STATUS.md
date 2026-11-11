@@ -46,3 +46,7 @@ The official empty-file test vector passes. Flipping only the last input byte's 
 The independent APE-to-Enkidu extraction and CID content identity gaps are closed. The fresh CID computation uses preserved APE bytes and does not depend on a historical hashing receipt. It establishes that those bytes, under the recorded importer settings, have the address recovered by the book cipher. It does not establish current IPFS availability or the historical chain of custody.
 
 The replay verifies transformations between artifacts. It does not establish who authored them, authenticate every historical claim, or prove that no further layer exists. Follow [current riddle progress](RIDDLE_PROGRESS.md) for work beyond these reproduced R1 stages.
+
+## Independent replay reference, 2026-11-11
+
+[Exact audio, Enkidu, scripts, hashes and caption review](evidence/r1-reproduction-20261111/README.md) are available for independent verification. The Wayback-reported manifesto digest matches after explicit formatting changes only; raster caption lines 4-6 remain unverified. This does not establish historical custody or author identity.
