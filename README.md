@@ -30,6 +30,8 @@ The R2 hex now yields a complete message about building CAW. Every character sur
 
 **The evidence favors these as the intended outputs. No further layer has been verified.** [Are the riddles finished?](docs/ENDPOINT_ASSESSMENT.md)
 
+**November 18 · The circled dots and “RYO OS 0.43.”** The dots that hunters turned into sound in 2022 already appear in an earlier photograph of the tablet. We also reproduced the software label in the R1 recording. What “RYO” refers to remains open. [See the strips side by side and replay both checks](docs/evidence/r1-upper-strip-20261118/README.md).
+
 **November 17 · R1 audio and tablet.** Two tags in the original audio read `hoof dovoi`. The music has been identified. The meaning of the tag remains open. [Findings and replay](docs/evidence/r1-followup-20261117/README.md).
 
 ## Choose a route

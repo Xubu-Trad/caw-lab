@@ -16,6 +16,16 @@ The preserved tablet yields its coordinates and poem; the pinned public Gilgames
 
 The canonical audio now independently recomputes the exact book-cipher CID. The complete normalized manifesto also matches the pinned historical public Git body. Current gateway availability and historical custody remain separate from this verified content identity. No further hidden layer has been verified. Single-channel strings such as `LfjbJnjJ…` are explained by the known coordinate bits; they add no independent cipher data.
 
+## R1 · the circled dots and “RYO OS 0.43” · November 18, 2026
+
+Early hunters wondered whether the dots at the top of the tablet could be read like music. One account describes joining the top and bottom strips, turning the image into sound, and isolating the beeps. A hunter reported that running the same image again produced a different tune. The surviving record gives no repeatable message from those beeps.
+
+![The 2014 photograph on the left and the hunter’s screenshot on the right, with the same 878 dark pixel positions in the circled strip.](evidence/r1-upper-strip-20261118/comparison.svg)
+
+The source photograph already contains the pattern. We also reconstructed every pixel in the tablet’s first 92 rows from that photograph and the known book coordinates. Those coordinates lead to the recording that contains Enkidu.
+
+Inside that recording, two metadata fields say `RYO OS 0.43`. Supplying the words to the audio library reproduced the whole 244-byte information block on Ubuntu. The original editor, operating system and meaning of “RYO” remain unidentified. [Measurements, historical account and replay instructions](evidence/r1-upper-strip-20261118/README.md).
+
 ## R1 follow-up · November 17, 2026
 
 The last 2.6 milliseconds of the original audio contain two records that both spell the genre `hoof dovoi`. Five passages matched the commercial recording of *Tre rebus musicali*, cataloged as Classical. The genre’s origin and meaning remain open. The stereo and backwards tests recovered only the known Enkidu file in the format tested. On the tablet, the detached “the” aligns horizontally with the twelfth coordinate, which leads back to Enkidu. [Measurements, controls and replay](evidence/r1-followup-20261117/README.md).

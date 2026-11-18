@@ -1,0 +1,90 @@
+{
+  "pins": {
+    "tablet": "889253e7fa85f5e5fd05622b8a105fd61acf83bdfdae3e600bdfedd173b2da41",
+    "control": "cb832039260309924a5dcbf039c4b5143607cdfa3f5d657c328372484a90137c",
+    "screenshot": "78bc3d00bc473bb6c63c43e21da91f6d8179510b9ade596fca4e18dc958152a3"
+  },
+  "coordinate_sha256": "cd8b7360f4363064f6c0719d1658e859b546dc5d95a10aa026a68b268ed53998",
+  "source_url": "https://raw.githubusercontent.com/GITenberg/An-Old-Babylonian-Version-of-the-Gilgamesh-Epic_11000/5b22b9b87ba0cf6b97021db247987487d0bf27f1/11000-h/images/frontispiece.jpg",
+  "first_rgb_rows_inclusive": [
+    0,
+    91
+  ],
+  "rows_compared_pixels": 58880,
+  "rows_compared_rgb_values": 176640,
+  "rgb_differences": 0,
+  "alpha_all": 255,
+  "coordinate_bytes": 290,
+  "coordinate_bits": 2320,
+  "last_data_bit_pixel_zero_based_xy": [
+    133,
+    1
+  ],
+  "remaining_nonzero_rgb_low_bits_in_rows": 0,
+  "comparison_masks": {
+    "unmarked_center": "x=80..559 y=2..31, no screenshot color filtering; all pixels have RGB max minus min below 12",
+    "across_width": "x=0..639 y=2..63, compare pixels with RGB max minus min below 12 to suppress drawn red annotation",
+    "rule": "dark in plate means grayscale <=1; after clearing bit zero both 0 and 1 become exactly black. Screenshot darkness tested at four arithmetic mean RGB cutoffs. Identity registration at 640x776."
+  },
+  "screenshot_comparison": {
+    "unmarked_center": {
+      "comparable_pixels": 14400,
+      "thresholds": {
+        "64": {
+          "matching_dark": 878,
+          "screenshot_dark_only": 0,
+          "reference_dark_only": 0,
+          "matching_light": 13522
+        },
+        "100": {
+          "matching_dark": 878,
+          "screenshot_dark_only": 1,
+          "reference_dark_only": 0,
+          "matching_light": 13521
+        },
+        "128": {
+          "matching_dark": 878,
+          "screenshot_dark_only": 3,
+          "reference_dark_only": 0,
+          "matching_light": 13519
+        },
+        "180": {
+          "matching_dark": 878,
+          "screenshot_dark_only": 12,
+          "reference_dark_only": 0,
+          "matching_light": 13510
+        }
+      }
+    },
+    "across_width": {
+      "comparable_pixels": 36256,
+      "thresholds": {
+        "64": {
+          "matching_dark": 919,
+          "screenshot_dark_only": 0,
+          "reference_dark_only": 0,
+          "matching_light": 35337
+        },
+        "100": {
+          "matching_dark": 919,
+          "screenshot_dark_only": 1,
+          "reference_dark_only": 0,
+          "matching_light": 35336
+        },
+        "128": {
+          "matching_dark": 919,
+          "screenshot_dark_only": 4,
+          "reference_dark_only": 0,
+          "matching_light": 35333
+        },
+        "180": {
+          "matching_dark": 919,
+          "screenshot_dark_only": 18,
+          "reference_dark_only": 0,
+          "matching_light": 35319
+        }
+      }
+    }
+  },
+  "limits": "The threshold comparison explains visible positions, not which editing tool was used. The reconstruction tests changes to the canonical pixels relative to this exact control. Selection of imagery or a clue deliberately pointing to pre-existing marks is outside that differential test."
+}

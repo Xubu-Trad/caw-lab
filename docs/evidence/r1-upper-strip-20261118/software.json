@@ -1,0 +1,15 @@
+{
+  "library": "libsndfile-1.0.31",
+  "pcm_sha256": "9a50dfecbbe8612b6470f804e6a752d2d98ad43c2daae126fd80fc4bf094086d",
+  "reference_tail_sha256": "bdae1720729520529d098b2ee8d7e504b9e1e69350b2c70f4fb87d38e207c2e4",
+  "generated_INFO_sha256": "91f90db9b368e62d0749745034f8a78d753f2c0f75c7433afc3f2ad9a0e28e4c",
+  "generated_INFO_size": 244,
+  "full_INFO_equal": true,
+  "id3_user_text_field": "Software = RYO OS 0.43",
+  "software_controls": {
+    "RYO OS 0.43": "RYO OS 0.43 (libsndfile-1.0.31)",
+    "CONTROL": "CONTROL (libsndfile-1.0.31)",
+    "": "libsndfile-1.0.31"
+  },
+  "limit": "Reproduces bytes from supplied labels. Original application and OS remain unidentified."
+}
