@@ -1,0 +1,7 @@
+samples 1081853 239433 preview sha256 7fe2192258c11a6292b5a4a36bcb136bb7660416ddd70658ad14da660f9231ce bytes 988170
+preview 1.0 puzzle, NCC (105.98938, 0.99456) reversed control (0.28863, -0.278)
+preview 6.98225 puzzle, NCC (111.97162, 0.99641) reversed control (109.96325, -0.25805)
+preview 12.9645 puzzle, NCC (117.95388, 0.99279) reversed control (121.38212, -0.34526)
+preview 18.94687 puzzle, NCC (123.93625, 0.99644) reversed control (16.49125, -0.27927)
+preview 24.92912 puzzle, NCC (129.91838, 0.98582) reversed control (126.699, -0.16437)
+positive source slice (17.0, 1.0)

@@ -30,6 +30,8 @@ The R2 hex now yields a complete message about building CAW. Every character sur
 
 **The evidence favors these as the intended outputs. No further layer has been verified.** [Are the riddles finished?](docs/ENDPOINT_ASSESSMENT.md)
 
+**November 17 · R1 audio and tablet.** Two tags in the original audio read `hoof dovoi`. The music has been identified. The meaning of the tag remains open. [Findings and replay](docs/evidence/r1-followup-20261117/README.md).
+
 ## Choose a route
 
 - **New to the hunt:** [visual guide](docs/VISUAL_GUIDE.md) → [riddle progress](docs/RIDDLE_PROGRESS.md).

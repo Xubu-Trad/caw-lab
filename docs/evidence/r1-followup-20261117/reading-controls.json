@@ -1,0 +1,94 @@
+{
+  "ape_sha256": "57674107710cdac58fe68b30cb3c05e3334ece55bc0d71deba84ccd2a8fb3575",
+  "cid": "QmddMfUi8AgsRyqa8MdsWqoCLYmV6kVJ4PYm6uo3iQ7WCV",
+  "changed_one_bit": "QmacgnYpjkPGGkkq9EyCM8oZ4JPcA664ehXpy3q2xZDxC8",
+  "tail_bytes": 500,
+  "tail_sha256": "bdae1720729520529d098b2ee8d7e504b9e1e69350b2c70f4fb87d38e207c2e4",
+  "genre_at_tail_offsets": [
+    182,
+    489
+  ],
+  "readings": {
+    "forward": "hoof dovoi",
+    "all_backwards": "iovod fooh",
+    "words_in_reverse_order": "dovoi hoof",
+    "each_word_backwards": "fooh iovod",
+    "full_atbash": "sllu wlelr",
+    "reverse_and_atbash": "rlelw ulls",
+    "preceding_letter": "gnne cnunh"
+  },
+  "enkidu_rule_applied": "HOOF DOeOI",
+  "valid_hex": false,
+  "manifesto_positive_control": "836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c",
+  "corpus": {
+    "book": {
+      "sha256": "b66cfab2ac8fa274638036caeb9e06518f03798c84661601c95abcfccf50e33f",
+      "tokens": 20252,
+      "adjacent_words": {
+        "forward": {
+          "eligible": 351,
+          "same_pattern": []
+        },
+        "all_backwards": {
+          "eligible": 403,
+          "same_pattern": []
+        },
+        "words_in_reverse_order": {
+          "eligible": 403,
+          "same_pattern": []
+        },
+        "each_word_backwards": {
+          "eligible": 351,
+          "same_pattern": []
+        }
+      },
+      "literal_matches": []
+    },
+    "manifesto": {
+      "sha256": "836c98641fd1222156d49c68d210d9860319b323f890b5af82860ac14aba366c",
+      "tokens": 1759,
+      "adjacent_words": {
+        "forward": {
+          "eligible": 26,
+          "same_pattern": []
+        },
+        "all_backwards": {
+          "eligible": 40,
+          "same_pattern": []
+        },
+        "words_in_reverse_order": {
+          "eligible": 40,
+          "same_pattern": []
+        },
+        "each_word_backwards": {
+          "eligible": 26,
+          "same_pattern": []
+        }
+      },
+      "literal_matches": []
+    },
+    "r2": {
+      "sha256": "2a77d034354b3ee698dd0266f93dfd5627e033cb8f79ec891498b80b7eab0e52",
+      "tokens": 271,
+      "adjacent_words": {
+        "forward": {
+          "eligible": 4,
+          "same_pattern": []
+        },
+        "all_backwards": {
+          "eligible": 7,
+          "same_pattern": []
+        },
+        "words_in_reverse_order": {
+          "eligible": 7,
+          "same_pattern": []
+        },
+        "each_word_backwards": {
+          "eligible": 4,
+          "same_pattern": []
+        }
+      },
+      "literal_matches": []
+    }
+  }
+}

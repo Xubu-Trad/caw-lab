@@ -16,6 +16,10 @@ The preserved tablet yields its coordinates and poem; the pinned public Gilgames
 
 The canonical audio now independently recomputes the exact book-cipher CID. The complete normalized manifesto also matches the pinned historical public Git body. Current gateway availability and historical custody remain separate from this verified content identity. No further hidden layer has been verified. Single-channel strings such as `LfjbJnjJ…` are explained by the known coordinate bits; they add no independent cipher data.
 
+## R1 follow-up · November 17, 2026
+
+The last 2.6 milliseconds of the original audio contain two records that both spell the genre `hoof dovoi`. Five passages matched the commercial recording of *Tre rebus musicali*, cataloged as Classical. The genre’s origin and meaning remain open. The stereo and backwards tests recovered only the known Enkidu file in the format tested. On the tablet, the detached “the” aligns horizontally with the twelfth coordinate, which leads back to Enkidu. [Measurements, controls and replay](evidence/r1-followup-20261117/README.md).
+
 ## Original formatting checked
 
 The original manifesto's 60 tabs and pseudohex alphabet now have a [byte-level replay](../layers/R1-050_manifesto_final_payload/EVIDENCE/formatting_2026-09-05/README.md). The historical N extraction from `moonning` fails: the source says `mooning`. No further layer was verified by the bounded capitalization, spacing and typo checks. Their full attempt records remain private.
