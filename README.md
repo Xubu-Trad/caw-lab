@@ -2,9 +2,25 @@
 
 # CAW riddle research
 
-Two on-chain trailheads. A record of what can be reproduced, and what remains open.
+<!-- Standing introduction. Keep this text intact when adding research updates below. -->
+## Why this lab exists
+
+In 2022, CAW hunters followed two short messages on Ethereum. The first led through a tablet image, a book and a recording to a manifesto about a community-run social network. The second led to a message about how people could build and review CAW together.
+
+We keep this record so the next hunter can start with the same clues, repeat the work and challenge a reading. Each documented step names its source and shows how to check the result. The people who preserved a file, spotted a clue or corrected a mistake are part of that history.
+<!-- End standing introduction. -->
 
 **[Read the trail](docs/VISUAL_GUIDE.md)** · **[Check the evidence](LAYER_INDEX.md)** · **[Replay the tablet](layers/R1-010_friderici_poem_coords/REPRODUCE.md)**
+
+## New findings
+
+**November 18, 2026 · Independent reviews and the first dated copies.** Ten reproduced the path from the tablet to the audio and its hidden file. Hossein corroborated the audio tags and checked the recovered R2 text. A May 9, 2022 archive identifies the exact recording that carries `hoof dovoi` and `RYO OS 0.43`. A May 12 archive preserves the manifesto’s words. [Read what each reviewer verified, the corrections and the archive dates](docs/evidence/r1-independent-review-20261118/README.md).
+
+**A request for early hunters.** Did you keep the WAV from before the puzzle audio was exported, an editor project or a tag template? The original file and a dated source could show when those two labels entered the recording. [What to look for and how to share a lead](docs/evidence/r1-independent-review-20261118/README.md#what-early-hunters-can-contribute).
+
+**November 18 · The circled dots and “RYO OS 0.43.”** The dots that hunters turned into sound in 2022 already appear in an earlier photograph of the tablet. We also reproduced the software label in the R1 recording. What “RYO” refers to remains open. [See the strips side by side and replay both checks](docs/evidence/r1-upper-strip-20261118/README.md).
+
+**November 17 · R1 audio and tablet.** Two tags in the original audio read `hoof dovoi`. The music has been identified. The meaning of the tag remains open. [Findings and replay](docs/evidence/r1-followup-20261117/README.md).
 
 <table><tr><td width="34%">
 <a href="docs/assets/r1-tablet.png"><img src="docs/assets/r1-tablet.png" width="250" alt="The original R1 tablet image, containing the 46 coordinates and a literal poem." /></a>
@@ -29,10 +45,6 @@ The R2 hex now yields a complete message about building CAW. Every character sur
 | **R2 · zrUfKaKV** | Complete supplied cipher → development message, with an exact inverse. | Whether an authenticated continuation exists. |
 
 **The evidence favors these as the intended outputs. No further layer has been verified.** [Are the riddles finished?](docs/ENDPOINT_ASSESSMENT.md)
-
-**November 18 · The circled dots and “RYO OS 0.43.”** The dots that hunters turned into sound in 2022 already appear in an earlier photograph of the tablet. We also reproduced the software label in the R1 recording. What “RYO” refers to remains open. [See the strips side by side and replay both checks](docs/evidence/r1-upper-strip-20261118/README.md).
-
-**November 17 · R1 audio and tablet.** Two tags in the original audio read `hoof dovoi`. The music has been identified. The meaning of the tag remains open. [Findings and replay](docs/evidence/r1-followup-20261117/README.md).
 
 ## Choose a route
 

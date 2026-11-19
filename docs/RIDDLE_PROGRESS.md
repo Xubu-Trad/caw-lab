@@ -2,6 +2,10 @@
 
 **The known chains are reproduced. The evidence favors the manifesto and development message as their intended outputs.** [Endpoint assessment](ENDPOINT_ASSESSMENT.md).
 
+## November 18, 2026 · Independent reviews and the May archive record
+
+Ten independently rebuilt the audio identifier and recovered `enkidu.txt`. Hossein reports a separate decryption and checks on the audio tags, tablet strip and R2 round trip. The archived **May 9, 2022** image names the complete R1 audio. The **May 12, 2022** Pastebin page preserves the manifesto’s wording, including its original spelling. A pre-export WAV, editor project or dated tag template would help trace when the genre and software labels were added. [Review, corrections, archive replay and request to early hunters](evidence/r1-independent-review-20261118/README.md).
+
 ## R2 · a decoded message
 
 The live `zrUfKaKV` hex yields coherent English through a reversible step-9 transposition. Both the unrotated output and the explicitly rotated reading copy restore the original 2,884 hex characters exactly. [Message and method](../layers/R2-020_hex_transposition/REPRODUCE.md).

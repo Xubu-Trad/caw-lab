@@ -50,3 +50,7 @@ The replay verifies transformations between artifacts. It does not establish who
 ## Independent replay reference, 2026-11-11
 
 [Exact audio, Enkidu, scripts, hashes and caption review](evidence/r1-reproduction-20261111/README.md) are available for independent verification. The Wayback-reported manifesto digest matches after explicit formatting changes only; raster caption lines 4-6 remain unverified. This does not establish historical custody or author identity.
+
+## May 2022 records checked in the November 18, 2026 review
+
+The May 9 archived PNG identifies the exact APE through its book coordinates. The May 12 archived Pastebin page and the November raw response now reproduce against the audio-derived text after the recorded whitespace transformations. Ten and Hossein also report checks on the supplied audio. [Dates, independent methods, corrections and remaining gaps](evidence/r1-independent-review-20261118/README.md).
