@@ -2,6 +2,10 @@
 
 **The known chains are reproduced. The evidence favors the manifesto and development message as their intended outputs.** [Endpoint assessment](ENDPOINT_ASSESSMENT.md).
 
+## November 18, 2026 · The “ryo” nickname before R1
+
+A publication-day copy of *I AM RYOSHI* and a CertiK interview document the nickname before May 9, 2022. The essay also echoes R1’s artist tag, `nobody`. Four archived essays and 35 readable posts yielded no `RYO OS` or `0.43`. [Original sources, search limits and what could establish a link](evidence/r1-ryoshi-sources-20261118/README.md).
+
 ## November 18, 2026 · Independent reviews and the May archive record
 
 Ten independently rebuilt the audio identifier and recovered `enkidu.txt`. Hossein reports a separate decryption and checks on the audio tags, tablet strip and R2 round trip. The archived **May 9, 2022** image names the complete R1 audio. The **May 12, 2022** Pastebin page preserves the manifesto’s wording, including its original spelling. A pre-export WAV, editor project or dated tag template would help trace when the genre and software labels were added. [Review, corrections, archive replay and request to early hunters](evidence/r1-independent-review-20261118/README.md).

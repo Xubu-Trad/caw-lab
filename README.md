@@ -14,6 +14,8 @@ We keep this record so the next hunter can start with the same clues, repeat the
 
 ## New findings
 
+**November 18, 2026 · Who used the name “ryo”?** In a 2021 essay, Ryoshi quoted people calling them “ryo” and wrote “I am a nobody”. Both words turn up in the R1 audio tags. An April 2022 interview confirms the nickname. The sources leave “Ryoshi Operating System” and the meaning of `0.43` open. [Read the dated sources and the software-label check](docs/evidence/r1-ryoshi-sources-20261118/README.md).
+
 **November 18, 2026 · Independent reviews and the first dated copies.** Ten reproduced the path from the tablet to the audio and its hidden file. Hossein corroborated the audio tags and checked the recovered R2 text. A May 9, 2022 archive identifies the exact recording that carries `hoof dovoi` and `RYO OS 0.43`. A May 12 archive preserves the manifesto’s words. [Read what each reviewer verified, the corrections and the archive dates](docs/evidence/r1-independent-review-20261118/README.md).
 
 **A request for early hunters.** Did you keep the WAV from before the puzzle audio was exported, an editor project or a tag template? The original file and a dated source could show when those two labels entered the recording. [What to look for and how to share a lead](docs/evidence/r1-independent-review-20261118/README.md#what-early-hunters-can-contribute).
