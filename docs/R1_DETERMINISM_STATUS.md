@@ -1,6 +1,6 @@
 # R1 determinism status
 
-The tablet clues, book cipher, APE content address, audio extraction and Enkidu text conversion reproduce against pinned inputs. The APE's independently computed CID exactly matches the book cipher. This closes the content identity gap; live availability, historical custody and a terminal riddle answer remain separate questions.
+The tablet clues, book cipher, APE content address, audio extraction and Enkidu text conversion reproduce against pinned inputs. The APE's independently computed CID exactly matches the book cipher. The [June 9 thread](evidence/r1-ten-june-20261119/README.md) documents hunters reporting a successful download. A dated archived copy of the APE response, present-day gateway availability and a terminal riddle answer remain separate questions.
 
 ## Stable artifact constants
 - R1 transaction ID: `0xfbbcf5338b4a9c35073ac7253afc1a8ee81770d8d3285b80497bbd9c2186ed5b`
@@ -43,7 +43,7 @@ The official empty-file test vector passes. Flipping only the last input byte's 
 
 ## Remaining boundary
 
-The independent APE-to-Enkidu extraction and CID content identity gaps are closed. The fresh CID computation uses preserved APE bytes and does not depend on a historical hashing receipt. It establishes that those bytes, under the recorded importer settings, have the address recovered by the book cipher. It does not establish current IPFS availability or the historical chain of custody.
+The independent APE-to-Enkidu extraction and CID content identity gaps are closed. The fresh CID computation uses preserved APE bytes and does not depend on a historical hashing receipt. It establishes that those bytes, under the recorded importer settings, have the address recovered by the book cipher. The [June 9 Wayback capture](evidence/r1-ten-june-20261119/README.md) preserves the published gateway link and a contemporary account of retrieval. The archived HTML contains the thread. No dated archive of the APE response itself has been located.
 
 The replay verifies transformations between artifacts. It does not establish who authored them, authenticate every historical claim, or prove that no further layer exists. Follow [current riddle progress](RIDDLE_PROGRESS.md) for work beyond these reproduced R1 stages.
 

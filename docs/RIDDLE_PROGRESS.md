@@ -2,6 +2,10 @@
 
 **The known chains are reproduced. The evidence favors the manifesto and development message as their intended outputs.** [Endpoint assessment](ENDPOINT_ASSESSMENT.md).
 
+## November 19, 2026 · The June retrieval account and Ten’s audio replay
+
+The May 9 tablet identifies the exact audio. On June 9 hunters described downloading it, recognizing APE and extracting `enkidu.txt`. Wayback preserved their account roughly 41 seconds after the opening post. A dated archive of the APE download itself remains open. Ten matched the final 500 decoded bytes. [Archive, verse erratum, disputed caption and affine counterexample](evidence/r1-ten-june-20261119/README.md).
+
 ## November 18, 2026 · The “ryo” nickname before R1
 
 A publication-day copy of *I AM RYOSHI* and a CertiK interview document the nickname before May 9, 2022. The essay also echoes R1’s artist tag, `nobody`. Four archived essays and 35 readable posts yielded no `RYO OS` or `0.43`. [Original sources, search limits and what could establish a link](evidence/r1-ryoshi-sources-20261118/README.md).
